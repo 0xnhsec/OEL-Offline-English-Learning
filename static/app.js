@@ -1163,8 +1163,82 @@ function renderHealthBox() {
     : "—";
 }
 
+/* ─────────────────── laporkan kesalahan (GitHub / email) ─────────────────── */
+const REPORT_ISSUES = "https://github.com/0xnhsec/OEL-Offline-English-Learning/issues/new";
+const REPORT_EMAILS = ["0xnsec@intigriti.me", "0xnhsec@proton.me"];
+
+function reportContext() {
+  const active = document.querySelector(".view.active");
+  const name = (active && active.id ? active.id.replace("view-", "") : "home");
+  const map = { home: "Home", listen: "Listen", practice: "Practice", study: "Study", settings: "Settings" };
+  return map[name] || name;
+}
+
+function issueLink(context) {
+  const title = `[OEL] Laporan konten — ${context}`;
+  const body = [
+    "### Bagian yang salah",
+    "(soal, kunci jawaban, penjelasan Why/Trap, atau teks bahasa Inggris yang keliru)",
+    "",
+    "### Di mana",
+    `- Halaman: ${context}`,
+    "- Modul / nomor soal: ",
+    "",
+    "### Yang seharusnya",
+    "",
+    "### Versi OEL",
+    "`curl -s http://127.0.0.1:8765/api/version`",
+    "",
+  ].join("\n");
+  return `${REPORT_ISSUES}?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+}
+
+function mailLink(address, context) {
+  const subject = encodeURIComponent(`[OEL] Laporan konten — ${context}`);
+  const body = encodeURIComponent(
+    `Halaman: ${context}\n\nBagian yang salah:\n\n\nYang seharusnya:\n\n`,
+  );
+  return `mailto:${address}?subject=${subject}&body=${body}`;
+}
+
+function openReport(context) {
+  const ctx = context || reportContext();
+  $("reportContext").textContent = ctx;
+  $("reportIssue").href = issueLink(ctx);
+  $("reportMail1").href = mailLink(REPORT_EMAILS[0], ctx);
+  $("reportMail2").href = mailLink(REPORT_EMAILS[1], ctx);
+  $("reportModal").hidden = false;
+  document.body.classList.add("modal-open");
+  $("reportClose").focus();
+}
+
+function closeReport() {
+  $("reportModal").hidden = true;
+  document.body.classList.remove("modal-open");
+}
+
+function bindReport() {
+  document.querySelectorAll(".card-dots").forEach((button) => {
+    const trigger = (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      openReport(button.dataset.report);
+    };
+    button.addEventListener("click", trigger);
+    button.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") trigger(event);
+    });
+  });
+  if ($("reportClose")) $("reportClose").addEventListener("click", closeReport);
+  if ($("reportBackdrop")) $("reportBackdrop").addEventListener("click", closeReport);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && $("reportModal") && !$("reportModal").hidden) closeReport();
+  });
+}
+
 async function init() {
   bind();
+  bindReport();
   cleanupStudyStorage();
   applyTheme(document.documentElement.dataset.theme);
   renderLog();
@@ -1201,7 +1275,7 @@ window.XL = {
   state, SAMPLE_TEXT, switchView, renderStage, renderPracticeStage,
   playChunk, stopPlayback, doCompare, analyzeTranscript, parsePasted,
   loadStudy, setStudy, studyCheck, studyGo, studyReset, applyTheme,
-  loadHealth, loadSettings, renderLog,
+  loadHealth, loadSettings, renderLog, openReport, closeReport,
 };
 
 init();

@@ -62,6 +62,20 @@ Catatan:
 - Perubahan `server.py` / `eng/*.py` butuh restart (`Ctrl+C` lalu `./run.sh`), atau pakai `RELOAD=1`.
 - `/`, `/learn`, `/static/*`, `/avatars/*` tidak pernah di-cache browser; kalau masih aneh, cek `sha1`/`mtime` di `/api/version` vs file di disk.
 
+## Laporkan kesalahan konten
+
+Kartu di halaman Home punya tombol **⋯ (alert)** di pojok kanan atas — bentuknya mengikuti referensi UI (chip titik tiga di sudut kartu). Klik → panel laporan:
+
+| Tujuan | Link |
+|---|---|
+| **GitHub Issues** | https://github.com/0xnhsec/OEL-Offline-English-Learning/issues/new — judul & body sudah terisi template (bagian salah, modul/soal, versi OEL) |
+| **Email resmi** | `0xnsec@intigriti.me` |
+| **Email resmi** | `0xnhsec@proton.me` |
+
+Dipakai untuk melaporkan: soal yang salah, kunci jawaban keliru, penjelasan **Why/Trap** yang tidak akurat, atau teks bahasa Inggris yang tidak wajar. Tombol ini tidak menavigasi kartu — klik kartu tetap membuka Learn 101 / Speaking & Listening.
+
+Implementasi: markup di [`static/index.html`](static/index.html) (`.card-dots` + `#reportModal`), gaya di [`static/styles.css`](static/styles.css), logika `openReport()` / `closeReport()` di [`static/app.js`](static/app.js).
+
 ## Akun & leaderboard
 
 - **Akun default siap pakai:** username `user`, password `user` (dibuat otomatis saat pertama jalan).

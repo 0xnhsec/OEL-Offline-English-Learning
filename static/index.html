@@ -12,7 +12,7 @@
     } catch (_) { document.documentElement.dataset.theme = "dark"; }
   })();
 </script>
-<link rel="stylesheet" href="/static/styles.css?v=3">
+<link rel="stylesheet" href="/static/styles.css?v=4">
 <link rel="icon" type="image/png" href="/static/assets/OEL.png">
 <link rel="apple-touch-icon" href="/static/assets/OEL.png">
 </head>
@@ -53,6 +53,9 @@
     <div class="home-grid">
       <article class="home-card learn" data-go="learn" tabindex="0" role="button" aria-label="Buka Learn 101">
         <div class="home-art" aria-hidden="true"></div>
+        <button class="card-dots" type="button" data-report="Learn 101" title="Laporkan kesalahan konten" aria-label="Laporkan kesalahan konten Learn 101">
+          <span></span><span></span><span></span>
+        </button>
         <div class="home-body">
           <span class="home-kicker">Learn 101</span>
           <h2>Kumpulan soal &amp; pembahasan</h2>
@@ -68,6 +71,9 @@
 
       <article class="home-card studio" data-go="listen" tabindex="0" role="button" aria-label="Buka Speaking and Listening">
         <div class="home-art" aria-hidden="true"></div>
+        <button class="card-dots" type="button" data-report="Speaking &amp; Listening" title="Laporkan kesalahan konten" aria-label="Laporkan kesalahan konten Speaking dan Listening">
+          <span></span><span></span><span></span>
+        </button>
         <div class="home-body">
           <span class="home-kicker">Speaking &amp; Listening</span>
           <h2>Dengarkan, tirukan, bandingkan</h2>
@@ -387,6 +393,40 @@
   <span id="statusText">siap</span>
 </footer>
 
-<script src="/static/app.js?v=3"></script>
+<!-- ───────────────────── laporkan kesalahan ───────────────────── -->
+<div class="report-modal" id="reportModal" hidden>
+  <div class="report-backdrop" id="reportBackdrop"></div>
+  <div class="report-card" role="dialog" aria-modal="true" aria-labelledby="reportTitle">
+    <button class="report-x" id="reportClose" aria-label="tutup">×</button>
+    <div class="report-head">
+      <span class="report-sig" aria-hidden="true"><i></i><i></i><i></i></span>
+      <div>
+        <p class="report-kicker">alert · <span id="reportContext">Home</span></p>
+        <h2 id="reportTitle">Ada yang salah?</h2>
+      </div>
+    </div>
+    <p class="report-sub">Soal, kunci jawaban, penjelasan <b>Why/Trap</b>, atau teks bahasa Inggris yang keliru — laporkan langsung supaya OEL makin akurat.</p>
+    <div class="report-list">
+      <a class="report-item" id="reportIssue" href="https://github.com/0xnhsec/OEL-Offline-English-Learning/issues" target="_blank" rel="noopener">
+        <span class="report-ico gh">GH</span>
+        <span class="report-txt"><b>GitHub Issues</b><i>0xnhsec/OEL-Offline-English-Learning</i></span>
+        <span class="report-arrow">↗</span>
+      </a>
+      <a class="report-item" id="reportMail1" href="mailto:0xnsec@intigriti.me">
+        <span class="report-ico">@</span>
+        <span class="report-txt"><b>0xnsec@intigriti.me</b><i>email resmi · security &amp; konten</i></span>
+        <span class="report-arrow">↗</span>
+      </a>
+      <a class="report-item" id="reportMail2" href="mailto:0xnhsec@proton.me">
+        <span class="report-ico">@</span>
+        <span class="report-txt"><b>0xnhsec@proton.me</b><i>email resmi</i></span>
+        <span class="report-arrow">↗</span>
+      </a>
+    </div>
+    <p class="report-foot">Sertakan modul/soal, jawabanmu, dan halaman tempat kamu menemukannya.</p>
+  </div>
+</div>
+
+<script src="/static/app.js?v=4"></script>
 </body>
 </html>

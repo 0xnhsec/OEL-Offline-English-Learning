@@ -255,6 +255,23 @@ def test_browser() -> None:
         check("home: two feature cards", cards == 2, f"{cards} cards")
         route = js("return document.querySelector('.home-card.learn').dataset.go;") or ""
         check("home: Learn card routes to /learn", route == "learn", route)
+        js("document.querySelector('.card-dots').click();")
+        wait_js("return !document.getElementById('reportModal').hidden;", 10)
+        issue = js("return document.getElementById('reportIssue').href;") or ""
+        check("home: alert button membuka laporan",
+              issue.startswith("https://github.com/0xnhsec/OEL-Offline-English-Learning/issues"),
+              issue[:58])
+        mails = js(
+            "return [document.getElementById('reportMail1').href,"
+            "        document.getElementById('reportMail2').href];"
+        ) or ["", ""]
+        check("home: email laporan benar",
+              mails[0].startswith("mailto:0xnsec@intigriti.me")
+              and mails[1].startswith("mailto:0xnhsec@proton.me"),
+              " | ".join(m[:32] for m in mails))
+        js("document.getElementById('reportClose').click();")
+        check("home: laporan bisa ditutup",
+              js("return document.getElementById('reportModal').hidden;") is True)
         driver.get(f"{URL}/learn")
         login_ok = wait_js("return !document.getElementById('loginView').hidden;", 15)
         check("learn: login screen", bool(login_ok))
