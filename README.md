@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="OEL.png" alt="OEL — Offline English Learning" width="132">
+  <img src="OEL.png" alt="OEL — Offline English Learning" width="350">
 </p>
 
 <h1 align="center">OEL — Offline English Learning</h1>
