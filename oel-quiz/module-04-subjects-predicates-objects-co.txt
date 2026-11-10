@@ -1,0 +1,281 @@
+MODULE 4: SUBJECTS, PREDICATES, OBJECTS, COMPLEMENTS, ADVERBIALS
+Choose the best answer (A-D).
+
+1. [Subjects, Predicates, Objects, Complements, Adverbials | easy]
+What is the subject of 'The new analyst found a serious bug.'?
+   A. The new analyst
+   B. found
+   C. serious
+   D. a serious bug
+
+2. [Subjects, Predicates, Objects, Complements, Adverbials | easy]
+What is the predicate of 'The team fixed the bug.'?
+   A. The team
+   B. the bug
+   C. fixed the bug
+   D. The
+
+3. [Subjects, Predicates, Objects, Complements, Adverbials | easy]
+What is the direct object of 'The hacker reported the vulnerability.'?
+   A. reported
+   B. the vulnerability
+   C. none
+   D. The hacker
+
+4. [Subjects, Predicates, Objects, Complements, Adverbials | easy]
+Which part is the adverbial in 'We met in the library.'?
+   A. in the library
+   B. met
+   C. We
+   D. none
+
+5. [Subjects, Predicates, Objects, Complements, Adverbials | easy]
+In 'The analyst is very careful', 'very careful' is the ___.
+   A. adverbial
+   B. direct object
+   C. subject complement
+   D. indirect object
+
+6. [Subjects, Predicates, Objects, Complements, Adverbials | easy]
+A direct object is usually headed by a ___.
+   A. noun or pronoun
+   B. adverb
+   C. conjunction
+   D. preposition
+
+7. [Subjects, Predicates, Objects, Complements, Adverbials | easy]
+What is the minimum a sentence needs?
+   A. a complement
+   B. an adverbial
+   C. an object
+   D. a subject and a predicate
+
+8. [Subjects, Predicates, Objects, Complements, Adverbials | medium]
+In 'The server seems unstable', 'seems' is a ___ verb.
+   A. transitive
+   B. linking
+   C. intransitive
+   D. auxiliary
+
+9. [Subjects, Predicates, Objects, Complements, Adverbials | medium]
+In 'The results became clear', 'clear' is a ___.
+   A. subject complement
+   B. adverbial
+   C. indirect object
+   D. direct object
+
+10. [Subjects, Predicates, Objects, Complements, Adverbials | medium]
+What does 'yesterday evening' tell in 'She called me yesterday evening.'?
+   A. manner
+   B. time
+   C. reason
+   D. place
+
+11. [Subjects, Predicates, Objects, Complements, Adverbials | medium]
+In 'He typed the password carefully', 'carefully' expresses ___.
+   A. manner
+   B. place
+   C. time
+   D. reason
+
+12. [Subjects, Predicates, Objects, Complements, Adverbials | medium]
+In 'We cancelled the test because of the storm', the adverbial expresses ___.
+   A. manner
+   B. time
+   C. reason
+   D. place
+
+13. [Subjects, Predicates, Objects, Complements, Adverbials | medium]
+Which word group can be a subject?
+   A. a finite verb alone
+   B. a preposition alone
+   C. a noun phrase
+   D. an adverb alone
+
+14. [Subjects, Predicates, Objects, Complements, Adverbials | medium]
+Identify the subject: 'Every report from the lab contains errors.'
+   A. Every report from the lab
+   B. lab
+   C. the lab
+   D. contains
+
+15. [Subjects, Predicates, Objects, Complements, Adverbials | medium]
+Identify the subject: 'In the morning, the engineers reviewed the logs.'
+   A. the morning
+   B. the logs
+   C. reviewed
+   D. the engineers
+
+16. [Subjects, Predicates, Objects, Complements, Adverbials | medium]
+In 'The team gave her a prize', 'a prize' is the ___.
+   A. indirect object
+   B. subject complement
+   C. direct object
+   D. object complement
+
+17. [Subjects, Predicates, Objects, Complements, Adverbials | medium]
+In 'The room felt cold', 'cold' is a ___.
+   A. direct object
+   B. adverbial
+   C. subject complement
+   D. subject
+
+18. [Subjects, Predicates, Objects, Complements, Adverbials | medium]
+Which element is optional in 'The team fixed the bug on Monday'?
+   A. the bug
+   B. fixed
+   C. The team
+   D. on Monday
+
+19. [Subjects, Predicates, Objects, Complements, Adverbials | hard]
+Which sentence has no object?
+   A. The team fixed it.
+   B. The server crashed.
+   C. The team gave us the logs.
+   D. The server hosted the site.
+
+20. [Subjects, Predicates, Objects, Complements, Adverbials | hard]
+In 'Maya is a security researcher', 'a security researcher' is a ___.
+   A. direct object
+   B. adverbial
+   C. indirect object
+   D. subject complement
+
+21. [Subjects, Predicates, Objects, Complements, Adverbials | hard]
+How can you tell a subject complement from a direct object?
+   A. It follows a linking verb and describes or renames the subject
+   B. It is always an adjective
+   C. There is no difference
+   D. It comes before the verb
+
+22. [Subjects, Predicates, Objects, Complements, Adverbials | hard]
+In 'She considers him a reliable partner', 'a reliable partner' is the ___.
+   A. indirect object
+   B. object complement
+   C. subject complement
+   D. direct object
+
+23. [Subjects, Predicates, Objects, Complements, Adverbials | hard]
+Which sentence contains BOTH a direct object and an adverbial?
+   A. They fixed it.
+   B. They were late.
+   C. They fixed the bug yesterday.
+   D. They slept.
+
+24. [Subjects, Predicates, Objects, Complements, Adverbials | hard]
+Which is an adverbial in 'We stopped the scan because it was slow'?
+   A. We
+   B. because it was slow
+   C. the scan
+   D. stopped
+
+25. [Subjects, Predicates, Objects, Complements, Adverbials | hard]
+Which sentence has a subject complement?
+   A. The user gave me a password.
+   B. The password seems weak.
+   C. The user chose a weak password.
+   D. The user typed quickly.
+
+==================================================
+ANSWER KEY
+==================================================
+
+1. A
+   Why : Subjek = pelaku/NP sebelum predikat.
+   Trap: Noun phrase kedua juga NP.
+
+2. C
+   Why : Predikat = verb + semua yang mengikuti, kecuali subjek.
+   Trap: Predikat dikira hanya verb.
+
+3. B
+   Why : Objek langsung menerima aksi verb transitif.
+   Trap: Dikira tidak ada objek.
+
+4. A
+   Why : Adverbial menjelaskan tempat/waktu/cara/alasan; di sini PP tempat.
+   Trap: 'the library' adalah NP, dikira objek.
+
+5. C
+   Why : Setelah linking verb 'is', ia mendeskripsikan subjek.
+   Trap: Posisinya setelah verb, seperti objek.
+
+6. A
+   Why : Objek adalah NP, berinti noun/pronoun.
+   Trap: PP muncul setelah verb juga.
+
+7. D
+   Why : Subjek + predikat sudah kalimat ('Birds fly.').
+   Trap: Dikira butuh objek.
+
+8. B
+   Why : Menghubungkan subjek dengan complement.
+   Trap: 'seems' terlihat seperti aksi.
+
+9. A
+   Why : Setelah linking verb 'became', complement mendeskripsikan subjek.
+   Trap: Adjective setelah verb dikira adverbial.
+
+10. B
+   Why : Adverbial waktu menjawab 'kapan?'.
+   Trap: 'evening' dikira tempat.
+
+11. A
+   Why : Adverbial cara menjawab 'bagaimana?'.
+   Trap: Posisinya di akhir.
+
+12. C
+   Why : 'because of' menjawab 'kenapa?'.
+   Trap: 'storm' dikira sebab fisik.
+
+13. C
+   Why : Subjek biasanya NP.
+   Trap: Verb dikira inti kalimat.
+
+14. A
+   Why : Subjek = HEAD 'report' beserta modifier-nya.
+   Trap: 'the lab' tepat sebelum verb.
+
+15. D
+   Why : 'In the morning' adalah adverbial (PP).
+   Trap: 'the morning' muncul pertama.
+
+16. C
+   Why : 'her' = penerima (IO), 'a prize' = yang diberikan.
+   Trap: 'her' juga berposisi objek.
+
+17. C
+   Why : 'felt' = linking verb; 'cold' mendeskripsikan 'room'.
+   Trap: 'cold' bisa dikira adverb.
+
+18. D
+   Why : Adverbial umumnya opsional.
+   Trap: Semua terlihat penting.
+
+19. B
+   Why : 'crashed' intransitive.
+   Trap: Semua punya NP/pronoun.
+
+20. D
+   Why : Setelah linking verb 'is', NP mendeskripsikan/merename subjek.
+   Trap: NP setelah verb dikira objek.
+
+21. A
+   Why : Linking verb = tanda subject complement.
+   Trap: Keduanya NP setelah verb.
+
+22. B
+   Why : 'him' = objek; 'a reliable partner' mendeskripsikan 'him'.
+   Trap: NP setelah 'him' dikira objek lagi.
+
+23. C
+   Why : 'the bug' = DO; 'yesterday' = adverbial waktu.
+   Trap: 'yesterday' dikira objek.
+
+24. B
+   Why : Adverbial bisa berupa klausa (alasan).
+   Trap: Klausa tidak terlihat seperti adverbial.
+
+25. B
+   Why : 'seems' linking verb + 'weak' mendeskripsikan subjek.
+   Trap: 'weak password' terlihat mirip.

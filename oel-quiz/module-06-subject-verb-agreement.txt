@@ -1,0 +1,281 @@
+MODULE 6: SUBJECT-VERB AGREEMENT
+Choose the best answer (A-D).
+
+1. [Subject-Verb Agreement | easy]
+Ali and Budi ___ presenting.
+   A. has
+   B. is
+   C. was
+   D. are
+
+2. [Subject-Verb Agreement | easy]
+Everybody ___ ready.
+   A. were
+   B. are
+   C. is
+   D. have
+
+3. [Subject-Verb Agreement | easy]
+There ___ a bug in the code.
+   A. are
+   B. have been
+   C. is
+   D. were
+
+4. [Subject-Verb Agreement | easy]
+Here ___ the results.
+   A. are
+   B. was
+   C. is
+   D. has
+
+5. [Subject-Verb Agreement | easy]
+The news ___ shocking.
+   A. are
+   B. have been
+   C. were
+   D. is
+
+6. [Subject-Verb Agreement | medium]
+Neither of the options ___ safe.
+   A. were
+   B. is
+   C. are
+   D. have been
+
+7. [Subject-Verb Agreement | medium]
+Either the teacher or the students ___ responsible.
+   A. has been
+   B. are
+   C. is
+   D. was
+
+8. [Subject-Verb Agreement | medium]
+Neither the managers nor the engineer ___ aware of the issue.
+   A. is
+   B. were
+   C. are
+   D. have been
+
+9. [Subject-Verb Agreement | medium]
+My colleague and best friend ___ coming to the meeting.
+   A. were
+   B. is
+   C. have been
+   D. are
+
+10. [Subject-Verb Agreement | medium]
+Some of the students ___ late.
+   A. was
+   B. are
+   C. is
+   D. has been
+
+11. [Subject-Verb Agreement | medium]
+All of the money ___ gone.
+   A. have been
+   B. are
+   C. were
+   D. is
+
+12. [Subject-Verb Agreement | medium]
+None of the students ___ finished. (handout/formal rule)
+   A. are
+   B. have
+   C. has
+   D. were
+
+13. [Subject-Verb Agreement | medium]
+The committee ___ made its decision.
+   A. has
+   B. have
+   C. were
+   D. are
+
+14. [Subject-Verb Agreement | medium]
+Studying English every day ___ helpful.
+   A. were
+   B. have been
+   C. is
+   D. are
+
+15. [Subject-Verb Agreement | medium]
+Whether we pass ___ unclear.
+   A. is
+   B. have been
+   C. are
+   D. were
+
+16. [Subject-Verb Agreement | medium]
+The results of the experiment ___ surprising.
+   A. is
+   B. was
+   C. has been
+   D. were
+
+17. [Subject-Verb Agreement | medium]
+Linguistics ___ the study of language.
+   A. were
+   B. are
+   C. have been
+   D. is
+
+18. [Subject-Verb Agreement | medium]
+The police ___ investigating the incident.
+   A. are
+   B. is
+   C. was
+   D. has
+
+19. [Subject-Verb Agreement | hard]
+The committee ___ arguing among themselves. (individuals)
+   A. are
+   B. was
+   C. is
+   D. has
+
+20. [Subject-Verb Agreement | hard]
+Ten kilometers ___ a long way.
+   A. are
+   B. is
+   C. were
+   D. have been
+
+21. [Subject-Verb Agreement | hard]
+She is one of the students who ___ always late.
+   A. is
+   B. was
+   C. are
+   D. has been
+
+22. [Subject-Verb Agreement | hard]
+She is the only one of the students who ___ always late.
+   A. have been
+   B. were
+   C. is
+   D. are
+
+23. [Subject-Verb Agreement | hard]
+A pair of glasses ___ on the desk.
+   A. were
+   B. have been
+   C. are
+   D. is
+
+24. [Subject-Verb Agreement | hard]
+The list of requirements were too long. Which part must change?
+   A. The list
+   B. too long
+   C. of requirements
+   D. were
+
+25. [Subject-Verb Agreement | hard]
+Which sentence is correct?
+   A. The costs of the repair is high.
+   B. The cost of the repairs were high.
+   C. The cost of the repairs is high.
+   D. The cost of the repairs are high.
+
+==================================================
+ANSWER KEY
+==================================================
+
+1. D
+   Why : Dua subjek dengan 'and' = plural.
+   Trap: Nama dibaca satu per satu.
+
+2. C
+   Why : Indefinite pronoun -body/-one = singular.
+   Trap: Everybody terdengar seperti banyak orang.
+
+3. C
+   Why : Verb mengikuti noun setelah there: 'a bug'.
+   Trap: Dianggap 'There are' secara refleks.
+
+4. A
+   Why : Setelah here/there, verb cocok dengan noun yang mengikuti ('results').
+   Trap: 'Here is' terdengar umum.
+
+5. D
+   Why : News, mathematics, linguistics = singular.
+   Trap: Akhiran -s membuat 'news' tampak plural.
+
+6. B
+   Why : Neither (of) = singular.
+   Trap: 'options' di dekat verb.
+
+7. B
+   Why : Verb cocok dengan subjek terdekat.
+   Trap: Subjek pertama singular.
+
+8. A
+   Why : Subjek terdekat 'engineer'.
+   Trap: Subjek pertama plural.
+
+9. B
+   Why : Satu orang dua peran = singular.
+   Trap: 'and' memicu plural.
+
+10. B
+   Why : Some + plural noun = plural.
+   Trap: 'Some' kadang singular.
+
+11. D
+   Why : Uncountable = singular.
+   Trap: 'All' dikira plural.
+
+12. C
+   Why : Handout: formal singular; modern 'have' umum.
+   Trap: 'have' umum di pemakaian modern.
+
+13. A
+   Why : Satu unit = singular.
+   Trap: Collective noun dianggap plural.
+
+14. C
+   Why : Gerund subject = singular.
+   Trap: 'days' dekat verb.
+
+15. A
+   Why : Clause subject = singular.
+   Trap: 'we' dikira subjek plural.
+
+16. D
+   Why : HEAD 'results' plural.
+   Trap: 'experiment' tunggal.
+
+17. D
+   Why : Linguistics singular.
+   Trap: Akhiran -s.
+
+18. A
+   Why : 'The police' = plural.
+   Trap: Terlihat singular.
+
+19. A
+   Why : Ketika anggota bertindak sendiri-sendiri, verb plural (gaya British).
+   Trap: Collective noun biasanya singular.
+
+20. B
+   Why : Jarak/waktu/uang = singular.
+   Trap: Terlihat plural.
+
+21. C
+   Why : Relative clause ikut antecedent 'students'.
+   Trap: 'one' singular.
+
+22. C
+   Why : 'The only one' mengubah antecedent menjadi singular, jadi 'is'.
+   Trap: Terlihat sama persis dengan soal sebelumnya.
+
+23. D
+   Why : HEAD 'pair' singular.
+   Trap: 'glasses' plural.
+
+24. D
+   Why : Subjek 'list' singular.
+   Trap: 'requirements' dekat verb.
+
+25. C
+   Why : HEAD 'cost' singular.
+   Trap: Interrupter menyesatkan.

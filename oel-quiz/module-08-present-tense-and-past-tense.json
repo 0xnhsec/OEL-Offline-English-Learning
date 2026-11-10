@@ -1,0 +1,382 @@
+{
+  "title": "Module 8: Present Tense and Past Tense",
+  "language": "en",
+  "total": 25,
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "easy",
+      "question": "He ___ coffee.",
+      "options": {
+        "A": "don't drink",
+        "B": "isn't drink",
+        "C": "doesn't drink",
+        "D": "doesn't drinks"
+      },
+      "answer": "C",
+      "trap": "Dua kesalahan umum: 'don't' untuk subjek tunggal dan -s pada verb setelah does.",
+      "explanation": "Setelah does/doesn't, verb kembali ke base form: doesn't drink."
+    },
+    {
+      "id": 2,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "easy",
+      "question": "Water ___ at 100 degrees Celsius.",
+      "options": {
+        "A": "boils",
+        "B": "is boil",
+        "C": "boiling",
+        "D": "boil"
+      },
+      "answer": "A",
+      "trap": "'is boiling' terdengar seperti proses yang sedang terjadi.",
+      "explanation": "Fakta ilmiah/kebenaran umum memakai present simple (boils)."
+    },
+    {
+      "id": 3,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "easy",
+      "question": "Right now, I ___ a report.",
+      "options": {
+        "A": "am writing",
+        "B": "have wrote",
+        "C": "wrote",
+        "D": "write"
+      },
+      "answer": "A",
+      "trap": "Present simple 'write' terasa netral.",
+      "explanation": "'Right now' = sedang berlangsung = present continuous (am writing)."
+    },
+    {
+      "id": 4,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "easy",
+      "question": "Yesterday I ___ the file.",
+      "options": {
+        "A": "deleting",
+        "B": "have deleted",
+        "C": "deleted",
+        "D": "delete"
+      },
+      "answer": "C",
+      "trap": "'have deleted' mengikuti pola bahasa Indonesia 'sudah menghapus'.",
+      "explanation": "'Yesterday' = waktu selesai = past simple (deleted), bukan present perfect."
+    },
+    {
+      "id": 5,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "easy",
+      "question": "He ___ to Bali in 2022.",
+      "options": {
+        "A": "goes",
+        "B": "has gone",
+        "C": "go",
+        "D": "went"
+      },
+      "answer": "D",
+      "trap": "'has gone' terdengar wajar untuk pengalaman perjalanan.",
+      "explanation": "Tahun spesifik di masa lalu = past simple (went)."
+    },
+    {
+      "id": 6,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "easy",
+      "question": "What is the past of 'write'?",
+      "options": {
+        "A": "writed",
+        "B": "writes",
+        "C": "written",
+        "D": "wrote"
+      },
+      "answer": "D",
+      "trap": "'written' juga bentuk dari 'write'.",
+      "explanation": "Past simple = wrote; past participle = written (dipakai dengan have/has/had)."
+    },
+    {
+      "id": 7,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "easy",
+      "question": "What is the past participle of 'break'?",
+      "options": {
+        "A": "breaks",
+        "B": "broken",
+        "C": "breaked",
+        "D": "broke"
+      },
+      "answer": "B",
+      "trap": "'broke' lebih sering terdengar.",
+      "explanation": "Past simple = broke; past participle (V3) = broken, dipakai dengan have/has/had."
+    },
+    {
+      "id": 8,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "easy",
+      "question": "___ you finish the report yesterday?",
+      "options": {
+        "A": "Did",
+        "B": "Do",
+        "C": "Were",
+        "D": "Have"
+      },
+      "answer": "A",
+      "trap": "'Have' terdengar natural dalam pertanyaan.",
+      "explanation": "'yesterday' memerlukan past simple, jadi pertanyaan memakai Did + base form."
+    },
+    {
+      "id": 9,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "easy",
+      "question": "What is the 3rd person singular of 'study'?",
+      "options": {
+        "A": "studyies",
+        "B": "studys",
+        "C": "studyes",
+        "D": "studies"
+      },
+      "answer": "D",
+      "trap": "Aturan -y mudah terbalik.",
+      "explanation": "Konsonan + y berubah menjadi -ies (study -> studies); vokal + y cukup -s (play -> plays)."
+    },
+    {
+      "id": 10,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "easy",
+      "question": "What is the past of 'stop'?",
+      "options": {
+        "A": "stopt",
+        "B": "stopped",
+        "C": "stopping",
+        "D": "stoped"
+      },
+      "answer": "B",
+      "trap": "Ejaan sederhana tapi sering salah.",
+      "explanation": "Pola CVC (konsonan-vokal-konsonan) pada suku kata tekan menggandakan konsonan akhir: stopped."
+    },
+    {
+      "id": 11,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "I ___ this laptop since 2024.",
+      "options": {
+        "A": "used",
+        "B": "use",
+        "C": "have used",
+        "D": "am using"
+      },
+      "answer": "C",
+      "trap": "'since' menggoda present simple.",
+      "explanation": "Present perfect dengan since."
+    },
+    {
+      "id": 12,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "She ___ here for three years.",
+      "options": {
+        "A": "works",
+        "B": "has worked",
+        "C": "worked",
+        "D": "is working"
+      },
+      "answer": "B",
+      "trap": "'for' dikira penanda past simple.",
+      "explanation": "Aksi dimulai di masa lalu dan masih berlangsung = present perfect (has worked)."
+    },
+    {
+      "id": 13,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "They ___ already finished.",
+      "options": {
+        "A": "did",
+        "B": "are",
+        "C": "has",
+        "D": "have"
+      },
+      "answer": "D",
+      "trap": "'already' bisa dipakai dengan past simple, jadi 'did' menggoda.",
+      "explanation": "Present perfect = have/has + V3. 'They' = have."
+    },
+    {
+      "id": 14,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "While I ___ the code, the power went out.",
+      "options": {
+        "A": "was testing",
+        "B": "have tested",
+        "C": "am testing",
+        "D": "tested"
+      },
+      "answer": "A",
+      "trap": "Dua kejadian lampau mudah ditulis past simple semua.",
+      "explanation": "Aksi panjang yang terganggu aksi pendek = past continuous (was testing)."
+    },
+    {
+      "id": 15,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "I ___ for two hours when she called.",
+      "options": {
+        "A": "have been waiting",
+        "B": "waited",
+        "C": "was wait",
+        "D": "had been waiting"
+      },
+      "answer": "D",
+      "trap": "'have been waiting' terdengar natural di percakapan.",
+      "explanation": "Aksi panjang yang sudah berlangsung sebelum titik lampau ('when she called') = past perfect continuous (had been waiting)."
+    },
+    {
+      "id": 16,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "She moved to Surabaya two years ___.",
+      "options": {
+        "A": "since",
+        "B": "for",
+        "C": "ago",
+        "D": "before"
+      },
+      "answer": "C",
+      "trap": "'before', 'since', 'for' semuanya kata waktu.",
+      "explanation": "'ago' dipakai setelah durasi untuk menghitung mundur dari sekarang, dengan past simple."
+    },
+    {
+      "id": 17,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "Which sentence is correct?",
+      "options": {
+        "A": "I saw him yesterday.",
+        "B": "I see him yesterday.",
+        "C": "I have seen him yesterday.",
+        "D": "I was see him yesterday."
+      },
+      "answer": "A",
+      "trap": "'have seen' + yesterday terasa wajar bagi penutur Indonesia ('sudah melihat kemarin').",
+      "explanation": "Waktu spesifik yang sudah selesai (yesterday) = past simple, bukan present perfect."
+    },
+    {
+      "id": 18,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "She ___ TV when the phone rang.",
+      "options": {
+        "A": "is watching",
+        "B": "has watched",
+        "C": "watched",
+        "D": "was watching"
+      },
+      "answer": "D",
+      "trap": "Dua aksi lampau mudah ditulis past simple semua.",
+      "explanation": "Aksi yang sedang berlangsung lalu terpotong = past continuous (was watching)."
+    },
+    {
+      "id": 19,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "We ___ play badminton every Sunday when we were kids.",
+      "options": {
+        "A": "were use to",
+        "B": "used to",
+        "C": "are used to",
+        "D": "use to"
+      },
+      "answer": "B",
+      "trap": "'use to' tanpa -d sering ditulis.",
+      "explanation": "Kebiasaan masa lalu yang sudah berhenti = used to + base form."
+    },
+    {
+      "id": 20,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "I ___ him since last week.",
+      "options": {
+        "A": "hadn't see",
+        "B": "haven't seen",
+        "C": "don't see",
+        "D": "didn't see"
+      },
+      "answer": "B",
+      "trap": "'didn't see' terdengar natural karena 'last week'.",
+      "explanation": "'since' menuntut present perfect: haven't + V3."
+    },
+    {
+      "id": 21,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "Which time expression goes with present perfect?",
+      "options": {
+        "A": "so far",
+        "B": "yesterday",
+        "C": "last night",
+        "D": "in 2020"
+      },
+      "answer": "A",
+      "trap": "Semua opsi adalah keterangan waktu, tapi hanya satu yang terhubung ke sekarang.",
+      "explanation": "'so far' = sampai saat ini, pasangan present perfect. yesterday, last night, in 2020 = waktu selesai, pasangan past simple."
+    },
+    {
+      "id": 22,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "Which time expression goes with simple past?",
+      "options": {
+        "A": "last night",
+        "B": "so far",
+        "C": "yet",
+        "D": "up to now"
+      },
+      "answer": "A",
+      "trap": "'up to now' dan 'yet' terdengar seperti keterangan waktu biasa.",
+      "explanation": "'last night' = titik waktu yang sudah selesai. 'so far', 'yet', 'up to now' mengarah ke sekarang."
+    },
+    {
+      "id": 23,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "hard",
+      "question": "Which sentence implies the keys are STILL missing now?",
+      "options": {
+        "A": "I lost my keys last week.",
+        "B": "I have lost my keys.",
+        "C": "I was losing my keys.",
+        "D": "I used to lose my keys."
+      },
+      "answer": "B",
+      "trap": "Past simple juga menyebut kehilangan.",
+      "explanation": "Present perfect menekankan hasil yang masih terasa sekarang. 'last week' menutup kejadian di masa lalu."
+    },
+    {
+      "id": 24,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "hard",
+      "question": "He ___ at 9 pm last night.",
+      "options": {
+        "A": "works",
+        "B": "is working",
+        "C": "was working",
+        "D": "has worked"
+      },
+      "answer": "C",
+      "trap": "'works' atau 'has worked' mengabaikan penanda waktu lampau.",
+      "explanation": "Titik waktu spesifik di masa lalu saat aksi berlangsung = past continuous (was working)."
+    },
+    {
+      "id": 25,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "hard",
+      "question": "Which sentence is correct?",
+      "options": {
+        "A": "He work here since 2020.",
+        "B": "He has working here since 2020.",
+        "C": "He has been working here since 2020.",
+        "D": "He is working here since 2020."
+      },
+      "answer": "C",
+      "trap": "'is working ... since' terdengar benar karena memakai continuous.",
+      "explanation": "Aksi dimulai di masa lalu dan berlanjut: has/have been + V-ing, dengan since + titik awal."
+    }
+  ]
+}

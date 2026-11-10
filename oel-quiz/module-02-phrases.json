@@ -1,0 +1,382 @@
+{
+  "title": "Module 2: Phrases",
+  "language": "en",
+  "total": 25,
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Phrases",
+      "difficulty": "easy",
+      "question": "What is the HEAD of the noun phrase 'the new security policy'?",
+      "options": {
+        "A": "security",
+        "B": "new",
+        "C": "the",
+        "D": "policy"
+      },
+      "answer": "D",
+      "trap": "'security' juga noun.",
+      "explanation": "HEAD = inti frasa. 'security' dan 'new' hanya modifier dari 'policy'."
+    },
+    {
+      "id": 2,
+      "topic": "Phrases",
+      "difficulty": "easy",
+      "question": "What type of phrase is 'in the folder'?",
+      "options": {
+        "A": "Adverb phrase (AdvP)",
+        "B": "Noun phrase (NP)",
+        "C": "Prepositional phrase (PP)",
+        "D": "Verb phrase (VP)"
+      },
+      "answer": "C",
+      "trap": "Ada NP 'the folder' di dalamnya.",
+      "explanation": "Diawali preposition 'in' = PP. NP hanya bagian di dalamnya."
+    },
+    {
+      "id": 3,
+      "topic": "Phrases",
+      "difficulty": "easy",
+      "question": "'very secure' is a(n) ___.",
+      "options": {
+        "A": "prepositional phrase (PP)",
+        "B": "noun phrase (NP)",
+        "C": "adjective phrase (AdjP)",
+        "D": "adverb phrase (AdvP)"
+      },
+      "answer": "C",
+      "trap": "'very' adverb, jadi dikira AdvP.",
+      "explanation": "HEAD = 'secure' (adjective), jadi AdjP. 'very' modifier."
+    },
+    {
+      "id": 4,
+      "topic": "Phrases",
+      "difficulty": "easy",
+      "question": "What is the HEAD of the verb phrase 'has been scanning'?",
+      "options": {
+        "A": "been",
+        "B": "has been",
+        "C": "scanning",
+        "D": "has"
+      },
+      "answer": "C",
+      "trap": "Kata pertama sering dianggap inti.",
+      "explanation": "Pada VP, HEAD = main verb. 'has' dan 'been' auxiliary."
+    },
+    {
+      "id": 5,
+      "topic": "Phrases",
+      "difficulty": "easy",
+      "question": "A prepositional phrase always begins with a(n) ___.",
+      "options": {
+        "A": "adverb",
+        "B": "noun",
+        "C": "preposition",
+        "D": "verb"
+      },
+      "answer": "C",
+      "trap": "NP di dalamnya sering menarik perhatian.",
+      "explanation": "PP = preposition + NP. HEAD-nya preposition."
+    },
+    {
+      "id": 6,
+      "topic": "Phrases",
+      "difficulty": "easy",
+      "question": "The HEAD of an adverb phrase is an ___.",
+      "options": {
+        "A": "adjective",
+        "B": "adverb",
+        "C": "noun",
+        "D": "preposition"
+      },
+      "answer": "B",
+      "trap": "Modifier 'very' sering dilihat dulu.",
+      "explanation": "Nama frasa mengikuti HEAD-nya."
+    },
+    {
+      "id": 7,
+      "topic": "Phrases",
+      "difficulty": "easy",
+      "question": "In 'They left early', the word 'They' alone forms a ___.",
+      "options": {
+        "A": "verb phrase (VP)",
+        "B": "noun phrase (NP)",
+        "C": "adjective phrase (AdjP)",
+        "D": "prepositional phrase (PP)"
+      },
+      "answer": "B",
+      "trap": "Hanya satu kata, jadi dikira bukan frasa.",
+      "explanation": "Satu pronoun bisa menjadi HEAD sekaligus seluruh NP."
+    },
+    {
+      "id": 8,
+      "topic": "Phrases",
+      "difficulty": "easy",
+      "question": "What class of word is the HEAD of a noun phrase most often?",
+      "options": {
+        "A": "verb",
+        "B": "adjective",
+        "C": "noun",
+        "D": "preposition"
+      },
+      "answer": "C",
+      "trap": "Modifier sering lebih banyak.",
+      "explanation": "NP berinti noun (atau pronoun)."
+    },
+    {
+      "id": 9,
+      "topic": "Phrases",
+      "difficulty": "medium",
+      "question": "Which one is a phrase, not a clause?",
+      "options": {
+        "A": "the crashed server",
+        "B": "because the server crashed",
+        "C": "the server crashed",
+        "D": "when it crashed"
+      },
+      "answer": "A",
+      "trap": "Semua memuat kata 'server' dan 'crashed'.",
+      "explanation": "Frasa tidak punya subject + finite verb. 'crashed' di sini modifier (adjective)."
+    },
+    {
+      "id": 10,
+      "topic": "Phrases",
+      "difficulty": "medium",
+      "question": "How many noun phrases are in 'the book on the table'?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3",
+        "D": "0"
+      },
+      "answer": "A",
+      "trap": "Hanya menghitung NP terluar.",
+      "explanation": "NP besar 'the book on the table' dan NP bersarang 'the table'."
+    },
+    {
+      "id": 11,
+      "topic": "Phrases",
+      "difficulty": "medium",
+      "question": "Which word can replace the NP 'my younger sister'?",
+      "options": {
+        "A": "there",
+        "B": "very",
+        "C": "she",
+        "D": "did"
+      },
+      "answer": "C",
+      "trap": "'there' pro-form untuk tempat.",
+      "explanation": "Tes substitution: NP orang diganti pronoun 'she'."
+    },
+    {
+      "id": 12,
+      "topic": "Phrases",
+      "difficulty": "medium",
+      "question": "Which sentence shows by movement that 'on Monday' is a unit?",
+      "options": {
+        "A": "On, Monday we met the client.",
+        "B": "We on met Monday the client.",
+        "C": "Monday, on we met the client.",
+        "D": "On Monday, we met the client."
+      },
+      "answer": "D",
+      "trap": "Semua opsi memakai kata yang sama.",
+      "explanation": "Hanya kelompok yang utuh bisa dipindah ke depan."
+    },
+    {
+      "id": 13,
+      "topic": "Phrases",
+      "difficulty": "medium",
+      "question": "'Where did they meet?' The answer 'in the park' is a ___.",
+      "options": {
+        "A": "noun phrase",
+        "B": "prepositional phrase",
+        "C": "verb phrase",
+        "D": "adjective phrase"
+      },
+      "answer": "B",
+      "trap": "'the park' (NP) ada di dalamnya.",
+      "explanation": "Tes question: jawaban wh-question = satu konstituen; HEAD 'in' = PP."
+    },
+    {
+      "id": 14,
+      "topic": "Phrases",
+      "difficulty": "medium",
+      "question": "What is the HEAD of the adjective phrase 'afraid of the dark'?",
+      "options": {
+        "A": "of",
+        "B": "afraid",
+        "C": "dark",
+        "D": "the"
+      },
+      "answer": "B",
+      "trap": "'dark' berada di akhir.",
+      "explanation": "HEAD AdjP = adjective 'afraid'. 'of the dark' pelengkap."
+    },
+    {
+      "id": 15,
+      "topic": "Phrases",
+      "difficulty": "medium",
+      "question": "What is the HEAD of the PP 'for security reasons'?",
+      "options": {
+        "A": "security",
+        "B": "reasons",
+        "C": "for",
+        "D": "none"
+      },
+      "answer": "C",
+      "trap": "'reasons' noun terakhir.",
+      "explanation": "HEAD PP selalu preposition."
+    },
+    {
+      "id": 16,
+      "topic": "Phrases",
+      "difficulty": "medium",
+      "question": "In 'will be updating the firmware', what is the HEAD of the verb phrase?",
+      "options": {
+        "A": "updating",
+        "B": "be",
+        "C": "firmware",
+        "D": "will"
+      },
+      "answer": "A",
+      "trap": "'will' paling depan.",
+      "explanation": "HEAD VP = main verb."
+    },
+    {
+      "id": 17,
+      "topic": "Phrases",
+      "difficulty": "medium",
+      "question": "Which sentence contains an adverb phrase?",
+      "options": {
+        "A": "She is very polite.",
+        "B": "She replied to the email.",
+        "C": "She read the long reply.",
+        "D": "She replied quite quickly."
+      },
+      "answer": "D",
+      "trap": "'very polite' mirip.",
+      "explanation": "'quite quickly' = AdvP. 'very polite' = AdjP; 'to the email' = PP."
+    },
+    {
+      "id": 18,
+      "topic": "Phrases",
+      "difficulty": "medium",
+      "question": "Which one is NOT a phrase?",
+      "options": {
+        "A": "in the box",
+        "B": "she runs",
+        "C": "the old router",
+        "D": "very fast"
+      },
+      "answer": "B",
+      "trap": "Semua tampak pendek.",
+      "explanation": "'she runs' punya subject + finite verb = klausa."
+    },
+    {
+      "id": 19,
+      "topic": "Phrases",
+      "difficulty": "hard",
+      "question": "What is the HEAD of 'a cup of coffee'?",
+      "options": {
+        "A": "a",
+        "B": "cup",
+        "C": "of",
+        "D": "coffee"
+      },
+      "answer": "B",
+      "trap": "'coffee' adalah isi.",
+      "explanation": "HEAD = 'cup'; 'of coffee' = PP pelengkap."
+    },
+    {
+      "id": 20,
+      "topic": "Phrases",
+      "difficulty": "hard",
+      "question": "What is the HEAD of 'the number of students'?",
+      "options": {
+        "A": "number",
+        "B": "students",
+        "C": "the",
+        "D": "of"
+      },
+      "answer": "A",
+      "trap": "'students' plural.",
+      "explanation": "HEAD = 'number'; dan inilah sebab verb-nya singular."
+    },
+    {
+      "id": 21,
+      "topic": "Phrases",
+      "difficulty": "hard",
+      "question": "Which sentence contains exactly one PP?",
+      "options": {
+        "A": "The analyst reviewed the report.",
+        "B": "The analyst reviewed the report on Friday.",
+        "C": "The analyst from the lab reviewed the report in the office on Friday.",
+        "D": "The analyst in the lab reviewed the report on Friday."
+      },
+      "answer": "B",
+      "trap": "Sulit menghitung dengan cepat.",
+      "explanation": "Opsi benar hanya 'on Friday'. Opsi lain 0, 2, atau 3."
+    },
+    {
+      "id": 22,
+      "topic": "Phrases",
+      "difficulty": "hard",
+      "question": "In 'the key to the problem', which unit is a PP?",
+      "options": {
+        "A": "key to",
+        "B": "the key to the problem",
+        "C": "the problem",
+        "D": "to the problem"
+      },
+      "answer": "D",
+      "trap": "Seluruh frasa terlihat 'berhubungan'.",
+      "explanation": "'to the problem' = PP di dalam NP 'the key to the problem'."
+    },
+    {
+      "id": 23,
+      "topic": "Phrases",
+      "difficulty": "hard",
+      "question": "A phrase differs from a clause because a phrase ___.",
+      "options": {
+        "A": "has no subject + finite verb relationship",
+        "B": "never contains a noun",
+        "C": "is always shorter",
+        "D": "always begins with a preposition"
+      },
+      "answer": "A",
+      "trap": "Panjang dikira pembeda.",
+      "explanation": "Klausa = subject + finite verb; frasa tidak."
+    },
+    {
+      "id": 24,
+      "topic": "Phrases",
+      "difficulty": "hard",
+      "question": "'Proud of her team': what is the HEAD?",
+      "options": {
+        "A": "of",
+        "B": "team",
+        "C": "her",
+        "D": "proud"
+      },
+      "answer": "D",
+      "trap": "'team' noun terakhir.",
+      "explanation": "HEAD AdjP = adjective 'proud'; 'of her team' = pelengkap."
+    },
+    {
+      "id": 25,
+      "topic": "Phrases",
+      "difficulty": "hard",
+      "question": "Which coordination result is correct? 'in the park and at the beach' joins two ___.",
+      "options": {
+        "A": "clauses",
+        "B": "NPs",
+        "C": "VPs",
+        "D": "PPs"
+      },
+      "answer": "D",
+      "trap": "'the park' dan 'the beach' adalah NP.",
+      "explanation": "'and' menghubungkan dua PP lengkap; tes coordination membuktikan keduanya konstituen."
+    }
+  ]
+}

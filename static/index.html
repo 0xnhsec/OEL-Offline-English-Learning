@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OEL · Offline English Learning</title>
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem("xl_theme");
+      document.documentElement.dataset.theme = saved === "light" ? "light" : "dark";
+    } catch (_) { document.documentElement.dataset.theme = "dark"; }
+  })();
+</script>
+<link rel="stylesheet" href="/static/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50' y='68' text-anchor='middle' font-family='monospace' font-size='38' font-weight='700'>OEL</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="mark">OEL</span>
+    <span class="name">Offline English Learning</span>
+    <span class="tag">local &middot; offline</span>
+  </div>
+
+  <button class="theme-btn" id="themeBtn" title="ganti tema" aria-label="ganti tema">☾</button>
+  <button class="theme-btn" id="settingsBtn" title="settings" aria-label="settings">⚙</button>
+
+  <div class="health" id="health" title="status engine">
+    <span class="chip" id="chipTts">tts …</span>
+    <span class="chip" id="chipAsr">asr …</span>
+  </div>
+</header>
+
+<div class="subbar" id="subbar" hidden>
+  <button class="btn small" data-go="home">← Home</button>
+  <span class="meta" id="subTitle"></span>
+</div>
+
+<main>
+
+<!-- ───────────────────────── HOME ───────────────────────── -->
+<section class="view active" id="view-home">
+  <div class="home-wrap">
+    <div class="home-hero">
+      <p class="kicker">0xnhsec was there</p>
+      <h1>Belajar bahasa Inggris,<br><em>tanpa cloud.</em></h1>
+      <p class="home-sub">Dua ruang: latihan soal dengan pembahasan, dan studio suara untuk listening + speaking.</p>
+    </div>
+
+    <div class="home-grid">
+      <article class="home-card learn" data-go="learn" tabindex="0" role="button" aria-label="Buka Learn 101">
+        <div class="home-art" aria-hidden="true"></div>
+        <div class="home-body">
+          <span class="home-kicker">Learn 101</span>
+          <h2>Kumpulan soal &amp; pembahasan</h2>
+          <p>Grammar, FANBOYS, fragments, TOEFL-style. Impor TXT atau JSON — kunci, Why, dan Trap langsung terbaca.</p>
+          <div class="home-chips">
+            <span class="home-chip">TXT · JSON</span>
+            <span class="home-chip">Why + Trap</span>
+            <span class="home-chip">target 1 juta soal</span>
+          </div>
+          <button class="home-cta" data-go="learn">Open Learn 101</button>
+        </div>
+      </article>
+
+      <article class="home-card studio" data-go="listen" tabindex="0" role="button" aria-label="Buka Speaking and Listening">
+        <div class="home-art" aria-hidden="true"></div>
+        <div class="home-body">
+          <span class="home-kicker">Speaking &amp; Listening</span>
+          <h2>Dengarkan, tirukan, bandingkan</h2>
+          <p>TTS offline untuk model bacaan, lalu rekam suaramu dan lihat transkrip + selisih kata per kata.</p>
+          <div class="home-chips">
+            <span class="home-chip">TTS offline</span>
+            <span class="home-chip">Whisper STT</span>
+            <span class="home-chip">word diff</span>
+          </div>
+          <div class="home-actions">
+            <button class="home-cta" data-go="listen">Listen</button>
+            <button class="home-cta ghost" data-go="practice">Practice</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── LISTEN ───────────────────────── -->
+<section class="view" id="view-listen">
+  <div class="col side">
+    <div class="card">
+      <h3>1 · Sumber teks</h3>
+      <div class="drop" id="drop">
+        <p class="drop-hint">Drop file <span class="mono">.txt .md .srt .vtt</span><br>atau</p>
+        <button class="btn" id="pickBtn">Pilih file</button>
+        <input type="file" id="fileInput" accept=".txt,.md,.text,.srt,.vtt" hidden>
+        <button class="btn ghost small" id="sampleBtn">Muat contoh teks</button>
+      </div>
+      <label class="lbl" for="pasteBox">…atau tempel teks</label>
+      <textarea id="pasteBox" rows="6" placeholder="Tempel paragraph, naskah, atau transcript di sini…"></textarea>
+      <label class="check"><input type="checkbox" id="wholeToggle"> baca utuh — jangan pecah jadi chunk</label>
+      <button class="btn ghost" id="parsePasteBtn">Potong jadi chunk</button>
+      <p class="err" id="listenErr"></p>
+    </div>
+
+    <div class="card grow">
+      <h3>2 · Shadowing chunks <span class="meta" id="chunkMeta"></span></h3>
+      <ol class="chunks" id="chunkList"></ol>
+      <p class="empty" id="chunkEmpty">Belum ada teks. Upload atau tempel dulu.</p>
+    </div>
+  </div>
+
+  <div class="col main">
+    <div class="card stage">
+      <div class="stage-top">
+        <span class="mono idx" id="stageIndex">—</span>
+        <div class="stage-ctl">
+          <label class="mini">suara
+            <select id="engineSelect">
+              <option value="auto">auto (piper → gtts)</option>
+              <option value="piper">piper (offline)</option>
+              <option value="gtts">gtts (online)</option>
+            </select>
+          </label>
+          <label class="mini">rate <span class="mono" id="rateVal">1.00×</span>
+            <input type="range" id="rateRange" min="0.55" max="1.4" step="0.05" value="1">
+          </label>
+          <label class="mini">pitch <span class="mono" id="pitchVal">1.00×</span>
+            <input type="range" id="pitchRange" min="0.85" max="1.15" step="0.05" value="1">
+          </label>
+        </div>
+      </div>
+
+      <p class="chunk-text" id="stageText">Pilih chunk di kiri.</p>
+
+      <div class="transport">
+        <button class="btn" id="prevBtn" title="chunk sebelumnya">‹</button>
+        <button class="btn primary" id="playBtn">▶ Dengarkan</button>
+        <button class="btn" id="stopBtn" disabled>■ Stop</button>
+        <button class="btn" id="nextBtn" title="chunk berikutnya">›</button>
+        <span class="spacer"></span>
+        <button class="btn accent" id="toPracticeBtn">Latihan ucapkan ›</button>
+      </div>
+
+      <p class="hint" id="listenHint"></p>
+    </div>
+
+    <div class="card">
+      <div class="row-between">
+        <h3>Ekspor speech-clean <span class="meta">blank line antar chunk</span></h3>
+        <button class="btn small" id="copyExportBtn">Salin</button>
+      </div>
+      <pre class="export mono" id="exportBox">—</pre>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── PRACTICE ───────────────────────── -->
+<section class="view" id="view-practice">
+  <div class="col main">
+    <div class="card stage">
+      <div class="stage-top">
+        <span class="mono idx" id="pIndex">—</span>
+        <span class="meta" id="pMeta"></span>
+      </div>
+
+      <p class="chunk-text" id="pReference">Belum ada chunk.</p>
+
+      <div class="mic-row">
+        <button class="rec" id="recBtn" title="mulai/berhenti merekam">
+          <span class="rec-dot"></span>
+          <span class="rec-label" id="recLabel">Record</span>
+        </button>
+        <div class="mic-side">
+          <div class="timer mono" id="recTimer">00:00</div>
+          <div class="mic-meta" id="recHint">Tekan lalu ucapkan chunk di atas.</div>
+          <div class="level" title="level mikrofon"><span id="recLevelBar"></span></div>
+        </div>
+        <button class="btn" id="pPlayBtn">▶ Model dulu</button>
+      </div>
+
+      <div class="playback-row" id="playbackRow" hidden>
+        <span class="lbl">Rekamanmu</span>
+        <audio id="recPlayback" controls preload="metadata"></audio>
+        <span class="meta" id="recDiag"></span>
+      </div>
+
+      <p class="err" id="practiceErr"></p>
+    </div>
+
+    <div class="card" id="resultCard">
+      <div class="row-between">
+        <h3>Hasil banding</h3>
+        <div class="btn-row">
+          <button class="btn small" id="againBtn">Ulangi</button>
+          <button class="btn small" id="analyzeBtn">Minta koreksi</button>
+        </div>
+      </div>
+
+      <div class="stats" id="statsBox">
+        <div class="stat"><b id="stAcc">—</b><span>kecocokan</span></div>
+        <div class="stat"><b id="stOk">0</b><span>persis</span></div>
+        <div class="stat"><b id="stWrong">0</b><span>beda tulisan</span></div>
+        <div class="stat"><b id="stMissed">0</b><span>terlewat</span></div>
+        <div class="stat"><b id="stExtra">0</b><span>tambahan</span></div>
+      </div>
+
+      <p class="lbl">Yang tertulis (acuan)</p>
+      <p class="words" id="refWords"><span class="muted">—</span></p>
+      <p class="lbl">Yang terdengar oleh mik</p>
+      <p class="words" id="heardWords"><span class="muted">—</span></p>
+      <p class="transcript mono" id="transcriptText"></p>
+      <p class="disclaimer" id="alignNote">
+        Angka ini berasal dari pengenalan suara (ASR), bukan penilaian fonetik. Selisih bisa jadi
+        karena mik/derau, bukan salah ucap — pakai sebagai petunjuk, bukan vonis.
+      </p>
+    </div>
+
+    <div class="card" id="feedbackCard">
+      <div class="row-between">
+        <h3>Koreksi</h3>
+        <div class="btn-row">
+          <button class="btn small" id="saveLogBtn" disabled>Simpan ke error log</button>
+        </div>
+      </div>
+      <div class="rich" id="feedbackBox"><p class="muted">Belum ada koreksi. Tekan “Minta koreksi”.</p></div>
+    </div>
+  </div>
+
+  <div class="col side">
+    <div class="card">
+      <h3>Practice ladder</h3>
+      <ol class="ladder">
+        <li><b>Listen</b> — dengar sekali tanpa baca.</li>
+        <li><b>Read</b> — dengar sambil baca teks.</li>
+        <li><b>Shadow</b> — mainkan satu chunk, ulangi bersamaan.</li>
+        <li><b>Repeat</b> — rekam sendiri, bandingkan.</li>
+        <li><b>Paraphrase</b> — sampaikan ulang dengan kata sendiri.</li>
+      </ol>
+    </div>
+
+    <div class="card grow">
+      <div class="row-between">
+        <h3>Error log</h3>
+        <div class="btn-row">
+          <button class="btn small" id="exportLogBtn">Ekspor .md</button>
+          <button class="btn small ghost" id="clearLogBtn">Bersih</button>
+        </div>
+      </div>
+      <ul class="log" id="logList"></ul>
+      <p class="empty" id="logEmpty">Kosong. Simpan koreksi yang benar-benar muncul.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── STUDY ───────────────────────── -->
+<section class="view" id="view-study">
+  <div class="col side">
+    <div class="card">
+      <h3>Materi / soal</h3>
+      <div class="drop" id="studyDrop">
+        <p class="drop-hint">Drop file <span class="mono">.txt .md .json</span><br>atau</p>
+        <button class="btn" id="studyPickBtn">Pilih file</button>
+        <input type="file" id="studyFileInput" accept=".txt,.md,.markdown,.text,.json,application/json" hidden>
+      </div>
+      <label class="lbl" for="studyBox">…atau tempel materi + answer key</label>
+      <textarea id="studyBox" rows="7" placeholder="Tempel practice set (TXT) atau JSON di sini…"></textarea>
+      <div class="btn-row">
+        <button class="btn ghost" id="studyLoadBtn">Muat soal</button>
+        <button class="btn ghost small" id="studySampleBtn">Muat contoh</button>
+      </div>
+      <p class="err" id="studyErr"></p>
+      <p class="hint" id="studyMeta"></p>
+    </div>
+
+    <div class="card grow">
+      <div class="row-between">
+        <h3>Daftar soal</h3>
+        <div class="btn-row">
+          <span class="mono meta" id="studyScore">0/0 benar</span>
+          <button class="btn small ghost" id="studyResetBtn">Reset</button>
+        </div>
+      </div>
+      <ol class="study-list" id="studyList"></ol>
+      <p class="empty" id="studyEmpty">Belum ada soal.</p>
+    </div>
+  </div>
+
+  <div class="col main">
+    <div class="card">
+      <div class="stage-top">
+        <span class="mono idx" id="studyIndex">—</span>
+        <span class="meta" id="studyTags"></span>
+      </div>
+
+      <p class="chunk-text" id="studyQuestion">Upload atau tempel practice set, lalu tekan “Muat soal”.</p>
+      <div class="study-options" id="studyOptions"></div>
+
+      <div class="btn-row study-nav">
+        <button class="btn small" id="studyPrevBtn">← Sebelumnya</button>
+        <button class="btn primary" id="studyCheckBtn" disabled>Cek jawaban</button>
+        <button class="btn small" id="studyNextBtn">Berikutnya →</button>
+      </div>
+
+      <div class="rich study-feedback" id="studyFeedback">
+        <p class="muted">Pilih jawaban A–D, lalu cek.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Format file</h3>
+      <p class="hint">Dua format: <b>TXT</b> (soal <code>1. [Topik | easy]</code>, opsi <code>A.</code>–<code>D.</code>, lalu <code>ANSWER KEY</code>) atau <b>JSON</b> (<code>{"questions":[{…}]}</code> dengan <code>options</code>, <code>answer</code>, <code>trap</code>, <code>explanation</code>). Kunci boleh tidak ada.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── SETTINGS ───────────────────────── -->
+<section class="view" id="view-settings">
+  <div class="col side">
+    <div class="card">
+      <h3>Text-to-speech</h3>
+      <label class="lbl">engine
+        <select id="setTts">
+          <option value="auto">auto (piper offline → gtts online)</option>
+          <option value="piper">piper (offline neural)</option>
+          <option value="gtts">gtts (online)</option>
+        </select>
+      </label>
+      <label class="lbl">kecepatan baca <span class="mono" id="setRateVal">1.00×</span>
+        <input type="range" id="setRate" min="0.55" max="1.4" step="0.05" value="1">
+      </label>
+      <label class="lbl">pitch <span class="mono" id="setPitchVal">1.00×</span>
+        <input type="range" id="setPitch" min="0.85" max="1.15" step="0.05" value="1">
+      </label>
+      <p class="hint" id="ttsHint"></p>
+    </div>
+
+    <div class="card">
+      <h3>Speech-to-text</h3>
+      <label class="lbl">engine
+        <select id="setAsr">
+          <option value="auto">faster-whisper (lokal)</option>
+        </select>
+      </label>
+      <label class="lbl">input mikrofon
+        <select id="micSelect"><option value="">default sistem</option></select>
+      </label>
+      <p class="hint" id="asrHint"></p>
+      <button class="btn small" id="micTestBtn">Test mikrofon</button>
+      <span class="meta" id="micTestResult"></span>
+    </div>
+  </div>
+
+  <div class="col main">
+    <div class="card">
+      <h3>Koreksi (lokal)</h3>
+      <p class="hint">Koreksi grammar dijalankan sepenuhnya di server — engine aturan 26 pola, tanpa AI cloud, tanpa API key, tanpa internet. Dipakai oleh tombol “Minta koreksi”.</p>
+      <p class="err" id="settingsErr"></p>
+    </div>
+
+    <div class="card">
+      <h3>Pemotongan teks</h3>
+      <div class="row-2">
+        <label class="lbl">maks kalimat per chunk
+          <input type="number" id="setSent" min="1" max="6" value="2">
+        </label>
+        <label class="lbl">maks kata per chunk
+          <input type="number" id="setWords" min="8" max="120" value="30">
+        </label>
+      </div>
+      <p class="hint">Untuk shadowing: 1–2 kalimat, ±30 kata (voice-pipeline).</p>
+      <button class="btn" id="saveChunkBtn">Simpan + potong ulang</button>
+    </div>
+
+    <div class="card">
+      <h3>Engine status</h3>
+      <pre class="export mono" id="healthBox">—</pre>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="statusbar">
+  <span id="statusText">siap</span>
+</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

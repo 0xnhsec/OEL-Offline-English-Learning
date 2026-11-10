@@ -1,0 +1,281 @@
+MODULE 1: PARTS OF SPEECH
+Choose the best answer (A-D).
+
+1. [Parts of Speech | easy]
+Which word is a verb in: 'The analyst reported the vulnerability quickly.'?
+   A. reported
+   B. analyst
+   C. quickly
+   D. vulnerability
+
+2. [Parts of Speech | easy]
+Which word is a preposition in: 'The file is inside the folder.'?
+   A. inside
+   B. is
+   C. file
+   D. folder
+
+3. [Parts of Speech | easy]
+Which word is an adjective in: 'The secure server rejected the request.'?
+   A. rejected
+   B. secure
+   C. server
+   D. request
+
+4. [Parts of Speech | easy]
+Which word is a pronoun in: 'Budi called me yesterday.'?
+   A. Budi
+   B. yesterday
+   C. me
+   D. called
+
+5. [Parts of Speech | easy]
+Which word is an interjection in: 'Oops, I deleted the wrong file.'?
+   A. wrong
+   B. file
+   C. deleted
+   D. Oops
+
+6. [Parts of Speech | easy]
+In 'The report is ready', the word 'is' belongs to which class?
+   A. preposition
+   B. adjective
+   C. verb
+   D. adverb
+
+7. [Parts of Speech | easy]
+Which word is a preposition?
+   A. sing
+   B. under
+   C. because
+   D. quickly
+
+8. [Parts of Speech | medium]
+The word 'light' in 'She turned on the light.' is a ___.
+   A. verb
+   B. adverb
+   C. adjective
+   D. noun
+
+9. [Parts of Speech | medium]
+The word 'fast' in 'He types fast.' is a(n) ___.
+   A. adverb
+   B. noun
+   C. verb
+   D. adjective
+
+10. [Parts of Speech | medium]
+The word 'before' in 'Check the logs before you deploy.' is a ___.
+   A. preposition
+   B. pronoun
+   C. conjunction
+   D. adverb
+
+11. [Parts of Speech | medium]
+The word 'before' in 'Check the logs before deployment.' is a ___.
+   A. conjunction
+   B. preposition
+   C. pronoun
+   D. adverb
+
+12. [Parts of Speech | medium]
+Complete: 'The company needs a more ___ approach to security.' (effect)
+   A. effectively
+   B. effective
+   C. effectiveness
+   D. effect
+
+13. [Parts of Speech | medium]
+Complete: 'She answered the question ___.' (confident)
+   A. confidence
+   B. confident
+   C. confidently
+   D. confide
+
+14. [Parts of Speech | medium]
+Complete: 'Please ___ the staff about the change.' (information)
+   A. informally
+   B. inform
+   C. information
+   D. informative
+
+15. [Parts of Speech | medium]
+Complete: 'The ___ of the data took two days.' (analyze)
+   A. analytic
+   B. analysis
+   C. analyze
+   D. analyzed
+
+16. [Parts of Speech | medium]
+Which word in 'They quickly admired her honesty' is a noun?
+   A. quickly
+   B. They
+   C. admired
+   D. honesty
+
+17. [Parts of Speech | medium]
+Which word is most likely a noun based on its ending?
+   A. quickly
+   B. organize
+   C. active
+   D. movement
+
+18. [Parts of Speech | medium]
+In 'They walked round the corner', 'round' is a ___.
+   A. noun
+   B. preposition
+   C. adjective
+   D. verb
+
+19. [Parts of Speech | medium]
+'The doctor will test the sample' vs 'The test was hard'. 'test' is ___ in the first and ___ in the second.
+   A. verb; adjective
+   B. noun; noun
+   C. noun; verb
+   D. verb; noun
+
+20. [Parts of Speech | hard]
+In which sentence is 'well' an adjective?
+   A. She sings very well.
+   B. Well, I think that is wrong.
+   C. I hope you feel well soon.
+   D. The well near the village is deep.
+
+21. [Parts of Speech | hard]
+In 'I know that she is right', 'that' is a ___.
+   A. pronoun
+   B. adjective
+   C. conjunction
+   D. adverb
+
+22. [Parts of Speech | hard]
+Which sentence contains both a preposition and a coordinating conjunction?
+   A. She sat beside him and smiled.
+   B. He ran quickly but quietly.
+   C. They talked about security.
+   D. I stayed home because it rained.
+
+23. [Parts of Speech | hard]
+Which sentence contains an adverb that modifies another adverb?
+   A. She drove very carefully.
+   B. She drove carefully.
+   C. She drove the red car slowly.
+   D. She drove a very fast car.
+
+24. [Parts of Speech | hard]
+In 'Swimming is good exercise', the word 'Swimming' works as a ___.
+   A. adjective
+   B. verb
+   C. adverb
+   D. noun
+
+25. [Parts of Speech | hard]
+Which sentence uses 'that' as a pronoun, not a conjunction?
+   A. We hope that you pass.
+   B. That is the correct answer.
+   C. I think that she is right.
+   D. He said that it works.
+
+==================================================
+ANSWER KEY
+==================================================
+
+1. A
+   Why : Verb menyatakan aksi/keadaan; 'reported' adalah aksi. 'quickly' adverb, sisanya noun.
+   Trap: 'quickly' terasa seperti kata aksi.
+
+2. A
+   Why : Preposition menghubungkan noun dengan kata lain dan menunjukkan relasi (tempat). 'inside the folder'.
+   Trap: 'is' terlihat seperti penghubung.
+
+3. B
+   Why : Adjective menerangkan noun: 'secure' menerangkan 'server'.
+   Trap: 'server' dikira modifier karena dekat dengan 'secure'.
+
+4. C
+   Why : Pronoun = kata pengganti noun. 'me' menggantikan si pembicara.
+   Trap: 'Budi' adalah pengganti orang, tapi itu nama (noun).
+
+5. D
+   Why : Interjection mengungkapkan reaksi spontan dan berdiri sendiri: 'Oops'.
+   Trap: 'wrong' berupa emosi/penilaian.
+
+6. C
+   Why : Verb bisa menyatakan keadaan (linking/be verb), bukan hanya aksi.
+   Trap: 'is' bukan aksi, jadi dikira bukan verb.
+
+7. B
+   Why : 'under' menunjukkan relasi posisi. 'because' = conjunction, 'quickly' = adverb, 'sing' = verb.
+   Trap: 'because' menghubungkan, jadi dikira preposition.
+
+8. D
+   Why : Setelah 'the' posisinya noun (HEAD). Kelas kata ditentukan fungsi, bukan bentuk.
+   Trap: 'light' sering dipakai sebagai adjective.
+
+9. A
+   Why : Di sini 'fast' menerangkan verb 'types' = adverb (flat adverb).
+   Trap: 'fast' lebih sering adjective ('a fast car').
+
+10. C
+   Why : Di sini diikuti klausa (you deploy), jadi subordinating conjunction.
+   Trap: 'before' sering preposition.
+
+11. B
+   Why : Diikuti noun ('deployment') = preposition.
+   Trap: Pola sama dengan soal sebelumnya, tapi diikuti noun.
+
+12. B
+   Why : Sebelum noun 'approach' butuh adjective: effective.
+   Trap: 'effectively' terasa umum.
+
+13. C
+   Why : Menerangkan verb 'answered' = adverb: confidently.
+   Trap: 'confident' terlihat mirip adjective yang pas.
+
+14. B
+   Why : Setelah 'Please' butuh verb bentuk dasar: inform.
+   Trap: Kata dasar 'information' sudah noun.
+
+15. B
+   Why : Setelah 'the' dan sebelum 'of' butuh noun: analysis.
+   Trap: 'analyze' adalah kata dasar yang diberikan.
+
+16. D
+   Why : 'honesty' (akhiran -ty) adalah noun abstrak. 'They' = pronoun.
+   Trap: 'They' dikira noun karena jadi subjek.
+
+17. D
+   Why : -ment membentuk noun. -ly = adverb, -ive = adjective, -ize = verb.
+   Trap: Semua tampak 'berakhiran umum'.
+
+18. B
+   Why : Diikuti noun phrase 'the corner' dan menunjukkan arah = preposition.
+   Trap: 'round' sering adjective ('a round table').
+
+19. D
+   Why : Setelah 'will' = verb; setelah 'The' = noun.
+   Trap: Bentuk sama menutupi perbedaan fungsi.
+
+20. C
+   Why : Setelah linking verb 'feel', 'well' = adjective (sehat). 'sings well' adverb; 'The well' noun; 'Well,' interjection.
+   Trap: 'well' paling sering adverb.
+
+21. C
+   Why : Di sini 'that' menghubungkan 'I know' dengan klausa 'she is right'.
+   Trap: 'that' sering pronoun/penunjuk.
+
+22. A
+   Why : 'beside' = preposition, 'and' = coordinating conjunction. 'because' = subordinating.
+   Trap: 'because' dikira coordinating conjunction.
+
+23. A
+   Why : 'very' menerangkan 'carefully' (adverb). Di opsi lain 'very' menerangkan adjective 'fast'.
+   Trap: 'very' juga ada di opsi lain.
+
+24. D
+   Why : Gerund memakai bentuk verb tetapi berfungsi sebagai noun (subjek).
+   Trap: Berakhiran -ing, jadi dikira verb.
+
+25. B
+   Why : Pronoun menggantikan noun dan berdiri sendiri sebagai subjek ('That'). Di opsi lain 'that' menghubungkan ke klausa = conjunction.
+   Trap: Di tiga opsi lain 'that' juga muncul, jadi sulit membedakan.

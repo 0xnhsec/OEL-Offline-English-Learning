@@ -1,0 +1,871 @@
+{
+  "title": "Exam: Mixed (Modules 1-9)",
+  "language": "en",
+  "total": 54,
+  "questions": [
+    {
+      "id": 1,
+      "module": 4,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "medium",
+      "question": "Which sentence contains an adverbial of place?",
+      "options": {
+        "A": "The files were deleted yesterday.",
+        "B": "The files are very old.",
+        "C": "The files are important.",
+        "D": "The files are stored on the server."
+      },
+      "answer": "D",
+      "trap": "'yesterday' mirip adverbial.",
+      "explanation": "'on the server' = tempat. 'yesterday' = waktu."
+    },
+    {
+      "id": 2,
+      "module": 7,
+      "topic": "Types of Sentences",
+      "difficulty": "easy",
+      "question": "'Ali and Budi fixed the bug.' is a ___ sentence.",
+      "options": {
+        "A": "simple",
+        "B": "complex",
+        "C": "compound-complex",
+        "D": "compound"
+      },
+      "answer": "A",
+      "trap": "'and' menggoda.",
+      "explanation": "Compound subject, satu klausa."
+    },
+    {
+      "id": 3,
+      "module": 6,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "easy",
+      "question": "The scissors ___ on the desk.",
+      "options": {
+        "A": "are",
+        "B": "has been",
+        "C": "is",
+        "D": "was"
+      },
+      "answer": "A",
+      "trap": "Satu benda tampak tunggal.",
+      "explanation": "Scissors, glasses, pants = plural-only nouns, selalu verb jamak."
+    },
+    {
+      "id": 4,
+      "module": 9,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "easy",
+      "question": "___ the update fix the bug?",
+      "options": {
+        "A": "Are",
+        "B": "Will",
+        "C": "Does",
+        "D": "Is going"
+      },
+      "answer": "B",
+      "trap": "Pola 'Does' dari present simple.",
+      "explanation": "Pertanyaan will: Will + subjek + base form."
+    },
+    {
+      "id": 5,
+      "module": 3,
+      "topic": "Clauses",
+      "difficulty": "hard",
+      "question": "Which dependent clause fixes the fragment? 'Although the patch was available.'",
+      "options": {
+        "A": "Although the patch.",
+        "B": "Although the patch was available, we delayed the update.",
+        "C": "Although the patch was available we.",
+        "D": "Although the patch was available, and."
+      },
+      "answer": "B",
+      "trap": "Opsi lain memakai tanda baca saja.",
+      "explanation": "Fragment butuh independent clause."
+    },
+    {
+      "id": 6,
+      "module": 9,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "medium",
+      "question": "After the scan ___, we will review the results.",
+      "options": {
+        "A": "is finishing",
+        "B": "finished",
+        "C": "will finish",
+        "D": "finishes"
+      },
+      "answer": "D",
+      "trap": "'will finish' terasa wajar karena masa depan.",
+      "explanation": "Time clause memakai present simple, meski maknanya masa depan."
+    },
+    {
+      "id": 7,
+      "module": 1,
+      "topic": "Parts of Speech",
+      "difficulty": "medium",
+      "question": "The word 'run' in 'We had a long run this morning.' is a ___.",
+      "options": {
+        "A": "noun",
+        "B": "adjective",
+        "C": "adverb",
+        "D": "verb"
+      },
+      "answer": "A",
+      "trap": "'run' biasanya verb.",
+      "explanation": "Setelah artikel dan adjective ('a long') = noun."
+    },
+    {
+      "id": 8,
+      "module": 2,
+      "topic": "Phrases",
+      "difficulty": "medium",
+      "question": "In 'the very old server', 'very old' is a(n) ___.",
+      "options": {
+        "A": "adverb phrase (AdvP)",
+        "B": "adjective phrase (AdjP)",
+        "C": "prepositional phrase (PP)",
+        "D": "noun phrase (NP)"
+      },
+      "answer": "B",
+      "trap": "'very' adverb.",
+      "explanation": "HEAD 'old' adjective = AdjP bersarang di dalam NP."
+    },
+    {
+      "id": 9,
+      "module": 7,
+      "topic": "Types of Sentences",
+      "difficulty": "hard",
+      "question": "Which is compound-complex?",
+      "options": {
+        "A": "When the alarm rang, we left, and the guards locked the gate.",
+        "B": "We left, and the guards locked the gate.",
+        "C": "We left when the alarm rang.",
+        "D": "When the alarm rang, we left."
+      },
+      "answer": "A",
+      "trap": "Semua opsi terdengar mirip.",
+      "explanation": "Compound-complex = minimal dua independent clause + satu dependent clause."
+    },
+    {
+      "id": 10,
+      "module": 6,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "easy",
+      "question": "A number of students ___ absent today.",
+      "options": {
+        "A": "is",
+        "B": "has been",
+        "C": "was",
+        "D": "are"
+      },
+      "answer": "D",
+      "trap": "Ada kata 'number' (singular).",
+      "explanation": "'A number of' = banyak (plural); 'The number of' = jumlah (singular)."
+    },
+    {
+      "id": 11,
+      "module": 5,
+      "topic": "Articles, Demonstratives, Possessives, Quantifiers",
+      "difficulty": "medium",
+      "question": "I don't like this color. Show me ___ one.",
+      "options": {
+        "A": "the another",
+        "B": "others",
+        "C": "another",
+        "D": "other"
+      },
+      "answer": "C",
+      "trap": "'other' mirip.",
+      "explanation": "Another = satu lagi (tunggal)."
+    },
+    {
+      "id": 12,
+      "module": 1,
+      "topic": "Parts of Speech",
+      "difficulty": "easy",
+      "question": "Which sentence contains an interjection?",
+      "options": {
+        "A": "Who is waiting for me?",
+        "B": "They waited for me.",
+        "C": "Hey, wait for me.",
+        "D": "We wait for them."
+      },
+      "answer": "C",
+      "trap": "'wait' dikira interjection karena imperatif.",
+      "explanation": "'Hey' adalah interjection (reaksi/panggilan). Kalimat lain tidak punya."
+    },
+    {
+      "id": 13,
+      "module": 2,
+      "topic": "Phrases",
+      "difficulty": "easy",
+      "question": "'extremely quickly' is a(n) ___.",
+      "options": {
+        "A": "adjective phrase (AdjP)",
+        "B": "noun phrase (NP)",
+        "C": "adverb phrase (AdvP)",
+        "D": "prepositional phrase (PP)"
+      },
+      "answer": "C",
+      "trap": "Dua kata -ly mirip adjective.",
+      "explanation": "HEAD 'quickly' adalah adverb, jadi AdvP."
+    },
+    {
+      "id": 14,
+      "module": 1,
+      "topic": "Parts of Speech",
+      "difficulty": "easy",
+      "question": "Which word is an adverb in: 'She spoke clearly during the presentation.'?",
+      "options": {
+        "A": "presentation",
+        "B": "during",
+        "C": "spoke",
+        "D": "clearly"
+      },
+      "answer": "D",
+      "trap": "'during' sering dikira adverb.",
+      "explanation": "Adverb menerangkan verb: 'clearly' menerangkan 'spoke'. 'during' = preposition."
+    },
+    {
+      "id": 15,
+      "module": 4,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "easy",
+      "question": "What is the indirect object in 'She gave the client a report.'?",
+      "options": {
+        "A": "gave",
+        "B": "the client",
+        "C": "She",
+        "D": "a report"
+      },
+      "answer": "B",
+      "trap": "'a report' di akhir.",
+      "explanation": "Indirect object = penerima, muncul sebelum direct object."
+    },
+    {
+      "id": 16,
+      "module": 8,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "hard",
+      "question": "Which sentence uses past perfect correctly?",
+      "options": {
+        "A": "By the time we arrived, the session has started.",
+        "B": "By the time we arrived, the session have started.",
+        "C": "By the time we arrived, the session had start.",
+        "D": "By the time we arrived, the session had started."
+      },
+      "answer": "D",
+      "trap": "Bentuk 'had', 'has', 'have' sangat mirip.",
+      "explanation": "Past perfect = had + V3, untuk kejadian yang sudah selesai sebelum titik waktu lampau lain."
+    },
+    {
+      "id": 17,
+      "module": 1,
+      "topic": "Parts of Speech",
+      "difficulty": "easy",
+      "question": "In 'They finished the scan', the word 'They' is a ___.",
+      "options": {
+        "A": "adjective",
+        "B": "verb",
+        "C": "noun",
+        "D": "pronoun"
+      },
+      "answer": "D",
+      "trap": "Menempati posisi subjek, jadi dikira noun.",
+      "explanation": "Pronoun menggantikan noun. 'They' menggantikan sebuah nama/kelompok."
+    },
+    {
+      "id": 18,
+      "module": 7,
+      "topic": "Types of Sentences",
+      "difficulty": "easy",
+      "question": "'The analyst wrote the report, but the manager rejected it.' is a ___ sentence.",
+      "options": {
+        "A": "compound",
+        "B": "simple",
+        "C": "complex",
+        "D": "compound-complex"
+      },
+      "answer": "A",
+      "trap": "Ada koma.",
+      "explanation": "Dua independent clause + FANBOYS."
+    },
+    {
+      "id": 19,
+      "module": 9,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "medium",
+      "question": "Which sentence is correct?",
+      "options": {
+        "A": "Will she is at the meeting tomorrow?",
+        "B": "Is she will be at the meeting tomorrow?",
+        "C": "Does she will be at the meeting tomorrow?",
+        "D": "Will she be at the meeting tomorrow?"
+      },
+      "answer": "D",
+      "trap": "Auxiliary ganda terdengar wajar karena pola 'does' di present simple.",
+      "explanation": "Pertanyaan dengan will: Will + subjek + base form."
+    },
+    {
+      "id": 20,
+      "module": 8,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "hard",
+      "question": "She ___ at home when I called.",
+      "options": {
+        "A": "hasn't been",
+        "B": "didn't",
+        "C": "wasn't",
+        "D": "weren't"
+      },
+      "answer": "C",
+      "trap": "'weren't' terdengar akrab dari 'we were'.",
+      "explanation": "'She' pakai wasn't; weren't untuk we/you/they."
+    },
+    {
+      "id": 21,
+      "module": 8,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "easy",
+      "question": "She ___ to campus every day.",
+      "options": {
+        "A": "go",
+        "B": "goes",
+        "C": "going",
+        "D": "is go"
+      },
+      "answer": "B",
+      "trap": "Subjek tunggal tidak terasa menuntut -s bagi penutur Indonesia.",
+      "explanation": "Present simple, 3rd person singular: verb + s/es (goes)."
+    },
+    {
+      "id": 22,
+      "module": 5,
+      "topic": "Articles, Demonstratives, Possessives, Quantifiers",
+      "difficulty": "hard",
+      "question": "In 'those three old routers', which is the HEAD and which is the determiner?",
+      "options": {
+        "A": "those; routers",
+        "B": "old; three",
+        "C": "three; old",
+        "D": "routers; those"
+      },
+      "answer": "D",
+      "trap": "Banyak modifier.",
+      "explanation": "HEAD = noun 'routers'; determiner 'those'."
+    },
+    {
+      "id": 23,
+      "module": 8,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "I have lived here ___ five years.",
+      "options": {
+        "A": "for",
+        "B": "during",
+        "C": "ago",
+        "D": "since"
+      },
+      "answer": "A",
+      "trap": "'since' menggoda karena menunjukkan durasi juga.",
+      "explanation": "'for' + lama waktu (five years); 'since' + titik awal (2021)."
+    },
+    {
+      "id": 24,
+      "module": 4,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "medium",
+      "question": "In 'He told her the truth', 'her' is the ___.",
+      "options": {
+        "A": "direct object",
+        "B": "subject complement",
+        "C": "adverbial",
+        "D": "indirect object"
+      },
+      "answer": "D",
+      "trap": "'her' bentuk objek, dikira direct.",
+      "explanation": "'her' penerima; 'the truth' yang diberitahukan."
+    },
+    {
+      "id": 25,
+      "module": 1,
+      "topic": "Parts of Speech",
+      "difficulty": "easy",
+      "question": "Which word is a conjunction in: 'I wanted to study, but I was tired.'?",
+      "options": {
+        "A": "study",
+        "B": "wanted",
+        "C": "but",
+        "D": "tired"
+      },
+      "answer": "C",
+      "trap": "'wanted' tampak seperti kata penghubung ide.",
+      "explanation": "Conjunction menghubungkan dua klausa; 'but' = kontras."
+    },
+    {
+      "id": 26,
+      "module": 2,
+      "topic": "Phrases",
+      "difficulty": "hard",
+      "question": "How many PPs are in 'a report about the new vulnerability in the login page'?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "4"
+      },
+      "answer": "A",
+      "trap": "Hanya menghitung PP terluar.",
+      "explanation": "'about ...' PP; di dalamnya 'in the login page' PP lagi (nesting)."
+    },
+    {
+      "id": 27,
+      "module": 4,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "easy",
+      "question": "Which sentence has an indirect object?",
+      "options": {
+        "A": "He sent an email.",
+        "B": "He emailed quickly.",
+        "C": "He sent me an email.",
+        "D": "He was tired."
+      },
+      "answer": "C",
+      "trap": "'an email' terlihat objek.",
+      "explanation": "'me' = penerima = indirect object."
+    },
+    {
+      "id": 28,
+      "module": 5,
+      "topic": "Articles, Demonstratives, Possessives, Quantifiers",
+      "difficulty": "medium",
+      "question": "Which sentence is correct?",
+      "options": {
+        "A": "She gave me a lot of information.",
+        "B": "She gave me an information.",
+        "C": "She gave me a few informations.",
+        "D": "She gave me many informations."
+      },
+      "answer": "A",
+      "trap": "Information diberi -s.",
+      "explanation": "Information uncountable."
+    },
+    {
+      "id": 29,
+      "module": 7,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "Which is a comma splice?",
+      "options": {
+        "A": "The scan failed. We restarted it.",
+        "B": "The scan failed, so we restarted it.",
+        "C": "The scan failed; we restarted it.",
+        "D": "The scan failed, we restarted it."
+      },
+      "answer": "D",
+      "trap": "Ada koma dan dua klausa, jadi tampak seperti compound sentence yang benar.",
+      "explanation": "Comma splice = dua independent clause hanya disambung koma. Perbaikan: tambah FANBOYS ('so'), titik koma, atau pisah jadi dua kalimat."
+    },
+    {
+      "id": 30,
+      "module": 4,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "medium",
+      "question": "Which is the predicate? 'The students in the lab are practicing SQL injection.'",
+      "options": {
+        "A": "The students in the lab",
+        "B": "in the lab",
+        "C": "SQL injection",
+        "D": "are practicing SQL injection"
+      },
+      "answer": "D",
+      "trap": "PP dikira bagian predikat.",
+      "explanation": "Predikat dimulai dari finite verb."
+    },
+    {
+      "id": 31,
+      "module": 9,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "easy",
+      "question": "'I ___ be late.'",
+      "options": {
+        "A": "am not will",
+        "B": "won't",
+        "C": "willn't",
+        "D": "don't will"
+      },
+      "answer": "B",
+      "trap": "'willn't' tampak seperti hasil gabungan logis.",
+      "explanation": "will + not = won't (bentuk tidak beraturan)."
+    },
+    {
+      "id": 32,
+      "module": 2,
+      "topic": "Phrases",
+      "difficulty": "medium",
+      "question": "In 'the old router', 'old' is the ___ of the noun phrase.",
+      "options": {
+        "A": "modifier",
+        "B": "HEAD",
+        "C": "subject",
+        "D": "complement"
+      },
+      "answer": "A",
+      "trap": "Berada di tengah NP.",
+      "explanation": "Pola: (modifier) + HEAD + (complement). 'old' = modifier."
+    },
+    {
+      "id": 33,
+      "module": 6,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "Every student and every teacher ___ required to attend.",
+      "options": {
+        "A": "were",
+        "B": "have been",
+        "C": "are",
+        "D": "is"
+      },
+      "answer": "D",
+      "trap": "'and' = plural.",
+      "explanation": "Every = singular."
+    },
+    {
+      "id": 34,
+      "module": 8,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "When the manager arrived, the team ___ the patch.",
+      "options": {
+        "A": "was already install",
+        "B": "had already installed",
+        "C": "has already installed",
+        "D": "already installs"
+      },
+      "answer": "B",
+      "trap": "Present perfect terdengar wajar.",
+      "explanation": "Instalasi selesai SEBELUM manajer tiba (keduanya lampau) = past perfect."
+    },
+    {
+      "id": 35,
+      "module": 4,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "hard",
+      "question": "In 'The delay made the team angry', 'angry' is the ___.",
+      "options": {
+        "A": "object complement",
+        "B": "subject complement",
+        "C": "direct object",
+        "D": "adverbial"
+      },
+      "answer": "A",
+      "trap": "Adjective setelah verb dikira subject complement.",
+      "explanation": "Mendeskripsikan objek 'the team'."
+    },
+    {
+      "id": 36,
+      "module": 3,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "Which group contains only subordinators?",
+      "options": {
+        "A": "because, if, while",
+        "B": "for, nor, yet",
+        "C": "and, but, or",
+        "D": "the, a, an"
+      },
+      "answer": "A",
+      "trap": "'for' dan 'nor' terasa seperti penghubung.",
+      "explanation": "Kelompok kedua dan ketiga berisi FANBOYS; keempat artikel."
+    },
+    {
+      "id": 37,
+      "module": 5,
+      "topic": "Articles, Demonstratives, Possessives, Quantifiers",
+      "difficulty": "medium",
+      "question": "There are ___ bugs left; we can finish today. (positive)",
+      "options": {
+        "A": "a little",
+        "B": "much",
+        "C": "a few",
+        "D": "little"
+      },
+      "answer": "C",
+      "trap": "'few' dan 'a few' mirip.",
+      "explanation": "'a few' = beberapa; 'few' = hampir tidak ada."
+    },
+    {
+      "id": 38,
+      "module": 9,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "medium",
+      "question": "If it ___ tomorrow, we will cancel the trip.",
+      "options": {
+        "A": "rained",
+        "B": "will rain",
+        "C": "is raining",
+        "D": "rains"
+      },
+      "answer": "D",
+      "trap": "'will rain' mengikuti klausa utama.",
+      "explanation": "Klausa if memakai present simple; will hanya di klausa utama."
+    },
+    {
+      "id": 39,
+      "module": 6,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "easy",
+      "question": "Both of the engineers ___ ready.",
+      "options": {
+        "A": "was",
+        "B": "are",
+        "C": "has been",
+        "D": "is"
+      },
+      "answer": "B",
+      "trap": "'Both' bisa terasa seperti tunggal karena pakai 'of'.",
+      "explanation": "Both selalu plural."
+    },
+    {
+      "id": 40,
+      "module": 7,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "Which is correct? 'It rained, ___ we stayed home.' (result)",
+      "options": {
+        "A": "nor",
+        "B": "yet",
+        "C": "so",
+        "D": "for"
+      },
+      "answer": "C",
+      "trap": "'for' dan 'so' sama-sama terdengar seperti sebab-akibat.",
+      "explanation": "'so' memperkenalkan HASIL; 'for' memperkenalkan ALASAN. Urutan sebab-akibat menentukan pilihannya."
+    },
+    {
+      "id": 41,
+      "module": 8,
+      "topic": "Present Tense and Past Tense",
+      "difficulty": "medium",
+      "question": "Which sentence is correct?",
+      "options": {
+        "A": "I knowing the answer.",
+        "B": "I knows the answer.",
+        "C": "I am knowing the answer.",
+        "D": "I know the answer."
+      },
+      "answer": "D",
+      "trap": "'am knowing' terlihat seperti continuous yang rapi.",
+      "explanation": "'know' adalah stative verb, tidak dipakai dalam continuous."
+    },
+    {
+      "id": 42,
+      "module": 6,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "The quality of these laptops ___ high.",
+      "options": {
+        "A": "are",
+        "B": "have been",
+        "C": "is",
+        "D": "were"
+      },
+      "answer": "C",
+      "trap": "'laptops' plural.",
+      "explanation": "HEAD 'quality' singular."
+    },
+    {
+      "id": 43,
+      "module": 6,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "The manager, along with two engineers, ___ reviewing the logs.",
+      "options": {
+        "A": "are",
+        "B": "is",
+        "C": "have been",
+        "D": "were"
+      },
+      "answer": "B",
+      "trap": "'engineers' di dekat verb.",
+      "explanation": "'along with' hanyalah interrupter."
+    },
+    {
+      "id": 44,
+      "module": 9,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "medium",
+      "question": "Which is correct?",
+      "options": {
+        "A": "The number of users going increase.",
+        "B": "A number of users is going to increase.",
+        "C": "The number of users is going to increase.",
+        "D": "The number of users are going to increase."
+      },
+      "answer": "C",
+      "trap": "'number of' diikuti 'users' plural sehingga verb plural terasa wajar.",
+      "explanation": "HEAD 'number' singular, jadi 'is going to'."
+    },
+    {
+      "id": 45,
+      "module": 3,
+      "topic": "Clauses",
+      "difficulty": "hard",
+      "question": "How many clauses are in 'Because the login failed, she checked the logs, and she found the bug.'?",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "4",
+        "D": "2"
+      },
+      "answer": "A",
+      "trap": "Koma mengelabui.",
+      "explanation": "Because the login failed; she checked the logs; she found the bug."
+    },
+    {
+      "id": 46,
+      "module": 1,
+      "topic": "Parts of Speech",
+      "difficulty": "medium",
+      "question": "In 'The server is extremely slow', 'extremely' modifies the adjective 'slow'. It is a(n) ___.",
+      "options": {
+        "A": "adverb",
+        "B": "adjective",
+        "C": "preposition",
+        "D": "noun"
+      },
+      "answer": "A",
+      "trap": "Menerangkan adjective, jadi dikira adjective.",
+      "explanation": "Adverb bisa menerangkan verb, adjective, atau adverb lain."
+    },
+    {
+      "id": 47,
+      "module": 2,
+      "topic": "Phrases",
+      "difficulty": "medium",
+      "question": "The constituency test that replaces a unit with it, she, they, or there is called ___.",
+      "options": {
+        "A": "substitution",
+        "B": "coordination",
+        "C": "movement",
+        "D": "question"
+      },
+      "answer": "A",
+      "trap": "Semua nama tes terdengar mirip.",
+      "explanation": "Substitution = ganti dengan pro-form."
+    },
+    {
+      "id": 48,
+      "module": 3,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "In 'Since the patch was released, errors dropped', 'since' is a ___.",
+      "options": {
+        "A": "conjunction",
+        "B": "adjective",
+        "C": "preposition",
+        "D": "noun"
+      },
+      "answer": "A",
+      "trap": "'since 2020' preposition.",
+      "explanation": "Diikuti klausa lengkap = conjunction."
+    },
+    {
+      "id": 49,
+      "module": 3,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "'if you need help' in 'Call me if you need help' is a(n) ___ clause.",
+      "options": {
+        "A": "adjective",
+        "B": "adverb",
+        "C": "noun",
+        "D": "independent"
+      },
+      "answer": "B",
+      "trap": "Berada di akhir kalimat.",
+      "explanation": "Menyatakan syarat = adverb clause."
+    },
+    {
+      "id": 50,
+      "module": 2,
+      "topic": "Phrases",
+      "difficulty": "hard",
+      "question": "'The students in the library are studying.' What is the HEAD of the subject NP?",
+      "options": {
+        "A": "in",
+        "B": "library",
+        "C": "are",
+        "D": "students"
+      },
+      "answer": "D",
+      "trap": "'library' tepat di sebelah verb.",
+      "explanation": "HEAD subjek = 'students'; 'in the library' PP. Penting untuk SVA."
+    },
+    {
+      "id": 51,
+      "module": 7,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "'I know that she is right.' is a ___ sentence.",
+      "options": {
+        "A": "compound-complex",
+        "B": "simple",
+        "C": "compound",
+        "D": "complex"
+      },
+      "answer": "D",
+      "trap": "Pendek.",
+      "explanation": "Noun clause dependent."
+    },
+    {
+      "id": 52,
+      "module": 3,
+      "topic": "Clauses",
+      "difficulty": "easy",
+      "question": "Which sentence contains an independent clause AND a dependent clause?",
+      "options": {
+        "A": "She passed the exam.",
+        "B": "She passed because she studied.",
+        "C": "She studied hard.",
+        "D": "She passed and he failed."
+      },
+      "answer": "B",
+      "trap": "'and' dikira menandai dependent.",
+      "explanation": "'because she studied' dependent; 'She passed' independent."
+    },
+    {
+      "id": 53,
+      "module": 5,
+      "topic": "Articles, Demonstratives, Possessives, Quantifiers",
+      "difficulty": "easy",
+      "question": "___ laptop here on my desk is new. (near, singular)",
+      "options": {
+        "A": "That",
+        "B": "These",
+        "C": "Those",
+        "D": "This"
+      },
+      "answer": "D",
+      "trap": "Semua demonstrative.",
+      "explanation": "Dekat + tunggal = this."
+    },
+    {
+      "id": 54,
+      "module": 5,
+      "topic": "Articles, Demonstratives, Possessives, Quantifiers",
+      "difficulty": "medium",
+      "question": "Which sentence is correct?",
+      "options": {
+        "A": "An honesty is a virtue.",
+        "B": "A honesty is a virtue.",
+        "C": "Honesty is a virtue.",
+        "D": "The honesty is a virtue."
+      },
+      "answer": "C",
+      "trap": "Abstract noun dikira butuh artikel.",
+      "explanation": "Noun abstrak umum tanpa artikel."
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "title": "Module 3: Clauses",
+  "language": "en",
+  "total": 25,
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Clauses",
+      "difficulty": "easy",
+      "question": "A clause must contain ___.",
+      "options": {
+        "A": "a noun and an adjective",
+        "B": "a preposition and a noun",
+        "C": "an adverb and a verb",
+        "D": "a subject and a finite verb"
+      },
+      "answer": "D",
+      "trap": "Frasa juga bisa panjang.",
+      "explanation": "Klausa = SUBJECT + PREDICATE dengan finite verb."
+    },
+    {
+      "id": 2,
+      "topic": "Clauses",
+      "difficulty": "easy",
+      "question": "Which is an independent clause?",
+      "options": {
+        "A": "When the scan",
+        "B": "Because the scan finished.",
+        "C": "The scan finished.",
+        "D": "After the scan."
+      },
+      "answer": "C",
+      "trap": "Semua mengandung 'the scan'.",
+      "explanation": "Hanya yang pikirannya lengkap dan bisa berdiri sendiri."
+    },
+    {
+      "id": 3,
+      "topic": "Clauses",
+      "difficulty": "easy",
+      "question": "Which is a dependent clause?",
+      "options": {
+        "A": "She went home.",
+        "B": "She was tired.",
+        "C": "Although she was tired",
+        "D": "She slept early."
+      },
+      "answer": "C",
+      "trap": "Semua punya subjek dan verb.",
+      "explanation": "Subordinator 'although' membuat pikirannya tak lengkap."
+    },
+    {
+      "id": 4,
+      "topic": "Clauses",
+      "difficulty": "easy",
+      "question": "Which word is a subordinator?",
+      "options": {
+        "A": "but",
+        "B": "and",
+        "C": "so",
+        "D": "although"
+      },
+      "answer": "D",
+      "trap": "FANBOYS dikira subordinator.",
+      "explanation": "and/but/so = coordinating. 'although' = subordinating."
+    },
+    {
+      "id": 5,
+      "topic": "Clauses",
+      "difficulty": "easy",
+      "question": "How many clauses are in 'The server crashed, and the team restarted it.'?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "2"
+      },
+      "answer": "D",
+      "trap": "Hanya satu subjek tersorot.",
+      "explanation": "Dua subject + finite verb: server crashed, team restarted."
+    },
+    {
+      "id": 6,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "'After the meeting' is a ___.",
+      "options": {
+        "A": "phrase",
+        "B": "independent clause",
+        "C": "compound sentence",
+        "D": "dependent clause"
+      },
+      "answer": "A",
+      "trap": "Diawali kata seperti subordinator.",
+      "explanation": "Tidak ada subject + finite verb; PP biasa."
+    },
+    {
+      "id": 7,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "'After the meeting ended' is a ___.",
+      "options": {
+        "A": "prepositional phrase",
+        "B": "dependent clause",
+        "C": "independent clause",
+        "D": "noun phrase"
+      },
+      "answer": "B",
+      "trap": "Mirip dengan soal sebelumnya.",
+      "explanation": "Ada subject 'the meeting' + finite verb 'ended' + subordinator 'after'."
+    },
+    {
+      "id": 8,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "What makes 'because the server crashed' dependent?",
+      "options": {
+        "A": "It has no subject",
+        "B": "It is too short",
+        "C": "The subordinator leaves the thought incomplete",
+        "D": "It has no verb"
+      },
+      "answer": "C",
+      "trap": "Dikira karena kurang unsur.",
+      "explanation": "Subjek dan verb ada; subordinator yang membuatnya bergantung."
+    },
+    {
+      "id": 9,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "'what she said' in 'I heard what she said' is a ___ clause.",
+      "options": {
+        "A": "noun",
+        "B": "adverb",
+        "C": "adjective",
+        "D": "independent"
+      },
+      "answer": "A",
+      "trap": "Mengikuti verb, dikira adverb.",
+      "explanation": "Ia menjadi objek 'heard'; fungsi noun."
+    },
+    {
+      "id": 10,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "'who found the bug' in 'The analyst who found the bug got a reward' is a(n) ___ clause.",
+      "options": {
+        "A": "adjective",
+        "B": "noun",
+        "C": "independent",
+        "D": "adverb"
+      },
+      "answer": "A",
+      "trap": "Mengandung finite verb 'found'.",
+      "explanation": "Menerangkan noun 'analyst' = adjective clause."
+    },
+    {
+      "id": 11,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "'when the alarm rang' in 'We left when the alarm rang' is a(n) ___ clause.",
+      "options": {
+        "A": "noun",
+        "B": "independent",
+        "C": "adverb",
+        "D": "adjective"
+      },
+      "answer": "C",
+      "trap": "Ada subjek dan verb.",
+      "explanation": "Menjawab 'kapan?' = adverb clause (waktu)."
+    },
+    {
+      "id": 12,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "A dependent clause cannot stand alone because ___.",
+      "options": {
+        "A": "it is a phrase",
+        "B": "it has no subject",
+        "C": "its thought is incomplete",
+        "D": "it has no verb"
+      },
+      "answer": "C",
+      "trap": "Dikira kurang unsur gramatikal.",
+      "explanation": "Subordinator membuat pikiran menggantung."
+    },
+    {
+      "id": 13,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "Which pair is correctly labeled?",
+      "options": {
+        "A": "'she left' dependent; 'because she left' independent",
+        "B": "'she left' independent; 'because she left' dependent",
+        "C": "both dependent",
+        "D": "both independent"
+      },
+      "answer": "B",
+      "trap": "Subordinator tidak terlihat.",
+      "explanation": "Tambahan 'because' mengubah status."
+    },
+    {
+      "id": 14,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "In 'The team fixed the bug that caused the crash', what does 'that caused the crash' modify?",
+      "options": {
+        "A": "team",
+        "B": "bug",
+        "C": "crash",
+        "D": "fixed"
+      },
+      "answer": "B",
+      "trap": "'crash' paling dekat.",
+      "explanation": "Adjective clause menerangkan antecedent 'bug'."
+    },
+    {
+      "id": 15,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "In 'We stayed because it was raining', what are the subject and finite verb of the dependent clause?",
+      "options": {
+        "A": "we / raining",
+        "B": "it / was raining",
+        "C": "We / stayed",
+        "D": "because / was"
+      },
+      "answer": "B",
+      "trap": "'We stayed' terlihat dulu.",
+      "explanation": "Dependent clause: 'because it was raining'."
+    },
+    {
+      "id": 16,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "When a dependent clause comes first in a sentence, what usually follows it?",
+      "options": {
+        "A": "a colon only",
+        "B": "nothing",
+        "C": "a period",
+        "D": "a comma, then the independent clause"
+      },
+      "answer": "D",
+      "trap": "Dikira boleh langsung disambung.",
+      "explanation": "Dependent di depan diikuti koma lalu klausa utama."
+    },
+    {
+      "id": 17,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "In 'when the new analyst arrived', which unit is the subject?",
+      "options": {
+        "A": "when",
+        "B": "when the",
+        "C": "the new analyst",
+        "D": "arrived"
+      },
+      "answer": "C",
+      "trap": "'when' di awal.",
+      "explanation": "Subjek = NP 'the new analyst'."
+    },
+    {
+      "id": 18,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "What does a finite verb show?",
+      "options": {
+        "A": "that it is a question",
+        "B": "tense and agreement with the subject",
+        "C": "only the noun",
+        "D": "only the object"
+      },
+      "answer": "B",
+      "trap": "Terdengar abstrak.",
+      "explanation": "Finite verb berubah menurut tense dan subjek."
+    },
+    {
+      "id": 19,
+      "topic": "Clauses",
+      "difficulty": "medium",
+      "question": "Which sentence contains a noun clause as its subject?",
+      "options": {
+        "A": "She said it to everyone.",
+        "B": "She surprised everyone.",
+        "C": "Everyone was surprised yesterday.",
+        "D": "What she said surprised everyone."
+      },
+      "answer": "D",
+      "trap": "'What she said' tampak seperti objek karena ada kata kerja 'said'.",
+      "explanation": "'What she said' punya subjek + finite verb dan berfungsi sebagai subjek kalimat = noun clause."
+    },
+    {
+      "id": 20,
+      "topic": "Clauses",
+      "difficulty": "hard",
+      "question": "Which sentence has a dependent clause that is a fragment?",
+      "options": {
+        "A": "Update the plugin, and restart.",
+        "B": "Update the plugin.",
+        "C": "Unless you update the plugin.",
+        "D": "You update the plugin."
+      },
+      "answer": "C",
+      "trap": "Opsi lain imperatif/pendek.",
+      "explanation": "Subordinator 'Unless' membuat klausa belum selesai."
+    },
+    {
+      "id": 21,
+      "topic": "Clauses",
+      "difficulty": "hard",
+      "question": "Which word typically introduces an adjective clause?",
+      "options": {
+        "A": "although",
+        "B": "if",
+        "C": "who",
+        "D": "because"
+      },
+      "answer": "C",
+      "trap": "Semua kata tanya/penghubung.",
+      "explanation": "Relative pronoun (who, which, that) memulai adjective clause."
+    },
+    {
+      "id": 22,
+      "topic": "Clauses",
+      "difficulty": "hard",
+      "question": "Which sentence contains a noun clause?",
+      "options": {
+        "A": "I wonder whether the update is safe.",
+        "B": "I wonder about the update.",
+        "C": "The update is safe.",
+        "D": "She updated the safe system."
+      },
+      "answer": "A",
+      "trap": "'whether' terlihat seperti kata biasa.",
+      "explanation": "'whether the update is safe' = objek dari 'wonder'."
+    },
+    {
+      "id": 23,
+      "topic": "Clauses",
+      "difficulty": "hard",
+      "question": "Which of these is NOT a clause?",
+      "options": {
+        "A": "she logged in",
+        "B": "after he left",
+        "C": "that it works",
+        "D": "very late at night"
+      },
+      "answer": "D",
+      "trap": "Panjang dan terlihat lengkap.",
+      "explanation": "Tidak ada subject + finite verb."
+    },
+    {
+      "id": 24,
+      "topic": "Clauses",
+      "difficulty": "hard",
+      "question": "Which sentence has TWO dependent clauses?",
+      "options": {
+        "A": "She left because she was tired.",
+        "B": "She left, and he stayed.",
+        "C": "I think she left.",
+        "D": "I think that she left because she was tired."
+      },
+      "answer": "D",
+      "trap": "Hanya terlihat 'because'.",
+      "explanation": "Noun clause 'that she left...' berisi adverb clause 'because she was tired'."
+    },
+    {
+      "id": 25,
+      "topic": "Clauses",
+      "difficulty": "hard",
+      "question": "Which sentence contains a PHRASE but NO dependent clause?",
+      "options": {
+        "A": "She left because she was tired.",
+        "B": "She left after the meeting ended.",
+        "C": "She left when he arrived.",
+        "D": "She left after the meeting."
+      },
+      "answer": "D",
+      "trap": "Semua memakai 'after/when'.",
+      "explanation": "'after the meeting' = PP."
+    }
+  ]
+}

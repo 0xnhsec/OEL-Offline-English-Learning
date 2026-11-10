@@ -1,0 +1,382 @@
+{
+  "title": "Module 9: Future Tense (will, be going to)",
+  "language": "en",
+  "total": 25,
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "easy",
+      "question": "Which sentence is a prediction based on present evidence?",
+      "options": {
+        "A": "I'll open the window.",
+        "B": "Look at those clouds! It is going to rain.",
+        "C": "I will call you later.",
+        "D": "I think it will rain tomorrow."
+      },
+      "answer": "B",
+      "trap": "Semua opsi adalah prediksi, tapi dasarnya berbeda.",
+      "explanation": "Ada bukti terlihat sekarang (awan gelap) = be going to. 'I think...' = opini = will."
+    },
+    {
+      "id": 2,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "easy",
+      "question": "Which sentence is a prediction based on opinion?",
+      "options": {
+        "A": "We have booked the tickets to Bali.",
+        "B": "I think the exam will be hard.",
+        "C": "The train departs at six.",
+        "D": "Look at his face! He is going to cry."
+      },
+      "answer": "B",
+      "trap": "'going to' juga prediksi, tapi berdasarkan bukti.",
+      "explanation": "Opini/perkiraan pribadi = will."
+    },
+    {
+      "id": 3,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "easy",
+      "question": "Which is a spontaneous decision made at the moment of speaking?",
+      "options": {
+        "A": "I have decided to get a new phone.",
+        "B": "He is going to call me.",
+        "C": "The phone is ringing. I'll get it.",
+        "D": "I'm going to get a new phone next week."
+      },
+      "answer": "C",
+      "trap": "Semua opsi menyangkut handphone.",
+      "explanation": "Keputusan saat berbicara = will. Keputusan sebelumnya = be going to."
+    },
+    {
+      "id": 4,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "easy",
+      "question": "Which sentence shows a plan made before speaking?",
+      "options": {
+        "A": "I'm going to start a bug bounty blog next month.",
+        "B": "It will probably rain.",
+        "C": "Wait, I'll check my notes.",
+        "D": "Perhaps I will join."
+      },
+      "answer": "A",
+      "trap": "'will' sering dipakai untuk semua rencana.",
+      "explanation": "Niat yang sudah diputuskan sebelum berbicara = be going to."
+    },
+    {
+      "id": 5,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "easy",
+      "question": "Which sentence shows a promise?",
+      "options": {
+        "A": "I am going to bed now.",
+        "B": "I won't tell anyone your password.",
+        "C": "We are going to class.",
+        "D": "It is going to snow."
+      },
+      "answer": "B",
+      "trap": "'going to' terdengar seperti niat kuat.",
+      "explanation": "Janji = will / won't."
+    },
+    {
+      "id": 6,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "easy",
+      "question": "'She will ___ the report tomorrow.'",
+      "options": {
+        "A": "send",
+        "B": "sent",
+        "C": "sends",
+        "D": "sending"
+      },
+      "answer": "A",
+      "trap": "Pelaku tunggal membuat -s menggoda.",
+      "explanation": "will selalu diikuti base form tanpa -s."
+    },
+    {
+      "id": 7,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "easy",
+      "question": "'She is going to ___ abroad.'",
+      "options": {
+        "A": "studies",
+        "B": "study",
+        "C": "studying",
+        "D": "studied"
+      },
+      "answer": "B",
+      "trap": "'to' membuat orang mengira verb berikutnya bentuk to-infinitive.",
+      "explanation": "be going to + base form (study)."
+    },
+    {
+      "id": 8,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "easy",
+      "question": "Which is correct?",
+      "options": {
+        "A": "They going to launch the app in June.",
+        "B": "They are going to launch the app in June.",
+        "C": "They is going to launch the app in June.",
+        "D": "They are going launch the app in June."
+      },
+      "answer": "B",
+      "trap": "Bentuk be hilang atau tidak cocok dengan subjek.",
+      "explanation": "Struktur lengkap: subjek + be (am/is/are) + going to + base form."
+    },
+    {
+      "id": 9,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "easy",
+      "question": "___ you going to attend the workshop?",
+      "options": {
+        "A": "Will",
+        "B": "Do",
+        "C": "Are",
+        "D": "Does"
+      },
+      "answer": "C",
+      "trap": "'Will' dikira satu-satunya pembentuk pertanyaan masa depan.",
+      "explanation": "be going to: kata kerja be dipindah ke depan (Are you going to...)."
+    },
+    {
+      "id": 10,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "easy",
+      "question": "'Will you join us?' 'Yes, ___.'",
+      "options": {
+        "A": "I will",
+        "B": "I do",
+        "C": "I am will",
+        "D": "I would"
+      },
+      "answer": "A",
+      "trap": "Jawaban 'I do' mengikuti pola present simple.",
+      "explanation": "Jawaban singkat mengulang auxiliary: Yes, I will."
+    },
+    {
+      "id": 11,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "easy",
+      "question": "'Will' is followed by ___.",
+      "options": {
+        "A": "to + verb",
+        "B": "V-ing",
+        "C": "V3",
+        "D": "the base form"
+      },
+      "answer": "D",
+      "trap": "'to' sering muncul setelah modal di bahasa Indonesia ('akan untuk').",
+      "explanation": "Modal will + base form tanpa 'to'."
+    },
+    {
+      "id": 12,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "medium",
+      "question": "I will call you when I ___ home.",
+      "options": {
+        "A": "get",
+        "B": "will get",
+        "C": "am getting",
+        "D": "got"
+      },
+      "answer": "A",
+      "trap": "'will get' terdengar logis karena masa depan.",
+      "explanation": "Setelah when/after/as soon as/before, masa depan dinyatakan dengan present simple."
+    },
+    {
+      "id": 13,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "medium",
+      "question": "If you need help, I ___ you.",
+      "options": {
+        "A": "will help",
+        "B": "help",
+        "C": "helped",
+        "D": "would help"
+      },
+      "answer": "A",
+      "trap": "'help' saja tampak cukup.",
+      "explanation": "Klausa utama dalam first conditional memakai will + base form."
+    },
+    {
+      "id": 14,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "medium",
+      "question": "Which sentence shows a fixed arrangement with a time?",
+      "options": {
+        "A": "He might meet someone.",
+        "B": "I met someone.",
+        "C": "I am meeting my supervisor at 3 pm tomorrow.",
+        "D": "I will perhaps meet someone."
+      },
+      "answer": "C",
+      "trap": "'met' tampak seperti rencana yang pasti.",
+      "explanation": "Present continuous + waktu mendatang menandai janji/atur jadwal yang sudah pasti."
+    },
+    {
+      "id": 15,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "medium",
+      "question": "The class ___ at 8 am tomorrow.",
+      "options": {
+        "A": "started",
+        "B": "will starts",
+        "C": "is start",
+        "D": "starts"
+      },
+      "answer": "D",
+      "trap": "'will starts' menggabungkan will dan -s.",
+      "explanation": "Jadwal/timetable tetap memakai present simple walau di masa depan."
+    },
+    {
+      "id": 16,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "medium",
+      "question": "Which sentence is incorrect?",
+      "options": {
+        "A": "She is going to go to Bali.",
+        "B": "She will not go to Bali.",
+        "C": "She will go to Bali.",
+        "D": "She will goes to Bali."
+      },
+      "answer": "D",
+      "trap": "Kesalahan kecil (-es) mudah terlewat.",
+      "explanation": "will tidak pernah diikuti verb ber-s: will goes salah."
+    },
+    {
+      "id": 17,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "medium",
+      "question": "Which sentence expresses an offer?",
+      "options": {
+        "A": "He carried my bag.",
+        "B": "Your bag looks heavy. I'll carry it.",
+        "C": "I'm going to carry my bag.",
+        "D": "My bag is going to be heavy."
+      },
+      "answer": "B",
+      "trap": "'going to' terdengar seperti tawaran sopan.",
+      "explanation": "Tawaran spontan = will (I'll)."
+    },
+    {
+      "id": 18,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "medium",
+      "question": "Which sentence expresses strong certainty?",
+      "options": {
+        "A": "Perhaps it will work.",
+        "B": "It may work.",
+        "C": "I'm sure it will work.",
+        "D": "It might work."
+      },
+      "answer": "C",
+      "trap": "'Perhaps', 'might', 'may' semuanya terdengar yakin.",
+      "explanation": "'I'm sure' menyatakan keyakinan tinggi. Perhaps/might/may menyatakan kemungkinan."
+    },
+    {
+      "id": 19,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "medium",
+      "question": "In 'If you finish early, we will leave', which clause is dependent?",
+      "options": {
+        "A": "will leave",
+        "B": "you finish",
+        "C": "If you finish early",
+        "D": "we will leave"
+      },
+      "answer": "C",
+      "trap": "'you finish' tampak seperti klausa lengkap.",
+      "explanation": "'If' menjadikan 'If you finish early' dependent. 'we will leave' = independent."
+    },
+    {
+      "id": 20,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "medium",
+      "question": "'will' in 'She will leave' is a ___.",
+      "options": {
+        "A": "adjective",
+        "B": "adverb",
+        "C": "noun",
+        "D": "modal (auxiliary) verb"
+      },
+      "answer": "D",
+      "trap": "Kata 'will' juga bisa noun (a will).",
+      "explanation": "Di sini 'will' mendahului verb dan menandai masa depan = modal (auxiliary) verb."
+    },
+    {
+      "id": 21,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "hard",
+      "question": "We ___ visit Malang, but it rained.",
+      "options": {
+        "A": "were going to",
+        "B": "are going to",
+        "C": "will",
+        "D": "go"
+      },
+      "answer": "A",
+      "trap": "Present tense mengabaikan 'rained' (lampau).",
+      "explanation": "Rencana masa lalu yang tidak terlaksana = was/were going to."
+    },
+    {
+      "id": 22,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "hard",
+      "question": "Which sentence uses the wrong tense in the time clause?",
+      "options": {
+        "A": "When she arrives, I will call.",
+        "B": "I will call you when I arrive.",
+        "C": "As soon as it ends, I'll call.",
+        "D": "I will call you when I will arrive."
+      },
+      "answer": "D",
+      "trap": "'will arrive' tampak benar karena masa depan.",
+      "explanation": "Time clause memakai present simple: 'when I arrive'."
+    },
+    {
+      "id": 23,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "hard",
+      "question": "Which 'going to' is a future marker?",
+      "options": {
+        "A": "I am going to study tonight.",
+        "B": "I am going to the library now.",
+        "C": "Both",
+        "D": "Neither"
+      },
+      "answer": "A",
+      "trap": "'going' pada 'going to the library' juga terdengar masa depan.",
+      "explanation": "'going to study' = rencana (future). 'going to the library' = bergerak ke tempat."
+    },
+    {
+      "id": 24,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "hard",
+      "question": "Which sentence is a compound sentence about the future?",
+      "options": {
+        "A": "I will study tonight, and I will take the exam tomorrow.",
+        "B": "When I finish, I will rest.",
+        "C": "I will study and rest.",
+        "D": "I will study."
+      },
+      "answer": "A",
+      "trap": "'When I finish' tampak seperti satu pola yang sama.",
+      "explanation": "Compound = dua independent clause dengan 'and'."
+    },
+    {
+      "id": 25,
+      "topic": "Future Tense (will, be going to)",
+      "difficulty": "hard",
+      "question": "In 'The team will fix the bug', what is the VP and its head?",
+      "options": {
+        "A": "The team will; head: team",
+        "B": "will; head: will",
+        "C": "will fix the bug; head: fix",
+        "D": "fix the; head: the"
+      },
+      "answer": "C",
+      "trap": "Auxiliary 'will' berada di depan.",
+      "explanation": "VP = will fix the bug; HEAD = main verb 'fix'."
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "title": "Module 4: Subjects, Predicates, Objects, Complements, Adverbials",
+  "language": "en",
+  "total": 25,
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "easy",
+      "question": "What is the subject of 'The new analyst found a serious bug.'?",
+      "options": {
+        "A": "The new analyst",
+        "B": "found",
+        "C": "serious",
+        "D": "a serious bug"
+      },
+      "answer": "A",
+      "trap": "Noun phrase kedua juga NP.",
+      "explanation": "Subjek = pelaku/NP sebelum predikat."
+    },
+    {
+      "id": 2,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "easy",
+      "question": "What is the predicate of 'The team fixed the bug.'?",
+      "options": {
+        "A": "The team",
+        "B": "the bug",
+        "C": "fixed the bug",
+        "D": "The"
+      },
+      "answer": "C",
+      "trap": "Predikat dikira hanya verb.",
+      "explanation": "Predikat = verb + semua yang mengikuti, kecuali subjek."
+    },
+    {
+      "id": 3,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "easy",
+      "question": "What is the direct object of 'The hacker reported the vulnerability.'?",
+      "options": {
+        "A": "reported",
+        "B": "the vulnerability",
+        "C": "none",
+        "D": "The hacker"
+      },
+      "answer": "B",
+      "trap": "Dikira tidak ada objek.",
+      "explanation": "Objek langsung menerima aksi verb transitif."
+    },
+    {
+      "id": 4,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "easy",
+      "question": "Which part is the adverbial in 'We met in the library.'?",
+      "options": {
+        "A": "in the library",
+        "B": "met",
+        "C": "We",
+        "D": "none"
+      },
+      "answer": "A",
+      "trap": "'the library' adalah NP, dikira objek.",
+      "explanation": "Adverbial menjelaskan tempat/waktu/cara/alasan; di sini PP tempat."
+    },
+    {
+      "id": 5,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "easy",
+      "question": "In 'The analyst is very careful', 'very careful' is the ___.",
+      "options": {
+        "A": "adverbial",
+        "B": "direct object",
+        "C": "subject complement",
+        "D": "indirect object"
+      },
+      "answer": "C",
+      "trap": "Posisinya setelah verb, seperti objek.",
+      "explanation": "Setelah linking verb 'is', ia mendeskripsikan subjek."
+    },
+    {
+      "id": 6,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "easy",
+      "question": "A direct object is usually headed by a ___.",
+      "options": {
+        "A": "noun or pronoun",
+        "B": "adverb",
+        "C": "conjunction",
+        "D": "preposition"
+      },
+      "answer": "A",
+      "trap": "PP muncul setelah verb juga.",
+      "explanation": "Objek adalah NP, berinti noun/pronoun."
+    },
+    {
+      "id": 7,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "easy",
+      "question": "What is the minimum a sentence needs?",
+      "options": {
+        "A": "a complement",
+        "B": "an adverbial",
+        "C": "an object",
+        "D": "a subject and a predicate"
+      },
+      "answer": "D",
+      "trap": "Dikira butuh objek.",
+      "explanation": "Subjek + predikat sudah kalimat ('Birds fly.')."
+    },
+    {
+      "id": 8,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "medium",
+      "question": "In 'The server seems unstable', 'seems' is a ___ verb.",
+      "options": {
+        "A": "transitive",
+        "B": "linking",
+        "C": "intransitive",
+        "D": "auxiliary"
+      },
+      "answer": "B",
+      "trap": "'seems' terlihat seperti aksi.",
+      "explanation": "Menghubungkan subjek dengan complement."
+    },
+    {
+      "id": 9,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "medium",
+      "question": "In 'The results became clear', 'clear' is a ___.",
+      "options": {
+        "A": "subject complement",
+        "B": "adverbial",
+        "C": "indirect object",
+        "D": "direct object"
+      },
+      "answer": "A",
+      "trap": "Adjective setelah verb dikira adverbial.",
+      "explanation": "Setelah linking verb 'became', complement mendeskripsikan subjek."
+    },
+    {
+      "id": 10,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "medium",
+      "question": "What does 'yesterday evening' tell in 'She called me yesterday evening.'?",
+      "options": {
+        "A": "manner",
+        "B": "time",
+        "C": "reason",
+        "D": "place"
+      },
+      "answer": "B",
+      "trap": "'evening' dikira tempat.",
+      "explanation": "Adverbial waktu menjawab 'kapan?'."
+    },
+    {
+      "id": 11,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "medium",
+      "question": "In 'He typed the password carefully', 'carefully' expresses ___.",
+      "options": {
+        "A": "manner",
+        "B": "place",
+        "C": "time",
+        "D": "reason"
+      },
+      "answer": "A",
+      "trap": "Posisinya di akhir.",
+      "explanation": "Adverbial cara menjawab 'bagaimana?'."
+    },
+    {
+      "id": 12,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "medium",
+      "question": "In 'We cancelled the test because of the storm', the adverbial expresses ___.",
+      "options": {
+        "A": "manner",
+        "B": "time",
+        "C": "reason",
+        "D": "place"
+      },
+      "answer": "C",
+      "trap": "'storm' dikira sebab fisik.",
+      "explanation": "'because of' menjawab 'kenapa?'."
+    },
+    {
+      "id": 13,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "medium",
+      "question": "Which word group can be a subject?",
+      "options": {
+        "A": "a finite verb alone",
+        "B": "a preposition alone",
+        "C": "a noun phrase",
+        "D": "an adverb alone"
+      },
+      "answer": "C",
+      "trap": "Verb dikira inti kalimat.",
+      "explanation": "Subjek biasanya NP."
+    },
+    {
+      "id": 14,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "medium",
+      "question": "Identify the subject: 'Every report from the lab contains errors.'",
+      "options": {
+        "A": "Every report from the lab",
+        "B": "lab",
+        "C": "the lab",
+        "D": "contains"
+      },
+      "answer": "A",
+      "trap": "'the lab' tepat sebelum verb.",
+      "explanation": "Subjek = HEAD 'report' beserta modifier-nya."
+    },
+    {
+      "id": 15,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "medium",
+      "question": "Identify the subject: 'In the morning, the engineers reviewed the logs.'",
+      "options": {
+        "A": "the morning",
+        "B": "the logs",
+        "C": "reviewed",
+        "D": "the engineers"
+      },
+      "answer": "D",
+      "trap": "'the morning' muncul pertama.",
+      "explanation": "'In the morning' adalah adverbial (PP)."
+    },
+    {
+      "id": 16,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "medium",
+      "question": "In 'The team gave her a prize', 'a prize' is the ___.",
+      "options": {
+        "A": "indirect object",
+        "B": "subject complement",
+        "C": "direct object",
+        "D": "object complement"
+      },
+      "answer": "C",
+      "trap": "'her' juga berposisi objek.",
+      "explanation": "'her' = penerima (IO), 'a prize' = yang diberikan."
+    },
+    {
+      "id": 17,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "medium",
+      "question": "In 'The room felt cold', 'cold' is a ___.",
+      "options": {
+        "A": "direct object",
+        "B": "adverbial",
+        "C": "subject complement",
+        "D": "subject"
+      },
+      "answer": "C",
+      "trap": "'cold' bisa dikira adverb.",
+      "explanation": "'felt' = linking verb; 'cold' mendeskripsikan 'room'."
+    },
+    {
+      "id": 18,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "medium",
+      "question": "Which element is optional in 'The team fixed the bug on Monday'?",
+      "options": {
+        "A": "the bug",
+        "B": "fixed",
+        "C": "The team",
+        "D": "on Monday"
+      },
+      "answer": "D",
+      "trap": "Semua terlihat penting.",
+      "explanation": "Adverbial umumnya opsional."
+    },
+    {
+      "id": 19,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "hard",
+      "question": "Which sentence has no object?",
+      "options": {
+        "A": "The team fixed it.",
+        "B": "The server crashed.",
+        "C": "The team gave us the logs.",
+        "D": "The server hosted the site."
+      },
+      "answer": "B",
+      "trap": "Semua punya NP/pronoun.",
+      "explanation": "'crashed' intransitive."
+    },
+    {
+      "id": 20,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "hard",
+      "question": "In 'Maya is a security researcher', 'a security researcher' is a ___.",
+      "options": {
+        "A": "direct object",
+        "B": "adverbial",
+        "C": "indirect object",
+        "D": "subject complement"
+      },
+      "answer": "D",
+      "trap": "NP setelah verb dikira objek.",
+      "explanation": "Setelah linking verb 'is', NP mendeskripsikan/merename subjek."
+    },
+    {
+      "id": 21,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "hard",
+      "question": "How can you tell a subject complement from a direct object?",
+      "options": {
+        "A": "It follows a linking verb and describes or renames the subject",
+        "B": "It is always an adjective",
+        "C": "There is no difference",
+        "D": "It comes before the verb"
+      },
+      "answer": "A",
+      "trap": "Keduanya NP setelah verb.",
+      "explanation": "Linking verb = tanda subject complement."
+    },
+    {
+      "id": 22,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "hard",
+      "question": "In 'She considers him a reliable partner', 'a reliable partner' is the ___.",
+      "options": {
+        "A": "indirect object",
+        "B": "object complement",
+        "C": "subject complement",
+        "D": "direct object"
+      },
+      "answer": "B",
+      "trap": "NP setelah 'him' dikira objek lagi.",
+      "explanation": "'him' = objek; 'a reliable partner' mendeskripsikan 'him'."
+    },
+    {
+      "id": 23,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "hard",
+      "question": "Which sentence contains BOTH a direct object and an adverbial?",
+      "options": {
+        "A": "They fixed it.",
+        "B": "They were late.",
+        "C": "They fixed the bug yesterday.",
+        "D": "They slept."
+      },
+      "answer": "C",
+      "trap": "'yesterday' dikira objek.",
+      "explanation": "'the bug' = DO; 'yesterday' = adverbial waktu."
+    },
+    {
+      "id": 24,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "hard",
+      "question": "Which is an adverbial in 'We stopped the scan because it was slow'?",
+      "options": {
+        "A": "We",
+        "B": "because it was slow",
+        "C": "the scan",
+        "D": "stopped"
+      },
+      "answer": "B",
+      "trap": "Klausa tidak terlihat seperti adverbial.",
+      "explanation": "Adverbial bisa berupa klausa (alasan)."
+    },
+    {
+      "id": 25,
+      "topic": "Subjects, Predicates, Objects, Complements, Adverbials",
+      "difficulty": "hard",
+      "question": "Which sentence has a subject complement?",
+      "options": {
+        "A": "The user gave me a password.",
+        "B": "The password seems weak.",
+        "C": "The user chose a weak password.",
+        "D": "The user typed quickly."
+      },
+      "answer": "B",
+      "trap": "'weak password' terlihat mirip.",
+      "explanation": "'seems' linking verb + 'weak' mendeskripsikan subjek."
+    }
+  ]
+}

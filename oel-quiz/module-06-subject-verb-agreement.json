@@ -1,0 +1,382 @@
+{
+  "title": "Module 6: Subject-Verb Agreement",
+  "language": "en",
+  "total": 25,
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "easy",
+      "question": "Ali and Budi ___ presenting.",
+      "options": {
+        "A": "has",
+        "B": "is",
+        "C": "was",
+        "D": "are"
+      },
+      "answer": "D",
+      "trap": "Nama dibaca satu per satu.",
+      "explanation": "Dua subjek dengan 'and' = plural."
+    },
+    {
+      "id": 2,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "easy",
+      "question": "Everybody ___ ready.",
+      "options": {
+        "A": "were",
+        "B": "are",
+        "C": "is",
+        "D": "have"
+      },
+      "answer": "C",
+      "trap": "Everybody terdengar seperti banyak orang.",
+      "explanation": "Indefinite pronoun -body/-one = singular."
+    },
+    {
+      "id": 3,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "easy",
+      "question": "There ___ a bug in the code.",
+      "options": {
+        "A": "are",
+        "B": "have been",
+        "C": "is",
+        "D": "were"
+      },
+      "answer": "C",
+      "trap": "Dianggap 'There are' secara refleks.",
+      "explanation": "Verb mengikuti noun setelah there: 'a bug'."
+    },
+    {
+      "id": 4,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "easy",
+      "question": "Here ___ the results.",
+      "options": {
+        "A": "are",
+        "B": "was",
+        "C": "is",
+        "D": "has"
+      },
+      "answer": "A",
+      "trap": "'Here is' terdengar umum.",
+      "explanation": "Setelah here/there, verb cocok dengan noun yang mengikuti ('results')."
+    },
+    {
+      "id": 5,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "easy",
+      "question": "The news ___ shocking.",
+      "options": {
+        "A": "are",
+        "B": "have been",
+        "C": "were",
+        "D": "is"
+      },
+      "answer": "D",
+      "trap": "Akhiran -s membuat 'news' tampak plural.",
+      "explanation": "News, mathematics, linguistics = singular."
+    },
+    {
+      "id": 6,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "Neither of the options ___ safe.",
+      "options": {
+        "A": "were",
+        "B": "is",
+        "C": "are",
+        "D": "have been"
+      },
+      "answer": "B",
+      "trap": "'options' di dekat verb.",
+      "explanation": "Neither (of) = singular."
+    },
+    {
+      "id": 7,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "Either the teacher or the students ___ responsible.",
+      "options": {
+        "A": "has been",
+        "B": "are",
+        "C": "is",
+        "D": "was"
+      },
+      "answer": "B",
+      "trap": "Subjek pertama singular.",
+      "explanation": "Verb cocok dengan subjek terdekat."
+    },
+    {
+      "id": 8,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "Neither the managers nor the engineer ___ aware of the issue.",
+      "options": {
+        "A": "is",
+        "B": "were",
+        "C": "are",
+        "D": "have been"
+      },
+      "answer": "A",
+      "trap": "Subjek pertama plural.",
+      "explanation": "Subjek terdekat 'engineer'."
+    },
+    {
+      "id": 9,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "My colleague and best friend ___ coming to the meeting.",
+      "options": {
+        "A": "were",
+        "B": "is",
+        "C": "have been",
+        "D": "are"
+      },
+      "answer": "B",
+      "trap": "'and' memicu plural.",
+      "explanation": "Satu orang dua peran = singular."
+    },
+    {
+      "id": 10,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "Some of the students ___ late.",
+      "options": {
+        "A": "was",
+        "B": "are",
+        "C": "is",
+        "D": "has been"
+      },
+      "answer": "B",
+      "trap": "'Some' kadang singular.",
+      "explanation": "Some + plural noun = plural."
+    },
+    {
+      "id": 11,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "All of the money ___ gone.",
+      "options": {
+        "A": "have been",
+        "B": "are",
+        "C": "were",
+        "D": "is"
+      },
+      "answer": "D",
+      "trap": "'All' dikira plural.",
+      "explanation": "Uncountable = singular."
+    },
+    {
+      "id": 12,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "None of the students ___ finished. (handout/formal rule)",
+      "options": {
+        "A": "are",
+        "B": "have",
+        "C": "has",
+        "D": "were"
+      },
+      "answer": "C",
+      "trap": "'have' umum di pemakaian modern.",
+      "explanation": "Handout: formal singular; modern 'have' umum."
+    },
+    {
+      "id": 13,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "The committee ___ made its decision.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "were",
+        "D": "are"
+      },
+      "answer": "A",
+      "trap": "Collective noun dianggap plural.",
+      "explanation": "Satu unit = singular."
+    },
+    {
+      "id": 14,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "Studying English every day ___ helpful.",
+      "options": {
+        "A": "were",
+        "B": "have been",
+        "C": "is",
+        "D": "are"
+      },
+      "answer": "C",
+      "trap": "'days' dekat verb.",
+      "explanation": "Gerund subject = singular."
+    },
+    {
+      "id": 15,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "Whether we pass ___ unclear.",
+      "options": {
+        "A": "is",
+        "B": "have been",
+        "C": "are",
+        "D": "were"
+      },
+      "answer": "A",
+      "trap": "'we' dikira subjek plural.",
+      "explanation": "Clause subject = singular."
+    },
+    {
+      "id": 16,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "The results of the experiment ___ surprising.",
+      "options": {
+        "A": "is",
+        "B": "was",
+        "C": "has been",
+        "D": "were"
+      },
+      "answer": "D",
+      "trap": "'experiment' tunggal.",
+      "explanation": "HEAD 'results' plural."
+    },
+    {
+      "id": 17,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "Linguistics ___ the study of language.",
+      "options": {
+        "A": "were",
+        "B": "are",
+        "C": "have been",
+        "D": "is"
+      },
+      "answer": "D",
+      "trap": "Akhiran -s.",
+      "explanation": "Linguistics singular."
+    },
+    {
+      "id": 18,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "medium",
+      "question": "The police ___ investigating the incident.",
+      "options": {
+        "A": "are",
+        "B": "is",
+        "C": "was",
+        "D": "has"
+      },
+      "answer": "A",
+      "trap": "Terlihat singular.",
+      "explanation": "'The police' = plural."
+    },
+    {
+      "id": 19,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "hard",
+      "question": "The committee ___ arguing among themselves. (individuals)",
+      "options": {
+        "A": "are",
+        "B": "was",
+        "C": "is",
+        "D": "has"
+      },
+      "answer": "A",
+      "trap": "Collective noun biasanya singular.",
+      "explanation": "Ketika anggota bertindak sendiri-sendiri, verb plural (gaya British)."
+    },
+    {
+      "id": 20,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "hard",
+      "question": "Ten kilometers ___ a long way.",
+      "options": {
+        "A": "are",
+        "B": "is",
+        "C": "were",
+        "D": "have been"
+      },
+      "answer": "B",
+      "trap": "Terlihat plural.",
+      "explanation": "Jarak/waktu/uang = singular."
+    },
+    {
+      "id": 21,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "hard",
+      "question": "She is one of the students who ___ always late.",
+      "options": {
+        "A": "is",
+        "B": "was",
+        "C": "are",
+        "D": "has been"
+      },
+      "answer": "C",
+      "trap": "'one' singular.",
+      "explanation": "Relative clause ikut antecedent 'students'."
+    },
+    {
+      "id": 22,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "hard",
+      "question": "She is the only one of the students who ___ always late.",
+      "options": {
+        "A": "have been",
+        "B": "were",
+        "C": "is",
+        "D": "are"
+      },
+      "answer": "C",
+      "trap": "Terlihat sama persis dengan soal sebelumnya.",
+      "explanation": "'The only one' mengubah antecedent menjadi singular, jadi 'is'."
+    },
+    {
+      "id": 23,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "hard",
+      "question": "A pair of glasses ___ on the desk.",
+      "options": {
+        "A": "were",
+        "B": "have been",
+        "C": "are",
+        "D": "is"
+      },
+      "answer": "D",
+      "trap": "'glasses' plural.",
+      "explanation": "HEAD 'pair' singular."
+    },
+    {
+      "id": 24,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "hard",
+      "question": "The list of requirements were too long. Which part must change?",
+      "options": {
+        "A": "The list",
+        "B": "too long",
+        "C": "of requirements",
+        "D": "were"
+      },
+      "answer": "D",
+      "trap": "'requirements' dekat verb.",
+      "explanation": "Subjek 'list' singular."
+    },
+    {
+      "id": 25,
+      "topic": "Subject-Verb Agreement",
+      "difficulty": "hard",
+      "question": "Which sentence is correct?",
+      "options": {
+        "A": "The costs of the repair is high.",
+        "B": "The cost of the repairs were high.",
+        "C": "The cost of the repairs is high.",
+        "D": "The cost of the repairs are high."
+      },
+      "answer": "C",
+      "trap": "Interrupter menyesatkan.",
+      "explanation": "HEAD 'cost' singular."
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+MODULE 5: ARTICLES, DEMONSTRATIVES, POSSESSIVES, QUANTIFIERS
+Choose the best answer (A-D).
+
+1. [Articles, Demonstratives, Possessives, Quantifiers | easy]
+It took ___ hour to download the file.
+   A. an
+   B. some
+   C. a
+   D. several
+
+2. [Articles, Demonstratives, Possessives, Quantifiers | easy]
+He is studying at ___ university in Surabaya.
+   A. many
+   B. an
+   C. a
+   D. few
+
+3. [Articles, Demonstratives, Possessives, Quantifiers | easy]
+She wants to become ___ engineer.
+   A. an
+   B. any
+   C. some
+   D. a
+
+4. [Articles, Demonstratives, Possessives, Quantifiers | easy]
+I found a bug and a typo. ___ bug was serious.
+   A. An
+   B. A
+   C. Some
+   D. The
+
+5. [Articles, Demonstratives, Possessives, Quantifiers | easy]
+___ servers over there are old.
+   A. These
+   B. This
+   C. That
+   D. Those
+
+6. [Articles, Demonstratives, Possessives, Quantifiers | easy]
+How ___ files did you download?
+   A. little
+   B. a little
+   C. many
+   D. much
+
+7. [Articles, Demonstratives, Possessives, Quantifiers | easy]
+How ___ time do we have?
+   A. many
+   B. a few
+   C. few
+   D. much
+
+8. [Articles, Demonstratives, Possessives, Quantifiers | easy]
+Which noun is uncountable?
+   A. information
+   B. report
+   C. laptop
+   D. student
+
+9. [Articles, Demonstratives, Possessives, Quantifiers | medium]
+___ security is important for every company. (general)
+   A. An
+   B. (no article)
+   C. A
+   D. The
+
+10. [Articles, Demonstratives, Possessives, Quantifiers | medium]
+I love ___ headphones I'm wearing right now.
+   A. these
+   B. those
+   C. this
+   D. that
+
+11. [Articles, Demonstratives, Possessives, Quantifiers | medium]
+Is this pen yours? No, ___ is blue.
+   A. me
+   B. my
+   C. I
+   D. mine
+
+12. [Articles, Demonstratives, Possessives, Quantifiers | medium]
+The company updated ___ policy.
+   A. theirs
+   B. its
+   C. it
+   D. it's
+
+13. [Articles, Demonstratives, Possessives, Quantifiers | medium]
+The students forgot ___ passwords.
+   A. they
+   B. theirs
+   C. their
+   D. them
+
+14. [Articles, Demonstratives, Possessives, Quantifiers | medium]
+The decision is ___, not yours.
+   A. we
+   B. ours
+   C. us
+   D. our
+
+15. [Articles, Demonstratives, Possessives, Quantifiers | medium]
+Which phrase correctly shows possession for the plural noun 'students'?
+   A. the students notebooks'
+   B. the students' notebooks
+   C. the studentses notebooks
+   D. the student's notebooks
+
+16. [Articles, Demonstratives, Possessives, Quantifiers | medium]
+He has ___ experience, so he often needs help.
+   A. a little
+   B. many
+   C. a few
+   D. little
+
+17. [Articles, Demonstratives, Possessives, Quantifiers | medium]
+She has ___ experience, so she can start the job.
+   A. few
+   B. a little
+   C. little
+   D. a few
+
+18. [Articles, Demonstratives, Possessives, Quantifiers | medium]
+Each ___ must sign the form.
+   A. the students
+   B. students
+   C. of students
+   D. student
+
+19. [Articles, Demonstratives, Possessives, Quantifiers | medium]
+We don't have ___ time.
+   A. many
+   B. few
+   C. any
+   D. a
+
+20. [Articles, Demonstratives, Possessives, Quantifiers | medium]
+Could you give me ___ advice?
+   A. some
+   B. a few
+   C. many
+   D. an
+
+21. [Articles, Demonstratives, Possessives, Quantifiers | medium]
+Which sentence is correct?
+   A. Both of the answers are correct.
+   B. Both answer is correct.
+   C. Both the answers is correct.
+   D. Both of the answer are correct.
+
+22. [Articles, Demonstratives, Possessives, Quantifiers | medium]
+Which sentence is correct?
+   A. I have few question about the report.
+   B. I have a few questions about the report.
+   C. I have much questions about the report.
+   D. I have a little questions about the report.
+
+23. [Articles, Demonstratives, Possessives, Quantifiers | hard]
+Some students passed, and ___ failed.
+   A. each other
+   B. others
+   C. another
+   D. other
+
+24. [Articles, Demonstratives, Possessives, Quantifiers | hard]
+Which sentence is correct?
+   A. All the student passed.
+   B. All the students passed.
+   C. The all students passed.
+   D. All of students passed.
+
+25. [Articles, Demonstratives, Possessives, Quantifiers | hard]
+Which sentence is correct?
+   A. Each of the servers has a backup.
+   B. Each servers has a backup.
+   C. Each of the servers have a backup.
+   D. Each of server has a backup.
+
+==================================================
+ANSWER KEY
+==================================================
+
+1. A
+   Why : Pilih a/an berdasarkan BUNYI: /aur/ vokal, jadi 'an'.
+   Trap: 'hour' diawali huruf h (konsonan).
+
+2. C
+   Why : Bunyi /ju:/ konsonan, jadi 'a'.
+   Trap: 'university' diawali huruf vokal.
+
+3. A
+   Why : 'engineer' dibunyikan dengan vokal, jadi 'an'. Aturan berdasarkan bunyi, bukan huruf.
+   Trap: Beberapa orang tidak yakin soal bunyi awal 'en-'.
+
+4. D
+   Why : Sudah disebut = spesifik = 'the'.
+   Trap: 'bug' masih kata yang sama.
+
+5. D
+   Why : Jauh + jamak = those.
+   Trap: 'servers' tampak plural.
+
+6. C
+   Why : 'files' countable plural = many. much untuk uncountable.
+   Trap: Semua quantifier terdengar akrab.
+
+7. D
+   Why : 'time' di sini uncountable = much.
+   Trap: 'time' tampak seperti hitungan jam.
+
+8. A
+   Why : Information tidak punya bentuk jamak dan tidak bisa dihitung langsung.
+   Trap: Semua opsi adalah noun biasa dan terlihat sama.
+
+9. B
+   Why : Noun uncountable umum = tanpa artikel.
+   Trap: Terdengar natural dengan 'the'.
+
+10. A
+   Why : Dekat + jamak = these.
+   Trap: 'headphones' dikira tunggal.
+
+11. D
+   Why : Possessive pronoun berdiri sendiri.
+   Trap: 'my' dikira possessive.
+
+12. B
+   Why : 'its' = possessive determiner; it's = it is.
+   Trap: it's lebih sering ditemui.
+
+13. C
+   Why : Sebelum noun butuh determiner: their.
+   Trap: 'theirs' dikira possessive.
+
+14. B
+   Why : Tanpa noun = pronoun: ours.
+   Trap: 'our' dikira possessive.
+
+15. B
+   Why : Plural -s: apostrof setelah s.
+   Trap: Letak apostrof.
+
+16. D
+   Why : 'little' = hampir tidak ada (negatif).
+   Trap: 'a little' terdengar natural.
+
+17. B
+   Why : 'a little' = cukup/ada sedikit (positif).
+   Trap: Pasangan soal sebelumnya.
+
+18. D
+   Why : Each + noun tunggal.
+   Trap: 'Each' dikira butuh jamak.
+
+19. C
+   Why : Kalimat negatif + uncountable = any.
+   Trap: 'some' terdengar natural.
+
+20. A
+   Why : Advice uncountable.
+   Trap: 'advice' dikira countable.
+
+21. A
+   Why : Both + plural noun + verb plural.
+   Trap: Singular/plural.
+
+22. B
+   Why : 'questions' countable plural, jadi a few. 'a little' dan 'much' hanya untuk uncountable.
+   Trap: 'a little' dan 'much' terdengar akrab walau salah untuk noun yang dihitung.
+
+23. B
+   Why : 'others' = pronoun jamak berdiri sendiri.
+   Trap: 'other' tampak natural.
+
+24. B
+   Why : 'All' + the + plural.
+   Trap: Susunan determiner.
+
+25. A
+   Why : Each + singular verb.
+   Trap: 'servers' tepat sebelum verb.

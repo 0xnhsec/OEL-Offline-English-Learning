@@ -1,0 +1,281 @@
+MODULE 9: FUTURE TENSE (WILL, BE GOING TO)
+Choose the best answer (A-D).
+
+1. [Future Tense (will, be going to) | easy]
+Which sentence is a prediction based on present evidence?
+   A. I'll open the window.
+   B. Look at those clouds! It is going to rain.
+   C. I will call you later.
+   D. I think it will rain tomorrow.
+
+2. [Future Tense (will, be going to) | easy]
+Which sentence is a prediction based on opinion?
+   A. We have booked the tickets to Bali.
+   B. I think the exam will be hard.
+   C. The train departs at six.
+   D. Look at his face! He is going to cry.
+
+3. [Future Tense (will, be going to) | easy]
+Which is a spontaneous decision made at the moment of speaking?
+   A. I have decided to get a new phone.
+   B. He is going to call me.
+   C. The phone is ringing. I'll get it.
+   D. I'm going to get a new phone next week.
+
+4. [Future Tense (will, be going to) | easy]
+Which sentence shows a plan made before speaking?
+   A. I'm going to start a bug bounty blog next month.
+   B. It will probably rain.
+   C. Wait, I'll check my notes.
+   D. Perhaps I will join.
+
+5. [Future Tense (will, be going to) | easy]
+Which sentence shows a promise?
+   A. I am going to bed now.
+   B. I won't tell anyone your password.
+   C. We are going to class.
+   D. It is going to snow.
+
+6. [Future Tense (will, be going to) | easy]
+'She will ___ the report tomorrow.'
+   A. send
+   B. sent
+   C. sends
+   D. sending
+
+7. [Future Tense (will, be going to) | easy]
+'She is going to ___ abroad.'
+   A. studies
+   B. study
+   C. studying
+   D. studied
+
+8. [Future Tense (will, be going to) | easy]
+Which is correct?
+   A. They going to launch the app in June.
+   B. They are going to launch the app in June.
+   C. They is going to launch the app in June.
+   D. They are going launch the app in June.
+
+9. [Future Tense (will, be going to) | easy]
+___ you going to attend the workshop?
+   A. Will
+   B. Do
+   C. Are
+   D. Does
+
+10. [Future Tense (will, be going to) | easy]
+'Will you join us?' 'Yes, ___.'
+   A. I will
+   B. I do
+   C. I am will
+   D. I would
+
+11. [Future Tense (will, be going to) | easy]
+'Will' is followed by ___.
+   A. to + verb
+   B. V-ing
+   C. V3
+   D. the base form
+
+12. [Future Tense (will, be going to) | medium]
+I will call you when I ___ home.
+   A. get
+   B. will get
+   C. am getting
+   D. got
+
+13. [Future Tense (will, be going to) | medium]
+If you need help, I ___ you.
+   A. will help
+   B. help
+   C. helped
+   D. would help
+
+14. [Future Tense (will, be going to) | medium]
+Which sentence shows a fixed arrangement with a time?
+   A. He might meet someone.
+   B. I met someone.
+   C. I am meeting my supervisor at 3 pm tomorrow.
+   D. I will perhaps meet someone.
+
+15. [Future Tense (will, be going to) | medium]
+The class ___ at 8 am tomorrow.
+   A. started
+   B. will starts
+   C. is start
+   D. starts
+
+16. [Future Tense (will, be going to) | medium]
+Which sentence is incorrect?
+   A. She is going to go to Bali.
+   B. She will not go to Bali.
+   C. She will go to Bali.
+   D. She will goes to Bali.
+
+17. [Future Tense (will, be going to) | medium]
+Which sentence expresses an offer?
+   A. He carried my bag.
+   B. Your bag looks heavy. I'll carry it.
+   C. I'm going to carry my bag.
+   D. My bag is going to be heavy.
+
+18. [Future Tense (will, be going to) | medium]
+Which sentence expresses strong certainty?
+   A. Perhaps it will work.
+   B. It may work.
+   C. I'm sure it will work.
+   D. It might work.
+
+19. [Future Tense (will, be going to) | medium]
+In 'If you finish early, we will leave', which clause is dependent?
+   A. will leave
+   B. you finish
+   C. If you finish early
+   D. we will leave
+
+20. [Future Tense (will, be going to) | medium]
+'will' in 'She will leave' is a ___.
+   A. adjective
+   B. adverb
+   C. noun
+   D. modal (auxiliary) verb
+
+21. [Future Tense (will, be going to) | hard]
+We ___ visit Malang, but it rained.
+   A. were going to
+   B. are going to
+   C. will
+   D. go
+
+22. [Future Tense (will, be going to) | hard]
+Which sentence uses the wrong tense in the time clause?
+   A. When she arrives, I will call.
+   B. I will call you when I arrive.
+   C. As soon as it ends, I'll call.
+   D. I will call you when I will arrive.
+
+23. [Future Tense (will, be going to) | hard]
+Which 'going to' is a future marker?
+   A. I am going to study tonight.
+   B. I am going to the library now.
+   C. Both
+   D. Neither
+
+24. [Future Tense (will, be going to) | hard]
+Which sentence is a compound sentence about the future?
+   A. I will study tonight, and I will take the exam tomorrow.
+   B. When I finish, I will rest.
+   C. I will study and rest.
+   D. I will study.
+
+25. [Future Tense (will, be going to) | hard]
+In 'The team will fix the bug', what is the VP and its head?
+   A. The team will; head: team
+   B. will; head: will
+   C. will fix the bug; head: fix
+   D. fix the; head: the
+
+==================================================
+ANSWER KEY
+==================================================
+
+1. B
+   Why : Ada bukti terlihat sekarang (awan gelap) = be going to. 'I think...' = opini = will.
+   Trap: Semua opsi adalah prediksi, tapi dasarnya berbeda.
+
+2. B
+   Why : Opini/perkiraan pribadi = will.
+   Trap: 'going to' juga prediksi, tapi berdasarkan bukti.
+
+3. C
+   Why : Keputusan saat berbicara = will. Keputusan sebelumnya = be going to.
+   Trap: Semua opsi menyangkut handphone.
+
+4. A
+   Why : Niat yang sudah diputuskan sebelum berbicara = be going to.
+   Trap: 'will' sering dipakai untuk semua rencana.
+
+5. B
+   Why : Janji = will / won't.
+   Trap: 'going to' terdengar seperti niat kuat.
+
+6. A
+   Why : will selalu diikuti base form tanpa -s.
+   Trap: Pelaku tunggal membuat -s menggoda.
+
+7. B
+   Why : be going to + base form (study).
+   Trap: 'to' membuat orang mengira verb berikutnya bentuk to-infinitive.
+
+8. B
+   Why : Struktur lengkap: subjek + be (am/is/are) + going to + base form.
+   Trap: Bentuk be hilang atau tidak cocok dengan subjek.
+
+9. C
+   Why : be going to: kata kerja be dipindah ke depan (Are you going to...).
+   Trap: 'Will' dikira satu-satunya pembentuk pertanyaan masa depan.
+
+10. A
+   Why : Jawaban singkat mengulang auxiliary: Yes, I will.
+   Trap: Jawaban 'I do' mengikuti pola present simple.
+
+11. D
+   Why : Modal will + base form tanpa 'to'.
+   Trap: 'to' sering muncul setelah modal di bahasa Indonesia ('akan untuk').
+
+12. A
+   Why : Setelah when/after/as soon as/before, masa depan dinyatakan dengan present simple.
+   Trap: 'will get' terdengar logis karena masa depan.
+
+13. A
+   Why : Klausa utama dalam first conditional memakai will + base form.
+   Trap: 'help' saja tampak cukup.
+
+14. C
+   Why : Present continuous + waktu mendatang menandai janji/atur jadwal yang sudah pasti.
+   Trap: 'met' tampak seperti rencana yang pasti.
+
+15. D
+   Why : Jadwal/timetable tetap memakai present simple walau di masa depan.
+   Trap: 'will starts' menggabungkan will dan -s.
+
+16. D
+   Why : will tidak pernah diikuti verb ber-s: will goes salah.
+   Trap: Kesalahan kecil (-es) mudah terlewat.
+
+17. B
+   Why : Tawaran spontan = will (I'll).
+   Trap: 'going to' terdengar seperti tawaran sopan.
+
+18. C
+   Why : 'I'm sure' menyatakan keyakinan tinggi. Perhaps/might/may menyatakan kemungkinan.
+   Trap: 'Perhaps', 'might', 'may' semuanya terdengar yakin.
+
+19. C
+   Why : 'If' menjadikan 'If you finish early' dependent. 'we will leave' = independent.
+   Trap: 'you finish' tampak seperti klausa lengkap.
+
+20. D
+   Why : Di sini 'will' mendahului verb dan menandai masa depan = modal (auxiliary) verb.
+   Trap: Kata 'will' juga bisa noun (a will).
+
+21. A
+   Why : Rencana masa lalu yang tidak terlaksana = was/were going to.
+   Trap: Present tense mengabaikan 'rained' (lampau).
+
+22. D
+   Why : Time clause memakai present simple: 'when I arrive'.
+   Trap: 'will arrive' tampak benar karena masa depan.
+
+23. A
+   Why : 'going to study' = rencana (future). 'going to the library' = bergerak ke tempat.
+   Trap: 'going' pada 'going to the library' juga terdengar masa depan.
+
+24. A
+   Why : Compound = dua independent clause dengan 'and'.
+   Trap: 'When I finish' tampak seperti satu pola yang sama.
+
+25. C
+   Why : VP = will fix the bug; HEAD = main verb 'fix'.
+   Trap: Auxiliary 'will' berada di depan.

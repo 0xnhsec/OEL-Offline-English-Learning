@@ -1,0 +1,281 @@
+MODULE 7: TYPES OF SENTENCES
+Choose the best answer (A-D).
+
+1. [Types of Sentences | easy]
+Which is a simple sentence?
+   A. The scan finished, and we reviewed it.
+   B. The scan finished, but the report failed.
+   C. Because the scan finished, we reviewed it.
+   D. The scan finished.
+
+2. [Types of Sentences | easy]
+'She opened the file and read the report.' is a ___ sentence.
+   A. complex
+   B. compound
+   C. compound-complex
+   D. simple
+
+3. [Types of Sentences | easy]
+'Although the test was hard, I passed.' is a ___ sentence.
+   A. simple
+   B. complex
+   C. compound
+   D. compound-complex
+
+4. [Types of Sentences | easy]
+'I stayed home because it rained.' is a ___ sentence.
+   A. compound-complex
+   B. complex
+   C. compound
+   D. simple
+
+5. [Types of Sentences | easy]
+A compound sentence has ___.
+   A. only one clause
+   B. two or more independent clauses
+   C. only dependent clauses
+   D. one independent and one dependent clause
+
+6. [Types of Sentences | easy]
+A complex sentence has ___.
+   A. only phrases
+   B. only one clause
+   C. one independent clause and at least one dependent clause
+   D. two independent clauses
+
+7. [Types of Sentences | medium]
+'Because she studied hard, she passed, and her teacher congratulated her.' is ___.
+   A. compound
+   B. compound-complex
+   C. complex
+   D. simple
+
+8. [Types of Sentences | medium]
+'The bug that crashed the server was fixed.' is a ___ sentence.
+   A. compound-complex
+   B. simple
+   C. complex
+   D. compound
+
+9. [Types of Sentences | medium]
+Which is correct? 'We stayed home, ___ it was raining.' (formal reason)
+   A. so
+   B. for
+   C. yet
+   D. nor
+
+10. [Types of Sentences | medium]
+Combine into a COMPOUND sentence: 'The server crashed.' 'We restarted it.'
+   A. The server crashed we restarted it.
+   B. Because the server crashed, we restarted it.
+   C. The server crashed, we restarted it.
+   D. The server crashed, so we restarted it.
+
+11. [Types of Sentences | medium]
+Combine into a COMPLEX sentence: 'The scan finished.' 'We reviewed the report.'
+   A. The scan finished we reviewed the report.
+   B. After the scan finished, we reviewed the report.
+   C. The scan finished, and we reviewed the report.
+   D. The scan finished; we reviewed the report.
+
+12. [Types of Sentences | medium]
+Which is NOT a compound sentence?
+   A. She likes tea, and he likes coffee.
+   B. She likes tea and coffee.
+   C. She likes tea; he likes coffee.
+   D. She likes tea, but he does not.
+
+13. [Types of Sentences | medium]
+Which sentence has an unnecessary comma?
+   A. He opened the laptop and started the scan.
+   B. He opened the laptop, and he started the scan.
+   C. He opened the laptop; he started the scan.
+   D. He opened the laptop, and started the scan.
+
+14. [Types of Sentences | medium]
+Which sentence is correct?
+   A. He was tired, so he slept early.
+   B. He was tired so he, slept early.
+   C. He was tired so, he slept early.
+   D. He was tired, he slept early.
+
+15. [Types of Sentences | medium]
+'Either we update now, or we accept the risk.' is a ___ sentence.
+   A. compound-complex
+   B. simple
+   C. compound
+   D. complex
+
+16. [Types of Sentences | medium]
+'Neither the logs nor the reports mentioned the breach.' is ___.
+   A. compound
+   B. complex
+   C. simple
+   D. compound-complex
+
+17. [Types of Sentences | medium]
+In 'Although she was tired, she finished the report.', which is the dependent clause?
+   A. Although she was tired
+   B. the report
+   C. she finished the report
+   D. Although
+
+18. [Types of Sentences | medium]
+How many independent clauses are in 'Although it was late, we kept working, and they joined us.'?
+   A. 2
+   B. 0
+   C. 1
+   D. 3
+
+19. [Types of Sentences | hard]
+'The new security analyst in the Surabaya office found a critical bug in the login system.' is ___.
+   A. simple
+   B. compound-complex
+   C. complex
+   D. compound
+
+20. [Types of Sentences | hard]
+'I wanted to join the CTF, but I had no time because I worked.' is ___.
+   A. compound
+   B. simple
+   C. complex
+   D. compound-complex
+
+21. [Types of Sentences | hard]
+'Do you know where she parked?' is a ___ sentence.
+   A. complex
+   B. simple
+   C. compound-complex
+   D. compound
+
+22. [Types of Sentences | hard]
+Which completes a compound-complex sentence? 'We tested the patch, and it failed ___'
+   A. in the lab.
+   B. again and again.
+   C. because the config was wrong.
+   D. badly.
+
+23. [Types of Sentences | hard]
+A sentence with one subject and a compound verb is ___.
+   A. compound-complex
+   B. simple
+   C. compound
+   D. complex
+
+24. [Types of Sentences | hard]
+Which sentence is a fused sentence (run-on)?
+   A. The server crashed; we restarted it.
+   B. The server crashed, so we restarted it.
+   C. The server crashed we restarted it.
+   D. The server crashed. We restarted it.
+
+25. [Types of Sentences | hard]
+Which sentence contains a double connector error?
+   A. Although it rained, we left.
+   B. Although it rained, but we left.
+   C. It rained, but we left.
+   D. We left although it rained.
+
+==================================================
+ANSWER KEY
+==================================================
+
+1. D
+   Why : Simple = satu independent clause. Tiga opsi lain punya dua klausa (compound atau complex).
+   Trap: Semua opsi pendek, jadi panjang kalimat tidak membantu.
+
+2. D
+   Why : 'and' di sini menghubungkan dua verb dengan SATU subjek ('She'), jadi hanya satu klausa = simple.
+   Trap: 'and' memicu jawaban compound.
+
+3. B
+   Why : 'Although the test was hard' = dependent clause; 'I passed' = independent. Satu + satu = complex.
+   Trap: Koma dan dua bagian kalimat membuatnya terlihat compound.
+
+4. B
+   Why : 'because it rained' = dependent clause (subordinator 'because'), jadi complex.
+   Trap: Tidak ada koma, jadi dikira kalimat sederhana.
+
+5. B
+   Why : Compound = dua atau lebih independent clause. Complex = independent + dependent.
+   Trap: Mirip dengan definisi complex.
+
+6. C
+   Why : Complex = satu independent clause + minimal satu dependent clause.
+   Trap: 'Complex' dikira berarti 'rumit/panjang'.
+
+7. B
+   Why : Dua independent clause (she passed; her teacher congratulated her) + satu dependent (Because she studied hard).
+   Trap: Ada 'and' + koma, jadi dikira hanya compound.
+
+8. C
+   Why : 'that crashed the server' adjective clause.
+   Trap: Tidak ada subordinator tradisional.
+
+9. B
+   Why : 'for' = alasan (formal, tulisan). Klausa setelahnya menjelaskan penyebab klausa pertama.
+   Trap: 'so' terdengar paling umum.
+
+10. D
+   Why : Compound memakai FANBOYS ('so'). 'Because...' menghasilkan complex.
+   Trap: Opsi 'Because...' juga satu kalimat yang rapi.
+
+11. B
+   Why : Complex butuh subordinator ('After'). 'and' menghasilkan compound.
+   Trap: Opsi 'and' maknanya sama.
+
+12. B
+   Why : 'tea and coffee' hanya menghubungkan dua noun; tidak ada dua klausa.
+   Trap: 'and' muncul di dua opsi lain, jadi mudah tertukar.
+
+13. D
+   Why : Koma sebelum FANBOYS hanya untuk klausa lengkap. 'started the scan' tidak punya subjek sendiri, jadi komanya berlebih.
+   Trap: Koma sebelum 'and' terlihat rapi.
+
+14. A
+   Why : Koma ditaruh SEBELUM 'so' karena 'so' menghubungkan dua independent clause.
+   Trap: Letak koma terlihat sepele, padahal posisinya yang salah di tiga opsi lain.
+
+15. C
+   Why : Dua independent clause dihubungkan 'or' (FANBOYS) = compound.
+   Trap: 'Either' dikira subordinator.
+
+16. C
+   Why : Di sini 'nor' menghubungkan dua noun, bukan dua klausa. Hanya satu verb ('mentioned') = simple.
+   Trap: 'nor' dikira FANBOYS yang pasti menandakan compound.
+
+17. A
+   Why : Subordinator 'Although' membuat 'Although she was tired' dependent.
+   Trap: 'she finished the report' juga punya subjek + verb.
+
+18. A
+   Why : Independent: 'we kept working' dan 'they joined us'. 'Although it was late' dependent.
+   Trap: Dependent clause ikut dihitung sehingga jawabannya 3.
+
+19. A
+   Why : Panjang bukan ukuran; hanya satu subjek + satu finite verb ('found') = simple.
+   Trap: Kalimat panjang dengan banyak frasa terasa kompleks.
+
+20. D
+   Why : Dua independent (I wanted...; I had no time...) + satu dependent (because I worked) = compound-complex.
+   Trap: 'because I worked' tersembunyi di akhir kalimat.
+
+21. A
+   Why : 'where she parked' = noun clause (objek 'know'), jadi ada independent + dependent = complex.
+   Trap: Bentuk pertanyaan membuat orang mengira kalimat sederhana.
+
+22. C
+   Why : Hanya 'because the config was wrong' menambahkan dependent clause, sehingga hasilnya compound-complex.
+   Trap: Semua opsi melengkapi kalimat secara makna.
+
+23. B
+   Why : Klausa dihitung dari subjek + finite verb yang berpasangan; satu subjek, banyak verb tetap satu klausa = simple.
+   Trap: Dua verb dikira dua klausa.
+
+24. C
+   Why : Fused sentence = dua independent clause menempel tanpa koma atau penghubung.
+   Trap: Tidak ada tanda baca sama sekali, jadi sering dikira cuma 'kalimat panjang'.
+
+25. B
+   Why : Although sudah menandai kontras, jadi 'but' tidak boleh dipakai bersamanya. Satu hubungan, satu penghubung.
+   Trap: Pola 'meskipun... tetapi...' terasa natural bagi penutur Indonesia.

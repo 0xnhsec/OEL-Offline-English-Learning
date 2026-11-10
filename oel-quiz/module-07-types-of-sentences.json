@@ -1,0 +1,382 @@
+{
+  "title": "Module 7: Types of Sentences",
+  "language": "en",
+  "total": 25,
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Types of Sentences",
+      "difficulty": "easy",
+      "question": "Which is a simple sentence?",
+      "options": {
+        "A": "The scan finished, and we reviewed it.",
+        "B": "The scan finished, but the report failed.",
+        "C": "Because the scan finished, we reviewed it.",
+        "D": "The scan finished."
+      },
+      "answer": "D",
+      "trap": "Semua opsi pendek, jadi panjang kalimat tidak membantu.",
+      "explanation": "Simple = satu independent clause. Tiga opsi lain punya dua klausa (compound atau complex)."
+    },
+    {
+      "id": 2,
+      "topic": "Types of Sentences",
+      "difficulty": "easy",
+      "question": "'She opened the file and read the report.' is a ___ sentence.",
+      "options": {
+        "A": "complex",
+        "B": "compound",
+        "C": "compound-complex",
+        "D": "simple"
+      },
+      "answer": "D",
+      "trap": "'and' memicu jawaban compound.",
+      "explanation": "'and' di sini menghubungkan dua verb dengan SATU subjek ('She'), jadi hanya satu klausa = simple."
+    },
+    {
+      "id": 3,
+      "topic": "Types of Sentences",
+      "difficulty": "easy",
+      "question": "'Although the test was hard, I passed.' is a ___ sentence.",
+      "options": {
+        "A": "simple",
+        "B": "complex",
+        "C": "compound",
+        "D": "compound-complex"
+      },
+      "answer": "B",
+      "trap": "Koma dan dua bagian kalimat membuatnya terlihat compound.",
+      "explanation": "'Although the test was hard' = dependent clause; 'I passed' = independent. Satu + satu = complex."
+    },
+    {
+      "id": 4,
+      "topic": "Types of Sentences",
+      "difficulty": "easy",
+      "question": "'I stayed home because it rained.' is a ___ sentence.",
+      "options": {
+        "A": "compound-complex",
+        "B": "complex",
+        "C": "compound",
+        "D": "simple"
+      },
+      "answer": "B",
+      "trap": "Tidak ada koma, jadi dikira kalimat sederhana.",
+      "explanation": "'because it rained' = dependent clause (subordinator 'because'), jadi complex."
+    },
+    {
+      "id": 5,
+      "topic": "Types of Sentences",
+      "difficulty": "easy",
+      "question": "A compound sentence has ___.",
+      "options": {
+        "A": "only one clause",
+        "B": "two or more independent clauses",
+        "C": "only dependent clauses",
+        "D": "one independent and one dependent clause"
+      },
+      "answer": "B",
+      "trap": "Mirip dengan definisi complex.",
+      "explanation": "Compound = dua atau lebih independent clause. Complex = independent + dependent."
+    },
+    {
+      "id": 6,
+      "topic": "Types of Sentences",
+      "difficulty": "easy",
+      "question": "A complex sentence has ___.",
+      "options": {
+        "A": "only phrases",
+        "B": "only one clause",
+        "C": "one independent clause and at least one dependent clause",
+        "D": "two independent clauses"
+      },
+      "answer": "C",
+      "trap": "'Complex' dikira berarti 'rumit/panjang'.",
+      "explanation": "Complex = satu independent clause + minimal satu dependent clause."
+    },
+    {
+      "id": 7,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "'Because she studied hard, she passed, and her teacher congratulated her.' is ___.",
+      "options": {
+        "A": "compound",
+        "B": "compound-complex",
+        "C": "complex",
+        "D": "simple"
+      },
+      "answer": "B",
+      "trap": "Ada 'and' + koma, jadi dikira hanya compound.",
+      "explanation": "Dua independent clause (she passed; her teacher congratulated her) + satu dependent (Because she studied hard)."
+    },
+    {
+      "id": 8,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "'The bug that crashed the server was fixed.' is a ___ sentence.",
+      "options": {
+        "A": "compound-complex",
+        "B": "simple",
+        "C": "complex",
+        "D": "compound"
+      },
+      "answer": "C",
+      "trap": "Tidak ada subordinator tradisional.",
+      "explanation": "'that crashed the server' adjective clause."
+    },
+    {
+      "id": 9,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "Which is correct? 'We stayed home, ___ it was raining.' (formal reason)",
+      "options": {
+        "A": "so",
+        "B": "for",
+        "C": "yet",
+        "D": "nor"
+      },
+      "answer": "B",
+      "trap": "'so' terdengar paling umum.",
+      "explanation": "'for' = alasan (formal, tulisan). Klausa setelahnya menjelaskan penyebab klausa pertama."
+    },
+    {
+      "id": 10,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "Combine into a COMPOUND sentence: 'The server crashed.' 'We restarted it.'",
+      "options": {
+        "A": "The server crashed we restarted it.",
+        "B": "Because the server crashed, we restarted it.",
+        "C": "The server crashed, we restarted it.",
+        "D": "The server crashed, so we restarted it."
+      },
+      "answer": "D",
+      "trap": "Opsi 'Because...' juga satu kalimat yang rapi.",
+      "explanation": "Compound memakai FANBOYS ('so'). 'Because...' menghasilkan complex."
+    },
+    {
+      "id": 11,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "Combine into a COMPLEX sentence: 'The scan finished.' 'We reviewed the report.'",
+      "options": {
+        "A": "The scan finished we reviewed the report.",
+        "B": "After the scan finished, we reviewed the report.",
+        "C": "The scan finished, and we reviewed the report.",
+        "D": "The scan finished; we reviewed the report."
+      },
+      "answer": "B",
+      "trap": "Opsi 'and' maknanya sama.",
+      "explanation": "Complex butuh subordinator ('After'). 'and' menghasilkan compound."
+    },
+    {
+      "id": 12,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "Which is NOT a compound sentence?",
+      "options": {
+        "A": "She likes tea, and he likes coffee.",
+        "B": "She likes tea and coffee.",
+        "C": "She likes tea; he likes coffee.",
+        "D": "She likes tea, but he does not."
+      },
+      "answer": "B",
+      "trap": "'and' muncul di dua opsi lain, jadi mudah tertukar.",
+      "explanation": "'tea and coffee' hanya menghubungkan dua noun; tidak ada dua klausa."
+    },
+    {
+      "id": 13,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "Which sentence has an unnecessary comma?",
+      "options": {
+        "A": "He opened the laptop and started the scan.",
+        "B": "He opened the laptop, and he started the scan.",
+        "C": "He opened the laptop; he started the scan.",
+        "D": "He opened the laptop, and started the scan."
+      },
+      "answer": "D",
+      "trap": "Koma sebelum 'and' terlihat rapi.",
+      "explanation": "Koma sebelum FANBOYS hanya untuk klausa lengkap. 'started the scan' tidak punya subjek sendiri, jadi komanya berlebih."
+    },
+    {
+      "id": 14,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "Which sentence is correct?",
+      "options": {
+        "A": "He was tired, so he slept early.",
+        "B": "He was tired so he, slept early.",
+        "C": "He was tired so, he slept early.",
+        "D": "He was tired, he slept early."
+      },
+      "answer": "A",
+      "trap": "Letak koma terlihat sepele, padahal posisinya yang salah di tiga opsi lain.",
+      "explanation": "Koma ditaruh SEBELUM 'so' karena 'so' menghubungkan dua independent clause."
+    },
+    {
+      "id": 15,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "'Either we update now, or we accept the risk.' is a ___ sentence.",
+      "options": {
+        "A": "compound-complex",
+        "B": "simple",
+        "C": "compound",
+        "D": "complex"
+      },
+      "answer": "C",
+      "trap": "'Either' dikira subordinator.",
+      "explanation": "Dua independent clause dihubungkan 'or' (FANBOYS) = compound."
+    },
+    {
+      "id": 16,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "'Neither the logs nor the reports mentioned the breach.' is ___.",
+      "options": {
+        "A": "compound",
+        "B": "complex",
+        "C": "simple",
+        "D": "compound-complex"
+      },
+      "answer": "C",
+      "trap": "'nor' dikira FANBOYS yang pasti menandakan compound.",
+      "explanation": "Di sini 'nor' menghubungkan dua noun, bukan dua klausa. Hanya satu verb ('mentioned') = simple."
+    },
+    {
+      "id": 17,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "In 'Although she was tired, she finished the report.', which is the dependent clause?",
+      "options": {
+        "A": "Although she was tired",
+        "B": "the report",
+        "C": "she finished the report",
+        "D": "Although"
+      },
+      "answer": "A",
+      "trap": "'she finished the report' juga punya subjek + verb.",
+      "explanation": "Subordinator 'Although' membuat 'Although she was tired' dependent."
+    },
+    {
+      "id": 18,
+      "topic": "Types of Sentences",
+      "difficulty": "medium",
+      "question": "How many independent clauses are in 'Although it was late, we kept working, and they joined us.'?",
+      "options": {
+        "A": "2",
+        "B": "0",
+        "C": "1",
+        "D": "3"
+      },
+      "answer": "A",
+      "trap": "Dependent clause ikut dihitung sehingga jawabannya 3.",
+      "explanation": "Independent: 'we kept working' dan 'they joined us'. 'Although it was late' dependent."
+    },
+    {
+      "id": 19,
+      "topic": "Types of Sentences",
+      "difficulty": "hard",
+      "question": "'The new security analyst in the Surabaya office found a critical bug in the login system.' is ___.",
+      "options": {
+        "A": "simple",
+        "B": "compound-complex",
+        "C": "complex",
+        "D": "compound"
+      },
+      "answer": "A",
+      "trap": "Kalimat panjang dengan banyak frasa terasa kompleks.",
+      "explanation": "Panjang bukan ukuran; hanya satu subjek + satu finite verb ('found') = simple."
+    },
+    {
+      "id": 20,
+      "topic": "Types of Sentences",
+      "difficulty": "hard",
+      "question": "'I wanted to join the CTF, but I had no time because I worked.' is ___.",
+      "options": {
+        "A": "compound",
+        "B": "simple",
+        "C": "complex",
+        "D": "compound-complex"
+      },
+      "answer": "D",
+      "trap": "'because I worked' tersembunyi di akhir kalimat.",
+      "explanation": "Dua independent (I wanted...; I had no time...) + satu dependent (because I worked) = compound-complex."
+    },
+    {
+      "id": 21,
+      "topic": "Types of Sentences",
+      "difficulty": "hard",
+      "question": "'Do you know where she parked?' is a ___ sentence.",
+      "options": {
+        "A": "complex",
+        "B": "simple",
+        "C": "compound-complex",
+        "D": "compound"
+      },
+      "answer": "A",
+      "trap": "Bentuk pertanyaan membuat orang mengira kalimat sederhana.",
+      "explanation": "'where she parked' = noun clause (objek 'know'), jadi ada independent + dependent = complex."
+    },
+    {
+      "id": 22,
+      "topic": "Types of Sentences",
+      "difficulty": "hard",
+      "question": "Which completes a compound-complex sentence? 'We tested the patch, and it failed ___'",
+      "options": {
+        "A": "in the lab.",
+        "B": "again and again.",
+        "C": "because the config was wrong.",
+        "D": "badly."
+      },
+      "answer": "C",
+      "trap": "Semua opsi melengkapi kalimat secara makna.",
+      "explanation": "Hanya 'because the config was wrong' menambahkan dependent clause, sehingga hasilnya compound-complex."
+    },
+    {
+      "id": 23,
+      "topic": "Types of Sentences",
+      "difficulty": "hard",
+      "question": "A sentence with one subject and a compound verb is ___.",
+      "options": {
+        "A": "compound-complex",
+        "B": "simple",
+        "C": "compound",
+        "D": "complex"
+      },
+      "answer": "B",
+      "trap": "Dua verb dikira dua klausa.",
+      "explanation": "Klausa dihitung dari subjek + finite verb yang berpasangan; satu subjek, banyak verb tetap satu klausa = simple."
+    },
+    {
+      "id": 24,
+      "topic": "Types of Sentences",
+      "difficulty": "hard",
+      "question": "Which sentence is a fused sentence (run-on)?",
+      "options": {
+        "A": "The server crashed; we restarted it.",
+        "B": "The server crashed, so we restarted it.",
+        "C": "The server crashed we restarted it.",
+        "D": "The server crashed. We restarted it."
+      },
+      "answer": "C",
+      "trap": "Tidak ada tanda baca sama sekali, jadi sering dikira cuma 'kalimat panjang'.",
+      "explanation": "Fused sentence = dua independent clause menempel tanpa koma atau penghubung."
+    },
+    {
+      "id": 25,
+      "topic": "Types of Sentences",
+      "difficulty": "hard",
+      "question": "Which sentence contains a double connector error?",
+      "options": {
+        "A": "Although it rained, we left.",
+        "B": "Although it rained, but we left.",
+        "C": "It rained, but we left.",
+        "D": "We left although it rained."
+      },
+      "answer": "B",
+      "trap": "Pola 'meskipun... tetapi...' terasa natural bagi penutur Indonesia.",
+      "explanation": "Although sudah menandai kontras, jadi 'but' tidak boleh dipakai bersamanya. Satu hubungan, satu penghubung."
+    }
+  ]
+}

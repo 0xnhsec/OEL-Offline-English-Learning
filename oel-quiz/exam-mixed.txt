@@ -1,0 +1,600 @@
+EXAM: MIXED (MODULES 1-9)
+Choose the best answer (A-D).
+
+1. [M4 Subjects, Predicates, Objects, Complements, Adverbials | medium]
+Which sentence contains an adverbial of place?
+   A. The files were deleted yesterday.
+   B. The files are very old.
+   C. The files are important.
+   D. The files are stored on the server.
+
+2. [M7 Types of Sentences | easy]
+'Ali and Budi fixed the bug.' is a ___ sentence.
+   A. simple
+   B. complex
+   C. compound-complex
+   D. compound
+
+3. [M6 Subject-Verb Agreement | easy]
+The scissors ___ on the desk.
+   A. are
+   B. has been
+   C. is
+   D. was
+
+4. [M9 Future Tense (will, be going to) | easy]
+___ the update fix the bug?
+   A. Are
+   B. Will
+   C. Does
+   D. Is going
+
+5. [M3 Clauses | hard]
+Which dependent clause fixes the fragment? 'Although the patch was available.'
+   A. Although the patch.
+   B. Although the patch was available, we delayed the update.
+   C. Although the patch was available we.
+   D. Although the patch was available, and.
+
+6. [M9 Future Tense (will, be going to) | medium]
+After the scan ___, we will review the results.
+   A. is finishing
+   B. finished
+   C. will finish
+   D. finishes
+
+7. [M1 Parts of Speech | medium]
+The word 'run' in 'We had a long run this morning.' is a ___.
+   A. noun
+   B. adjective
+   C. adverb
+   D. verb
+
+8. [M2 Phrases | medium]
+In 'the very old server', 'very old' is a(n) ___.
+   A. adverb phrase (AdvP)
+   B. adjective phrase (AdjP)
+   C. prepositional phrase (PP)
+   D. noun phrase (NP)
+
+9. [M7 Types of Sentences | hard]
+Which is compound-complex?
+   A. When the alarm rang, we left, and the guards locked the gate.
+   B. We left, and the guards locked the gate.
+   C. We left when the alarm rang.
+   D. When the alarm rang, we left.
+
+10. [M6 Subject-Verb Agreement | easy]
+A number of students ___ absent today.
+   A. is
+   B. has been
+   C. was
+   D. are
+
+11. [M5 Articles, Demonstratives, Possessives, Quantifiers | medium]
+I don't like this color. Show me ___ one.
+   A. the another
+   B. others
+   C. another
+   D. other
+
+12. [M1 Parts of Speech | easy]
+Which sentence contains an interjection?
+   A. Who is waiting for me?
+   B. They waited for me.
+   C. Hey, wait for me.
+   D. We wait for them.
+
+13. [M2 Phrases | easy]
+'extremely quickly' is a(n) ___.
+   A. adjective phrase (AdjP)
+   B. noun phrase (NP)
+   C. adverb phrase (AdvP)
+   D. prepositional phrase (PP)
+
+14. [M1 Parts of Speech | easy]
+Which word is an adverb in: 'She spoke clearly during the presentation.'?
+   A. presentation
+   B. during
+   C. spoke
+   D. clearly
+
+15. [M4 Subjects, Predicates, Objects, Complements, Adverbials | easy]
+What is the indirect object in 'She gave the client a report.'?
+   A. gave
+   B. the client
+   C. She
+   D. a report
+
+16. [M8 Present Tense and Past Tense | hard]
+Which sentence uses past perfect correctly?
+   A. By the time we arrived, the session has started.
+   B. By the time we arrived, the session have started.
+   C. By the time we arrived, the session had start.
+   D. By the time we arrived, the session had started.
+
+17. [M1 Parts of Speech | easy]
+In 'They finished the scan', the word 'They' is a ___.
+   A. adjective
+   B. verb
+   C. noun
+   D. pronoun
+
+18. [M7 Types of Sentences | easy]
+'The analyst wrote the report, but the manager rejected it.' is a ___ sentence.
+   A. compound
+   B. simple
+   C. complex
+   D. compound-complex
+
+19. [M9 Future Tense (will, be going to) | medium]
+Which sentence is correct?
+   A. Will she is at the meeting tomorrow?
+   B. Is she will be at the meeting tomorrow?
+   C. Does she will be at the meeting tomorrow?
+   D. Will she be at the meeting tomorrow?
+
+20. [M8 Present Tense and Past Tense | hard]
+She ___ at home when I called.
+   A. hasn't been
+   B. didn't
+   C. wasn't
+   D. weren't
+
+21. [M8 Present Tense and Past Tense | easy]
+She ___ to campus every day.
+   A. go
+   B. goes
+   C. going
+   D. is go
+
+22. [M5 Articles, Demonstratives, Possessives, Quantifiers | hard]
+In 'those three old routers', which is the HEAD and which is the determiner?
+   A. those; routers
+   B. old; three
+   C. three; old
+   D. routers; those
+
+23. [M8 Present Tense and Past Tense | medium]
+I have lived here ___ five years.
+   A. for
+   B. during
+   C. ago
+   D. since
+
+24. [M4 Subjects, Predicates, Objects, Complements, Adverbials | medium]
+In 'He told her the truth', 'her' is the ___.
+   A. direct object
+   B. subject complement
+   C. adverbial
+   D. indirect object
+
+25. [M1 Parts of Speech | easy]
+Which word is a conjunction in: 'I wanted to study, but I was tired.'?
+   A. study
+   B. wanted
+   C. but
+   D. tired
+
+26. [M2 Phrases | hard]
+How many PPs are in 'a report about the new vulnerability in the login page'?
+   A. 2
+   B. 3
+   C. 1
+   D. 4
+
+27. [M4 Subjects, Predicates, Objects, Complements, Adverbials | easy]
+Which sentence has an indirect object?
+   A. He sent an email.
+   B. He emailed quickly.
+   C. He sent me an email.
+   D. He was tired.
+
+28. [M5 Articles, Demonstratives, Possessives, Quantifiers | medium]
+Which sentence is correct?
+   A. She gave me a lot of information.
+   B. She gave me an information.
+   C. She gave me a few informations.
+   D. She gave me many informations.
+
+29. [M7 Types of Sentences | medium]
+Which is a comma splice?
+   A. The scan failed. We restarted it.
+   B. The scan failed, so we restarted it.
+   C. The scan failed; we restarted it.
+   D. The scan failed, we restarted it.
+
+30. [M4 Subjects, Predicates, Objects, Complements, Adverbials | medium]
+Which is the predicate? 'The students in the lab are practicing SQL injection.'
+   A. The students in the lab
+   B. in the lab
+   C. SQL injection
+   D. are practicing SQL injection
+
+31. [M9 Future Tense (will, be going to) | easy]
+'I ___ be late.'
+   A. am not will
+   B. won't
+   C. willn't
+   D. don't will
+
+32. [M2 Phrases | medium]
+In 'the old router', 'old' is the ___ of the noun phrase.
+   A. modifier
+   B. HEAD
+   C. subject
+   D. complement
+
+33. [M6 Subject-Verb Agreement | medium]
+Every student and every teacher ___ required to attend.
+   A. were
+   B. have been
+   C. are
+   D. is
+
+34. [M8 Present Tense and Past Tense | medium]
+When the manager arrived, the team ___ the patch.
+   A. was already install
+   B. had already installed
+   C. has already installed
+   D. already installs
+
+35. [M4 Subjects, Predicates, Objects, Complements, Adverbials | hard]
+In 'The delay made the team angry', 'angry' is the ___.
+   A. object complement
+   B. subject complement
+   C. direct object
+   D. adverbial
+
+36. [M3 Clauses | medium]
+Which group contains only subordinators?
+   A. because, if, while
+   B. for, nor, yet
+   C. and, but, or
+   D. the, a, an
+
+37. [M5 Articles, Demonstratives, Possessives, Quantifiers | medium]
+There are ___ bugs left; we can finish today. (positive)
+   A. a little
+   B. much
+   C. a few
+   D. little
+
+38. [M9 Future Tense (will, be going to) | medium]
+If it ___ tomorrow, we will cancel the trip.
+   A. rained
+   B. will rain
+   C. is raining
+   D. rains
+
+39. [M6 Subject-Verb Agreement | easy]
+Both of the engineers ___ ready.
+   A. was
+   B. are
+   C. has been
+   D. is
+
+40. [M7 Types of Sentences | medium]
+Which is correct? 'It rained, ___ we stayed home.' (result)
+   A. nor
+   B. yet
+   C. so
+   D. for
+
+41. [M8 Present Tense and Past Tense | medium]
+Which sentence is correct?
+   A. I knowing the answer.
+   B. I knows the answer.
+   C. I am knowing the answer.
+   D. I know the answer.
+
+42. [M6 Subject-Verb Agreement | medium]
+The quality of these laptops ___ high.
+   A. are
+   B. have been
+   C. is
+   D. were
+
+43. [M6 Subject-Verb Agreement | medium]
+The manager, along with two engineers, ___ reviewing the logs.
+   A. are
+   B. is
+   C. have been
+   D. were
+
+44. [M9 Future Tense (will, be going to) | medium]
+Which is correct?
+   A. The number of users going increase.
+   B. A number of users is going to increase.
+   C. The number of users is going to increase.
+   D. The number of users are going to increase.
+
+45. [M3 Clauses | hard]
+How many clauses are in 'Because the login failed, she checked the logs, and she found the bug.'?
+   A. 3
+   B. 1
+   C. 4
+   D. 2
+
+46. [M1 Parts of Speech | medium]
+In 'The server is extremely slow', 'extremely' modifies the adjective 'slow'. It is a(n) ___.
+   A. adverb
+   B. adjective
+   C. preposition
+   D. noun
+
+47. [M2 Phrases | medium]
+The constituency test that replaces a unit with it, she, they, or there is called ___.
+   A. substitution
+   B. coordination
+   C. movement
+   D. question
+
+48. [M3 Clauses | medium]
+In 'Since the patch was released, errors dropped', 'since' is a ___.
+   A. conjunction
+   B. adjective
+   C. preposition
+   D. noun
+
+49. [M3 Clauses | medium]
+'if you need help' in 'Call me if you need help' is a(n) ___ clause.
+   A. adjective
+   B. adverb
+   C. noun
+   D. independent
+
+50. [M2 Phrases | hard]
+'The students in the library are studying.' What is the HEAD of the subject NP?
+   A. in
+   B. library
+   C. are
+   D. students
+
+51. [M7 Types of Sentences | medium]
+'I know that she is right.' is a ___ sentence.
+   A. compound-complex
+   B. simple
+   C. compound
+   D. complex
+
+52. [M3 Clauses | easy]
+Which sentence contains an independent clause AND a dependent clause?
+   A. She passed the exam.
+   B. She passed because she studied.
+   C. She studied hard.
+   D. She passed and he failed.
+
+53. [M5 Articles, Demonstratives, Possessives, Quantifiers | easy]
+___ laptop here on my desk is new. (near, singular)
+   A. That
+   B. These
+   C. Those
+   D. This
+
+54. [M5 Articles, Demonstratives, Possessives, Quantifiers | medium]
+Which sentence is correct?
+   A. An honesty is a virtue.
+   B. A honesty is a virtue.
+   C. Honesty is a virtue.
+   D. The honesty is a virtue.
+
+==================================================
+ANSWER KEY
+==================================================
+
+1. D
+   Why : 'on the server' = tempat. 'yesterday' = waktu.
+   Trap: 'yesterday' mirip adverbial.
+
+2. A
+   Why : Compound subject, satu klausa.
+   Trap: 'and' menggoda.
+
+3. A
+   Why : Scissors, glasses, pants = plural-only nouns, selalu verb jamak.
+   Trap: Satu benda tampak tunggal.
+
+4. B
+   Why : Pertanyaan will: Will + subjek + base form.
+   Trap: Pola 'Does' dari present simple.
+
+5. B
+   Why : Fragment butuh independent clause.
+   Trap: Opsi lain memakai tanda baca saja.
+
+6. D
+   Why : Time clause memakai present simple, meski maknanya masa depan.
+   Trap: 'will finish' terasa wajar karena masa depan.
+
+7. A
+   Why : Setelah artikel dan adjective ('a long') = noun.
+   Trap: 'run' biasanya verb.
+
+8. B
+   Why : HEAD 'old' adjective = AdjP bersarang di dalam NP.
+   Trap: 'very' adverb.
+
+9. A
+   Why : Compound-complex = minimal dua independent clause + satu dependent clause.
+   Trap: Semua opsi terdengar mirip.
+
+10. D
+   Why : 'A number of' = banyak (plural); 'The number of' = jumlah (singular).
+   Trap: Ada kata 'number' (singular).
+
+11. C
+   Why : Another = satu lagi (tunggal).
+   Trap: 'other' mirip.
+
+12. C
+   Why : 'Hey' adalah interjection (reaksi/panggilan). Kalimat lain tidak punya.
+   Trap: 'wait' dikira interjection karena imperatif.
+
+13. C
+   Why : HEAD 'quickly' adalah adverb, jadi AdvP.
+   Trap: Dua kata -ly mirip adjective.
+
+14. D
+   Why : Adverb menerangkan verb: 'clearly' menerangkan 'spoke'. 'during' = preposition.
+   Trap: 'during' sering dikira adverb.
+
+15. B
+   Why : Indirect object = penerima, muncul sebelum direct object.
+   Trap: 'a report' di akhir.
+
+16. D
+   Why : Past perfect = had + V3, untuk kejadian yang sudah selesai sebelum titik waktu lampau lain.
+   Trap: Bentuk 'had', 'has', 'have' sangat mirip.
+
+17. D
+   Why : Pronoun menggantikan noun. 'They' menggantikan sebuah nama/kelompok.
+   Trap: Menempati posisi subjek, jadi dikira noun.
+
+18. A
+   Why : Dua independent clause + FANBOYS.
+   Trap: Ada koma.
+
+19. D
+   Why : Pertanyaan dengan will: Will + subjek + base form.
+   Trap: Auxiliary ganda terdengar wajar karena pola 'does' di present simple.
+
+20. C
+   Why : 'She' pakai wasn't; weren't untuk we/you/they.
+   Trap: 'weren't' terdengar akrab dari 'we were'.
+
+21. B
+   Why : Present simple, 3rd person singular: verb + s/es (goes).
+   Trap: Subjek tunggal tidak terasa menuntut -s bagi penutur Indonesia.
+
+22. D
+   Why : HEAD = noun 'routers'; determiner 'those'.
+   Trap: Banyak modifier.
+
+23. A
+   Why : 'for' + lama waktu (five years); 'since' + titik awal (2021).
+   Trap: 'since' menggoda karena menunjukkan durasi juga.
+
+24. D
+   Why : 'her' penerima; 'the truth' yang diberitahukan.
+   Trap: 'her' bentuk objek, dikira direct.
+
+25. C
+   Why : Conjunction menghubungkan dua klausa; 'but' = kontras.
+   Trap: 'wanted' tampak seperti kata penghubung ide.
+
+26. A
+   Why : 'about ...' PP; di dalamnya 'in the login page' PP lagi (nesting).
+   Trap: Hanya menghitung PP terluar.
+
+27. C
+   Why : 'me' = penerima = indirect object.
+   Trap: 'an email' terlihat objek.
+
+28. A
+   Why : Information uncountable.
+   Trap: Information diberi -s.
+
+29. D
+   Why : Comma splice = dua independent clause hanya disambung koma. Perbaikan: tambah FANBOYS ('so'), titik koma, atau pisah jadi dua kalimat.
+   Trap: Ada koma dan dua klausa, jadi tampak seperti compound sentence yang benar.
+
+30. D
+   Why : Predikat dimulai dari finite verb.
+   Trap: PP dikira bagian predikat.
+
+31. B
+   Why : will + not = won't (bentuk tidak beraturan).
+   Trap: 'willn't' tampak seperti hasil gabungan logis.
+
+32. A
+   Why : Pola: (modifier) + HEAD + (complement). 'old' = modifier.
+   Trap: Berada di tengah NP.
+
+33. D
+   Why : Every = singular.
+   Trap: 'and' = plural.
+
+34. B
+   Why : Instalasi selesai SEBELUM manajer tiba (keduanya lampau) = past perfect.
+   Trap: Present perfect terdengar wajar.
+
+35. A
+   Why : Mendeskripsikan objek 'the team'.
+   Trap: Adjective setelah verb dikira subject complement.
+
+36. A
+   Why : Kelompok kedua dan ketiga berisi FANBOYS; keempat artikel.
+   Trap: 'for' dan 'nor' terasa seperti penghubung.
+
+37. C
+   Why : 'a few' = beberapa; 'few' = hampir tidak ada.
+   Trap: 'few' dan 'a few' mirip.
+
+38. D
+   Why : Klausa if memakai present simple; will hanya di klausa utama.
+   Trap: 'will rain' mengikuti klausa utama.
+
+39. B
+   Why : Both selalu plural.
+   Trap: 'Both' bisa terasa seperti tunggal karena pakai 'of'.
+
+40. C
+   Why : 'so' memperkenalkan HASIL; 'for' memperkenalkan ALASAN. Urutan sebab-akibat menentukan pilihannya.
+   Trap: 'for' dan 'so' sama-sama terdengar seperti sebab-akibat.
+
+41. D
+   Why : 'know' adalah stative verb, tidak dipakai dalam continuous.
+   Trap: 'am knowing' terlihat seperti continuous yang rapi.
+
+42. C
+   Why : HEAD 'quality' singular.
+   Trap: 'laptops' plural.
+
+43. B
+   Why : 'along with' hanyalah interrupter.
+   Trap: 'engineers' di dekat verb.
+
+44. C
+   Why : HEAD 'number' singular, jadi 'is going to'.
+   Trap: 'number of' diikuti 'users' plural sehingga verb plural terasa wajar.
+
+45. A
+   Why : Because the login failed; she checked the logs; she found the bug.
+   Trap: Koma mengelabui.
+
+46. A
+   Why : Adverb bisa menerangkan verb, adjective, atau adverb lain.
+   Trap: Menerangkan adjective, jadi dikira adjective.
+
+47. A
+   Why : Substitution = ganti dengan pro-form.
+   Trap: Semua nama tes terdengar mirip.
+
+48. A
+   Why : Diikuti klausa lengkap = conjunction.
+   Trap: 'since 2020' preposition.
+
+49. B
+   Why : Menyatakan syarat = adverb clause.
+   Trap: Berada di akhir kalimat.
+
+50. D
+   Why : HEAD subjek = 'students'; 'in the library' PP. Penting untuk SVA.
+   Trap: 'library' tepat di sebelah verb.
+
+51. D
+   Why : Noun clause dependent.
+   Trap: Pendek.
+
+52. B
+   Why : 'because she studied' dependent; 'She passed' independent.
+   Trap: 'and' dikira menandai dependent.
+
+53. D
+   Why : Dekat + tunggal = this.
+   Trap: Semua demonstrative.
+
+54. C
+   Why : Noun abstrak umum tanpa artikel.
+   Trap: Abstract noun dikira butuh artikel.

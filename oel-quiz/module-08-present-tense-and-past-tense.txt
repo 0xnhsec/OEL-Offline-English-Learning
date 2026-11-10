@@ -1,0 +1,281 @@
+MODULE 8: PRESENT TENSE AND PAST TENSE
+Choose the best answer (A-D).
+
+1. [Present Tense and Past Tense | easy]
+He ___ coffee.
+   A. don't drink
+   B. isn't drink
+   C. doesn't drink
+   D. doesn't drinks
+
+2. [Present Tense and Past Tense | easy]
+Water ___ at 100 degrees Celsius.
+   A. boils
+   B. is boil
+   C. boiling
+   D. boil
+
+3. [Present Tense and Past Tense | easy]
+Right now, I ___ a report.
+   A. am writing
+   B. have wrote
+   C. wrote
+   D. write
+
+4. [Present Tense and Past Tense | easy]
+Yesterday I ___ the file.
+   A. deleting
+   B. have deleted
+   C. deleted
+   D. delete
+
+5. [Present Tense and Past Tense | easy]
+He ___ to Bali in 2022.
+   A. goes
+   B. has gone
+   C. go
+   D. went
+
+6. [Present Tense and Past Tense | easy]
+What is the past of 'write'?
+   A. writed
+   B. writes
+   C. written
+   D. wrote
+
+7. [Present Tense and Past Tense | easy]
+What is the past participle of 'break'?
+   A. breaks
+   B. broken
+   C. breaked
+   D. broke
+
+8. [Present Tense and Past Tense | easy]
+___ you finish the report yesterday?
+   A. Did
+   B. Do
+   C. Were
+   D. Have
+
+9. [Present Tense and Past Tense | easy]
+What is the 3rd person singular of 'study'?
+   A. studyies
+   B. studys
+   C. studyes
+   D. studies
+
+10. [Present Tense and Past Tense | easy]
+What is the past of 'stop'?
+   A. stopt
+   B. stopped
+   C. stopping
+   D. stoped
+
+11. [Present Tense and Past Tense | medium]
+I ___ this laptop since 2024.
+   A. used
+   B. use
+   C. have used
+   D. am using
+
+12. [Present Tense and Past Tense | medium]
+She ___ here for three years.
+   A. works
+   B. has worked
+   C. worked
+   D. is working
+
+13. [Present Tense and Past Tense | medium]
+They ___ already finished.
+   A. did
+   B. are
+   C. has
+   D. have
+
+14. [Present Tense and Past Tense | medium]
+While I ___ the code, the power went out.
+   A. was testing
+   B. have tested
+   C. am testing
+   D. tested
+
+15. [Present Tense and Past Tense | medium]
+I ___ for two hours when she called.
+   A. have been waiting
+   B. waited
+   C. was wait
+   D. had been waiting
+
+16. [Present Tense and Past Tense | medium]
+She moved to Surabaya two years ___.
+   A. since
+   B. for
+   C. ago
+   D. before
+
+17. [Present Tense and Past Tense | medium]
+Which sentence is correct?
+   A. I saw him yesterday.
+   B. I see him yesterday.
+   C. I have seen him yesterday.
+   D. I was see him yesterday.
+
+18. [Present Tense and Past Tense | medium]
+She ___ TV when the phone rang.
+   A. is watching
+   B. has watched
+   C. watched
+   D. was watching
+
+19. [Present Tense and Past Tense | medium]
+We ___ play badminton every Sunday when we were kids.
+   A. were use to
+   B. used to
+   C. are used to
+   D. use to
+
+20. [Present Tense and Past Tense | medium]
+I ___ him since last week.
+   A. hadn't see
+   B. haven't seen
+   C. don't see
+   D. didn't see
+
+21. [Present Tense and Past Tense | medium]
+Which time expression goes with present perfect?
+   A. so far
+   B. yesterday
+   C. last night
+   D. in 2020
+
+22. [Present Tense and Past Tense | medium]
+Which time expression goes with simple past?
+   A. last night
+   B. so far
+   C. yet
+   D. up to now
+
+23. [Present Tense and Past Tense | hard]
+Which sentence implies the keys are STILL missing now?
+   A. I lost my keys last week.
+   B. I have lost my keys.
+   C. I was losing my keys.
+   D. I used to lose my keys.
+
+24. [Present Tense and Past Tense | hard]
+He ___ at 9 pm last night.
+   A. works
+   B. is working
+   C. was working
+   D. has worked
+
+25. [Present Tense and Past Tense | hard]
+Which sentence is correct?
+   A. He work here since 2020.
+   B. He has working here since 2020.
+   C. He has been working here since 2020.
+   D. He is working here since 2020.
+
+==================================================
+ANSWER KEY
+==================================================
+
+1. C
+   Why : Setelah does/doesn't, verb kembali ke base form: doesn't drink.
+   Trap: Dua kesalahan umum: 'don't' untuk subjek tunggal dan -s pada verb setelah does.
+
+2. A
+   Why : Fakta ilmiah/kebenaran umum memakai present simple (boils).
+   Trap: 'is boiling' terdengar seperti proses yang sedang terjadi.
+
+3. A
+   Why : 'Right now' = sedang berlangsung = present continuous (am writing).
+   Trap: Present simple 'write' terasa netral.
+
+4. C
+   Why : 'Yesterday' = waktu selesai = past simple (deleted), bukan present perfect.
+   Trap: 'have deleted' mengikuti pola bahasa Indonesia 'sudah menghapus'.
+
+5. D
+   Why : Tahun spesifik di masa lalu = past simple (went).
+   Trap: 'has gone' terdengar wajar untuk pengalaman perjalanan.
+
+6. D
+   Why : Past simple = wrote; past participle = written (dipakai dengan have/has/had).
+   Trap: 'written' juga bentuk dari 'write'.
+
+7. B
+   Why : Past simple = broke; past participle (V3) = broken, dipakai dengan have/has/had.
+   Trap: 'broke' lebih sering terdengar.
+
+8. A
+   Why : 'yesterday' memerlukan past simple, jadi pertanyaan memakai Did + base form.
+   Trap: 'Have' terdengar natural dalam pertanyaan.
+
+9. D
+   Why : Konsonan + y berubah menjadi -ies (study -> studies); vokal + y cukup -s (play -> plays).
+   Trap: Aturan -y mudah terbalik.
+
+10. B
+   Why : Pola CVC (konsonan-vokal-konsonan) pada suku kata tekan menggandakan konsonan akhir: stopped.
+   Trap: Ejaan sederhana tapi sering salah.
+
+11. C
+   Why : Present perfect dengan since.
+   Trap: 'since' menggoda present simple.
+
+12. B
+   Why : Aksi dimulai di masa lalu dan masih berlangsung = present perfect (has worked).
+   Trap: 'for' dikira penanda past simple.
+
+13. D
+   Why : Present perfect = have/has + V3. 'They' = have.
+   Trap: 'already' bisa dipakai dengan past simple, jadi 'did' menggoda.
+
+14. A
+   Why : Aksi panjang yang terganggu aksi pendek = past continuous (was testing).
+   Trap: Dua kejadian lampau mudah ditulis past simple semua.
+
+15. D
+   Why : Aksi panjang yang sudah berlangsung sebelum titik lampau ('when she called') = past perfect continuous (had been waiting).
+   Trap: 'have been waiting' terdengar natural di percakapan.
+
+16. C
+   Why : 'ago' dipakai setelah durasi untuk menghitung mundur dari sekarang, dengan past simple.
+   Trap: 'before', 'since', 'for' semuanya kata waktu.
+
+17. A
+   Why : Waktu spesifik yang sudah selesai (yesterday) = past simple, bukan present perfect.
+   Trap: 'have seen' + yesterday terasa wajar bagi penutur Indonesia ('sudah melihat kemarin').
+
+18. D
+   Why : Aksi yang sedang berlangsung lalu terpotong = past continuous (was watching).
+   Trap: Dua aksi lampau mudah ditulis past simple semua.
+
+19. B
+   Why : Kebiasaan masa lalu yang sudah berhenti = used to + base form.
+   Trap: 'use to' tanpa -d sering ditulis.
+
+20. B
+   Why : 'since' menuntut present perfect: haven't + V3.
+   Trap: 'didn't see' terdengar natural karena 'last week'.
+
+21. A
+   Why : 'so far' = sampai saat ini, pasangan present perfect. yesterday, last night, in 2020 = waktu selesai, pasangan past simple.
+   Trap: Semua opsi adalah keterangan waktu, tapi hanya satu yang terhubung ke sekarang.
+
+22. A
+   Why : 'last night' = titik waktu yang sudah selesai. 'so far', 'yet', 'up to now' mengarah ke sekarang.
+   Trap: 'up to now' dan 'yet' terdengar seperti keterangan waktu biasa.
+
+23. B
+   Why : Present perfect menekankan hasil yang masih terasa sekarang. 'last week' menutup kejadian di masa lalu.
+   Trap: Past simple juga menyebut kehilangan.
+
+24. C
+   Why : Titik waktu spesifik di masa lalu saat aksi berlangsung = past continuous (was working).
+   Trap: 'works' atau 'has worked' mengabaikan penanda waktu lampau.
+
+25. C
+   Why : Aksi dimulai di masa lalu dan berlanjut: has/have been + V-ing, dengan since + titik awal.
+   Trap: 'is working ... since' terdengar benar karena memakai continuous.

@@ -1,0 +1,187 @@
+{
+  "title": "ESSENTIAL ENGLISH GRAMMAR - PRACTICE SET 1",
+  "language": "en",
+  "total": 12,
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Subject-verb agreement",
+      "difficulty": "easy",
+      "question": "The number of students in the class ___ increasing every year.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "were",
+        "D": "have been"
+      },
+      "answer": "A",
+      "trap": "'students' (plural) terlihat tepat sebelum verb.",
+      "explanation": "'The number of' = singular. HEAD subjek adalah 'number', bukan 'students'. Bandingkan: 'A number of students are...' (= banyak)."
+    },
+    {
+      "id": 2,
+      "topic": "Subject-verb agreement",
+      "difficulty": "medium",
+      "question": "Neither the manager nor the engineers ___ aware of the bug.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "was",
+        "D": "has been"
+      },
+      "answer": "B",
+      "trap": "Orang cenderung pilih 'is' karena 'manager' disebut duluan.",
+      "explanation": "Pada neither...nor, verb cocok dengan subjek TERDEKAT. Yang terdekat 'engineers' (plural), jadi 'are'."
+    },
+    {
+      "id": 3,
+      "topic": "Subject-verb agreement",
+      "difficulty": "easy",
+      "question": "There ___ several reasons for the server delay.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "was",
+        "D": "has"
+      },
+      "answer": "B",
+      "trap": "'There is' terasa lazim di percakapan.",
+      "explanation": "Setelah there/here, verb cocok dengan noun yang MENGIKUTI. 'Reasons' plural, jadi 'are'."
+    },
+    {
+      "id": 4,
+      "topic": "Subject-verb agreement",
+      "difficulty": "medium",
+      "question": "Mathematics ___ my favorite subject at school.",
+      "options": {
+        "A": "are",
+        "B": "were",
+        "C": "is",
+        "D": "have been"
+      },
+      "answer": "C",
+      "trap": "Akhiran -s membuat 'mathematics' tampak plural.",
+      "explanation": "Mathematics, news, linguistics: berakhiran -s tetapi singular. Jadi 'is'."
+    },
+    {
+      "id": 5,
+      "topic": "Word form (parts of speech)",
+      "difficulty": "easy",
+      "question": "The ___ of the new security policy took three months. (implement)",
+      "options": {
+        "A": "implement",
+        "B": "implementation",
+        "C": "implementing",
+        "D": "implemented"
+      },
+      "answer": "B",
+      "trap": "'implement' dan 'implementing' sama-sama terlihat masuk akal.",
+      "explanation": "Setelah 'the' dan sebelum 'of', posisi ini butuh NOUN (HEAD dari NP). Noun dari implement = implementation."
+    },
+    {
+      "id": 6,
+      "topic": "FANBOYS",
+      "difficulty": "medium",
+      "question": "She did not submit the report, ___ did she answer my email.",
+      "options": {
+        "A": "or",
+        "B": "nor",
+        "C": "and",
+        "D": "so"
+      },
+      "answer": "B",
+      "trap": "'or' terasa natural, tetapi kalimat pertama negatif dan ada inversi.",
+      "explanation": "'Nor' dipakai setelah klausa negatif dan diikuti urutan kata tanya (did she answer...)."
+    },
+    {
+      "id": 7,
+      "topic": "FANBOYS punctuation",
+      "difficulty": "medium",
+      "question": "Which sentence is punctuated correctly?",
+      "options": {
+        "A": "He opened the laptop and, started the scan.",
+        "B": "He opened the laptop, and he started the scan.",
+        "C": "He opened the laptop and he started the scan.",
+        "D": "He opened the laptop, and started the scan."
+      },
+      "answer": "B",
+      "trap": "Opsi D: koma sebelum 'and' terlihat benar, padahal subjeknya sama.",
+      "explanation": "Koma sebelum FANBOYS hanya jika yang mengikuti klausa lengkap dengan subjek sendiri (B). C kurang koma. D koma tidak perlu: 'started the scan' bukan klausa lengkap."
+    },
+    {
+      "id": 8,
+      "topic": "Fragments and run-ons",
+      "difficulty": "medium",
+      "question": "Identify the error: \"The server crashed, the team restarted it immediately.\"",
+      "options": {
+        "A": "Fragment",
+        "B": "Fused sentence (run-on)",
+        "C": "Comma splice",
+        "D": "No error"
+      },
+      "answer": "C",
+      "trap": "Ada tanda baca, jadi sering dikira benar atau dikira run-on.",
+      "explanation": "Dua independent clause digabung hanya dengan koma = comma splice. Perbaikan: pakai ', so', titik koma, atau pisah jadi dua kalimat."
+    },
+    {
+      "id": 9,
+      "topic": "Fragments and run-ons",
+      "difficulty": "easy",
+      "question": "Which one is a fragment?",
+      "options": {
+        "A": "Because the scan failed.",
+        "B": "The scan failed.",
+        "C": "The scan failed, so we stopped.",
+        "D": "We stopped the scan."
+      },
+      "answer": "A",
+      "trap": "Opsi A punya subjek dan verb, jadi tampak lengkap.",
+      "explanation": "'Because the scan failed' = dependent clause (subordinator + subjek + finite verb) yang pikirannya belum selesai."
+    },
+    {
+      "id": 10,
+      "topic": "Sentence types",
+      "difficulty": "hard",
+      "question": "What type of sentence is this? \"She wrote the report and sent it to the client.\"",
+      "options": {
+        "A": "Simple",
+        "B": "Compound",
+        "C": "Complex",
+        "D": "Compound-complex"
+      },
+      "answer": "A",
+      "trap": "'and' membuat orang langsung memilih compound.",
+      "explanation": "Hanya satu subjek ('She') dengan dua verb (compound verb). Itu SATU independent clause, jadi simple. Compound butuh dua independent clause."
+    },
+    {
+      "id": 11,
+      "topic": "Double connectors",
+      "difficulty": "medium",
+      "question": "Which sentence is correct?",
+      "options": {
+        "A": "Although the exam was difficult, but she passed.",
+        "B": "Although the exam was difficult, she passed.",
+        "C": "Because she was tired, so she slept early.",
+        "D": "Although the exam was difficult she, passed."
+      },
+      "answer": "B",
+      "trap": "Pola 'meskipun... tetapi...' dan 'karena... maka...' dari bahasa Indonesia.",
+      "explanation": "Satu hubungan hanya butuh satu penghubung. Although sudah menandai kontras, jadi 'but' tidak boleh dipakai bersamanya."
+    },
+    {
+      "id": 12,
+      "topic": "TOEFL-style error identification",
+      "difficulty": "hard",
+      "question": "The teacher, (A) along with her students, (B) are (C) preparing for the (D) exam. Which part must be changed?",
+      "options": {
+        "A": "A: along with",
+        "B": "B: her students",
+        "C": "C: are",
+        "D": "D: exam"
+      },
+      "answer": "C",
+      "trap": "'students' plural berada tepat di sebelah verb.",
+      "explanation": "'Along with her students' hanyalah interrupter. Subjek sebenarnya 'The teacher' (singular), jadi 'are' menjadi 'is'."
+    }
+  ]
+}

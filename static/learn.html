@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learn 101 · OEL</title>
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem("xl_theme");
+      document.documentElement.dataset.theme = saved === "light" ? "light" : "dark";
+    } catch (_) { document.documentElement.dataset.theme = "dark"; }
+  })();
+</script>
+<link rel="stylesheet" href="/static/styles.css">
+<link rel="stylesheet" href="/static/learn.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50' y='68' text-anchor='middle' font-family='monospace' font-size='38' font-weight='700'>OEL</text></svg>">
+</head>
+<body class="learn-body">
+
+<!-- ───────────────────────── login ───────────────────────── -->
+<div class="login-wrap" id="loginView">
+  <div class="login-card">
+    <div class="login-brand">
+      <span class="mark">OEL</span>
+      <span>Offline English Learning</span>
+    </div>
+    <p class="login-kicker">Learn 101</p>
+    <h1 id="loginTitle">Masuk ke bank soal</h1>
+    <p class="login-sub">Progres, skor terbaik, dan leaderboard tersimpan di akun lokalmu.</p>
+
+    <div class="login-tabs">
+      <button class="login-tab active" data-mode="login">Masuk</button>
+      <button class="login-tab" data-mode="register">Buat akun</button>
+    </div>
+
+    <form id="authForm" autocomplete="on">
+      <label class="login-field" id="nameField" hidden>Nama tampilan
+        <input type="text" id="authName" maxlength="40" placeholder="Nama di leaderboard">
+      </label>
+      <label class="login-field">Username
+        <input type="text" id="authUser" maxlength="24" placeholder="User1" autocomplete="username" required>
+      </label>
+      <label class="login-field">Password
+        <input type="password" id="authPass" minlength="6" placeholder="••••••••" autocomplete="current-password" required>
+      </label>
+      <p class="login-err" id="authErr"></p>
+      <button class="login-btn" id="authSubmit" type="submit">Masuk</button>
+    </form>
+
+    <p class="login-hint">Akun demo: <code>User1</code> · <code>WeAreHackerone</code></p>
+    <a class="login-back" href="/">← Kembali ke Home</a>
+  </div>
+</div>
+
+<!-- ───────────────────────── dashboard ───────────────────────── -->
+<div class="learn-shell" id="dashView" hidden>
+  <aside class="rail">
+    <div class="rail-logo">0x</div>
+    <button class="rail-btn active" title="Dashboard" data-panel="dashboard">▦</button>
+    <button class="rail-btn" title="Modules" data-panel="modules">▤</button>
+    <button class="rail-btn" title="Leaderboard" data-panel="leaderboard">★</button>
+    <button class="rail-btn" title="Settings" id="railSettings">⚙</button>
+    <div class="rail-spacer"></div>
+    <a class="rail-btn plus" title="Free practice" href="/?view=study">+</a>
+
+    <div class="rail-user" id="railUser" tabindex="0">
+      <span class="avatar" id="railAvatar">U</span>
+      <div class="user-pop">
+        <b id="popName">—</b>
+        <span class="user-handle" id="popHandle">@—</span>
+        <div class="user-stats">
+          <span><b id="popPoints">0</b> poin</span>
+          <span><b id="popSets">0</b> set</span>
+        </div>
+        <button class="pop-logout" id="logoutBtn">Keluar</button>
+      </div>
+    </div>
+  </aside>
+
+  <main class="learn-main">
+    <div class="learn-top">
+      <div class="learn-nav">
+        <button class="lnav active" data-panel="dashboard">Dashboard</button>
+        <button class="lnav" data-panel="modules">Modules</button>
+        <button class="lnav" data-panel="leaderboard">Leaderboard</button>
+      </div>
+      <div class="learn-profile">
+        <span class="avatar small" id="topAvatar">U</span>
+        <div>
+          <b id="topName">—</b>
+          <span class="user-handle" id="topHandle">@—</span>
+        </div>
+        <a class="logout-link" href="/">Home</a>
+      </div>
+    </div>
+
+    <div class="learn-head">
+      <h1>Learn 101</h1>
+      <div class="learn-tools">
+        <label class="tool-select">Cari
+          <input type="search" id="moduleSearch" placeholder="modul…">
+        </label>
+        <button class="tool-btn primary" id="freePracticeBtn">Free practice</button>
+        <button class="tool-btn" id="uploadBtn">Upload set</button>
+      </div>
+    </div>
+
+    <div class="dash-grid">
+      <section class="dash-col">
+        <div class="panel stats-panel">
+          <div class="panel-head"><h3>Progres</h3><span class="panel-sub" id="statsSub">—</span></div>
+          <div class="stat-grid">
+            <div class="stat-card green">
+              <span class="stat-label">Poin</span>
+              <b id="statPoints">0</b>
+              <span class="stat-foot">dari best score</span>
+              <svg class="spark" viewBox="0 0 120 34" preserveAspectRatio="none">
+                <path d="M0 28 L18 24 L36 26 L54 16 L72 19 L90 9 L108 12 L120 4" fill="none" stroke="#c9f24d" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="stat-card orange">
+              <span class="stat-label">Akurasi</span>
+              <b id="statAcc">0%</b>
+              <span class="stat-foot">semua set</span>
+              <svg class="spark" viewBox="0 0 120 34" preserveAspectRatio="none">
+                <path d="M0 22 L20 26 L40 18 L60 20 L80 12 L100 16 L120 8" fill="none" stroke="#ff9f43" stroke-width="2"/>
+              </svg>
+            </div>
+          </div>
+          <div class="stat-row">
+            <span>Set dikerjakan</span><b id="statSets">0</b>
+          </div>
+          <div class="stat-row">
+            <span>Soal tersedia</span><b id="statBank">0</b>
+          </div>
+        </div>
+
+        <div class="panel modules-panel">
+          <div class="panel-head">
+            <h3>Modules</h3>
+            <span class="panel-sub" id="modulesSub">—</span>
+          </div>
+          <div class="module-list" id="moduleList"></div>
+          <p class="empty-note" id="moduleEmpty">Tidak ada modul yang cocok.</p>
+        </div>
+      </section>
+
+      <section class="dash-col">
+        <div class="panel board-panel">
+          <div class="panel-head">
+            <h3>Leaderboard</h3>
+            <span class="panel-sub" id="boardSub">—</span>
+          </div>
+          <div class="board-list" id="boardList"></div>
+          <p class="empty-note" id="boardEmpty">Belum ada skor. Selesaikan satu set dulu.</p>
+
+          <div class="board-foot">
+            <span><i class="dot green"></i> Kamu</span>
+            <span><i class="dot dim"></i> Pemain lain</span>
+          </div>
+        </div>
+
+        <div class="panel quick-panel">
+          <div class="panel-head"><h3>Quick actions</h3></div>
+          <div class="quick-grid">
+            <a class="quick-card" href="/?view=study">
+              <b>Free practice</b>
+              <span>Upload TXT/JSON atau tempel soal sendiri.</span>
+            </a>
+            <a class="quick-card" href="/?view=listen">
+              <b>Speaking &amp; Listening</b>
+              <span>Latihan TTS + rekam suara dan bandingkan.</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</div>
+
+<script src="/static/learn.js"></script>
+</body>
+</html>

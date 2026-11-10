@@ -1,0 +1,281 @@
+MODULE 3: CLAUSES
+Choose the best answer (A-D).
+
+1. [Clauses | easy]
+A clause must contain ___.
+   A. a noun and an adjective
+   B. a preposition and a noun
+   C. an adverb and a verb
+   D. a subject and a finite verb
+
+2. [Clauses | easy]
+Which is an independent clause?
+   A. When the scan
+   B. Because the scan finished.
+   C. The scan finished.
+   D. After the scan.
+
+3. [Clauses | easy]
+Which is a dependent clause?
+   A. She went home.
+   B. She was tired.
+   C. Although she was tired
+   D. She slept early.
+
+4. [Clauses | easy]
+Which word is a subordinator?
+   A. but
+   B. and
+   C. so
+   D. although
+
+5. [Clauses | easy]
+How many clauses are in 'The server crashed, and the team restarted it.'?
+   A. 0
+   B. 1
+   C. 3
+   D. 2
+
+6. [Clauses | medium]
+'After the meeting' is a ___.
+   A. phrase
+   B. independent clause
+   C. compound sentence
+   D. dependent clause
+
+7. [Clauses | medium]
+'After the meeting ended' is a ___.
+   A. prepositional phrase
+   B. dependent clause
+   C. independent clause
+   D. noun phrase
+
+8. [Clauses | medium]
+What makes 'because the server crashed' dependent?
+   A. It has no subject
+   B. It is too short
+   C. The subordinator leaves the thought incomplete
+   D. It has no verb
+
+9. [Clauses | medium]
+'what she said' in 'I heard what she said' is a ___ clause.
+   A. noun
+   B. adverb
+   C. adjective
+   D. independent
+
+10. [Clauses | medium]
+'who found the bug' in 'The analyst who found the bug got a reward' is a(n) ___ clause.
+   A. adjective
+   B. noun
+   C. independent
+   D. adverb
+
+11. [Clauses | medium]
+'when the alarm rang' in 'We left when the alarm rang' is a(n) ___ clause.
+   A. noun
+   B. independent
+   C. adverb
+   D. adjective
+
+12. [Clauses | medium]
+A dependent clause cannot stand alone because ___.
+   A. it is a phrase
+   B. it has no subject
+   C. its thought is incomplete
+   D. it has no verb
+
+13. [Clauses | medium]
+Which pair is correctly labeled?
+   A. 'she left' dependent; 'because she left' independent
+   B. 'she left' independent; 'because she left' dependent
+   C. both dependent
+   D. both independent
+
+14. [Clauses | medium]
+In 'The team fixed the bug that caused the crash', what does 'that caused the crash' modify?
+   A. team
+   B. bug
+   C. crash
+   D. fixed
+
+15. [Clauses | medium]
+In 'We stayed because it was raining', what are the subject and finite verb of the dependent clause?
+   A. we / raining
+   B. it / was raining
+   C. We / stayed
+   D. because / was
+
+16. [Clauses | medium]
+When a dependent clause comes first in a sentence, what usually follows it?
+   A. a colon only
+   B. nothing
+   C. a period
+   D. a comma, then the independent clause
+
+17. [Clauses | medium]
+In 'when the new analyst arrived', which unit is the subject?
+   A. when
+   B. when the
+   C. the new analyst
+   D. arrived
+
+18. [Clauses | medium]
+What does a finite verb show?
+   A. that it is a question
+   B. tense and agreement with the subject
+   C. only the noun
+   D. only the object
+
+19. [Clauses | medium]
+Which sentence contains a noun clause as its subject?
+   A. She said it to everyone.
+   B. She surprised everyone.
+   C. Everyone was surprised yesterday.
+   D. What she said surprised everyone.
+
+20. [Clauses | hard]
+Which sentence has a dependent clause that is a fragment?
+   A. Update the plugin, and restart.
+   B. Update the plugin.
+   C. Unless you update the plugin.
+   D. You update the plugin.
+
+21. [Clauses | hard]
+Which word typically introduces an adjective clause?
+   A. although
+   B. if
+   C. who
+   D. because
+
+22. [Clauses | hard]
+Which sentence contains a noun clause?
+   A. I wonder whether the update is safe.
+   B. I wonder about the update.
+   C. The update is safe.
+   D. She updated the safe system.
+
+23. [Clauses | hard]
+Which of these is NOT a clause?
+   A. she logged in
+   B. after he left
+   C. that it works
+   D. very late at night
+
+24. [Clauses | hard]
+Which sentence has TWO dependent clauses?
+   A. She left because she was tired.
+   B. She left, and he stayed.
+   C. I think she left.
+   D. I think that she left because she was tired.
+
+25. [Clauses | hard]
+Which sentence contains a PHRASE but NO dependent clause?
+   A. She left because she was tired.
+   B. She left after the meeting ended.
+   C. She left when he arrived.
+   D. She left after the meeting.
+
+==================================================
+ANSWER KEY
+==================================================
+
+1. D
+   Why : Klausa = SUBJECT + PREDICATE dengan finite verb.
+   Trap: Frasa juga bisa panjang.
+
+2. C
+   Why : Hanya yang pikirannya lengkap dan bisa berdiri sendiri.
+   Trap: Semua mengandung 'the scan'.
+
+3. C
+   Why : Subordinator 'although' membuat pikirannya tak lengkap.
+   Trap: Semua punya subjek dan verb.
+
+4. D
+   Why : and/but/so = coordinating. 'although' = subordinating.
+   Trap: FANBOYS dikira subordinator.
+
+5. D
+   Why : Dua subject + finite verb: server crashed, team restarted.
+   Trap: Hanya satu subjek tersorot.
+
+6. A
+   Why : Tidak ada subject + finite verb; PP biasa.
+   Trap: Diawali kata seperti subordinator.
+
+7. B
+   Why : Ada subject 'the meeting' + finite verb 'ended' + subordinator 'after'.
+   Trap: Mirip dengan soal sebelumnya.
+
+8. C
+   Why : Subjek dan verb ada; subordinator yang membuatnya bergantung.
+   Trap: Dikira karena kurang unsur.
+
+9. A
+   Why : Ia menjadi objek 'heard'; fungsi noun.
+   Trap: Mengikuti verb, dikira adverb.
+
+10. A
+   Why : Menerangkan noun 'analyst' = adjective clause.
+   Trap: Mengandung finite verb 'found'.
+
+11. C
+   Why : Menjawab 'kapan?' = adverb clause (waktu).
+   Trap: Ada subjek dan verb.
+
+12. C
+   Why : Subordinator membuat pikiran menggantung.
+   Trap: Dikira kurang unsur gramatikal.
+
+13. B
+   Why : Tambahan 'because' mengubah status.
+   Trap: Subordinator tidak terlihat.
+
+14. B
+   Why : Adjective clause menerangkan antecedent 'bug'.
+   Trap: 'crash' paling dekat.
+
+15. B
+   Why : Dependent clause: 'because it was raining'.
+   Trap: 'We stayed' terlihat dulu.
+
+16. D
+   Why : Dependent di depan diikuti koma lalu klausa utama.
+   Trap: Dikira boleh langsung disambung.
+
+17. C
+   Why : Subjek = NP 'the new analyst'.
+   Trap: 'when' di awal.
+
+18. B
+   Why : Finite verb berubah menurut tense dan subjek.
+   Trap: Terdengar abstrak.
+
+19. D
+   Why : 'What she said' punya subjek + finite verb dan berfungsi sebagai subjek kalimat = noun clause.
+   Trap: 'What she said' tampak seperti objek karena ada kata kerja 'said'.
+
+20. C
+   Why : Subordinator 'Unless' membuat klausa belum selesai.
+   Trap: Opsi lain imperatif/pendek.
+
+21. C
+   Why : Relative pronoun (who, which, that) memulai adjective clause.
+   Trap: Semua kata tanya/penghubung.
+
+22. A
+   Why : 'whether the update is safe' = objek dari 'wonder'.
+   Trap: 'whether' terlihat seperti kata biasa.
+
+23. D
+   Why : Tidak ada subject + finite verb.
+   Trap: Panjang dan terlihat lengkap.
+
+24. D
+   Why : Noun clause 'that she left...' berisi adverb clause 'because she was tired'.
+   Trap: Hanya terlihat 'because'.
+
+25. D
+   Why : 'after the meeting' = PP.
+   Trap: Semua memakai 'after/when'.
