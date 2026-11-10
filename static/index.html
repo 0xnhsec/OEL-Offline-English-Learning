@@ -12,11 +12,17 @@
     } catch (_) { document.documentElement.dataset.theme = "dark"; }
   })();
 </script>
-<link rel="stylesheet" href="/static/styles.css?v=4">
+<link rel="stylesheet" href="/static/styles.css?v=6">
 <link rel="icon" type="image/png" href="/static/assets/OEL.png">
 <link rel="apple-touch-icon" href="/static/assets/OEL.png">
 </head>
 <body>
+
+<!-- ───────────────────── splash (3 detik) ───────────────────── -->
+<div class="splash" id="splash" aria-hidden="true">
+  <p class="splash-quote">&ldquo;Through others we become ourselves.&rdquo;<span>Lev Vygotsky</span></p>
+</div>
+
 
 <header class="topbar">
   <div class="brand">
@@ -52,42 +58,46 @@
 
     <div class="home-grid">
       <article class="home-card learn" data-go="learn" tabindex="0" role="button" aria-label="Buka Learn 101">
-        <div class="home-art" aria-hidden="true"></div>
+        <div class="home-surface">
+          <div class="home-art" aria-hidden="true"></div>
+          <div class="home-body">
+            <span class="home-kicker">Learn 101</span>
+            <h2>Kumpulan soal &amp; pembahasan</h2>
+            <p>Latihan grammar dari soal siap pakai. Jawab, lalu langsung tahu kenapa benar dan di mana jebakannya.</p>
+            <div class="home-chips">
+              <span class="home-chip">TXT · JSON</span>
+              <span class="home-chip">Why + Trap</span>
+              <span class="home-chip">berbagai jenis soal</span>
+            </div>
+            <button class="home-cta" data-go="learn">Learn 101</button>
+          </div>
+        </div>
         <button class="card-dots" type="button" data-report="Learn 101" title="Laporkan kesalahan konten" aria-label="Laporkan kesalahan konten Learn 101">
           <span></span><span></span><span></span>
         </button>
-        <div class="home-body">
-          <span class="home-kicker">Learn 101</span>
-          <h2>Kumpulan soal &amp; pembahasan</h2>
-          <p>Grammar, FANBOYS, fragments, TOEFL-style. Impor TXT atau JSON — kunci, Why, dan Trap langsung terbaca.</p>
-          <div class="home-chips">
-            <span class="home-chip">TXT · JSON</span>
-            <span class="home-chip">Why + Trap</span>
-            <span class="home-chip">berbagai jenis soal</span>
-          </div>
-          <button class="home-cta" data-go="learn">Learn 101</button>
-        </div>
       </article>
 
       <article class="home-card studio" data-go="listen" tabindex="0" role="button" aria-label="Buka Speaking and Listening">
-        <div class="home-art" aria-hidden="true"></div>
+        <div class="home-surface">
+          <div class="home-art" aria-hidden="true"></div>
+          <div class="home-body">
+            <span class="home-kicker">Speaking &amp; Listening</span>
+            <h2>Dengarkan, tirukan, bandingkan</h2>
+            <p>Dengarkan bacaannya, tirukan dengan suaramu, lalu lihat kata mana yang beda.</p>
+            <div class="home-chips">
+              <span class="home-chip">TTS offline</span>
+              <span class="home-chip">Whisper STT</span>
+              <span class="home-chip">word diff</span>
+            </div>
+            <div class="home-actions">
+              <button class="home-cta" data-go="listen">Listen</button>
+              <button class="home-cta ghost" data-go="practice">Practice</button>
+            </div>
+          </div>
+        </div>
         <button class="card-dots" type="button" data-report="Speaking &amp; Listening" title="Laporkan kesalahan konten" aria-label="Laporkan kesalahan konten Speaking dan Listening">
           <span></span><span></span><span></span>
         </button>
-        <div class="home-body">
-          <span class="home-kicker">Speaking &amp; Listening</span>
-          <h2>Dengarkan, tirukan, bandingkan</h2>
-          <p>TTS offline untuk model bacaan, lalu rekam suaramu dan lihat transkrip + selisih kata per kata.</p>
-          <div class="home-chips">
-            <span class="home-chip">TTS offline</span>
-            <span class="home-chip">Whisper STT</span>
-            <span class="home-chip">word diff</span>
-          </div>
-          <div class="home-actions">
-            <button class="home-cta" data-go="listen">Listen</button>
-            <button class="home-cta ghost" data-go="practice">Practice</button>
-          </div>
-        </div>
       </article>
     </div>
   </div>
@@ -427,6 +437,16 @@
   </div>
 </div>
 
-<script src="/static/app.js?v=4"></script>
+<script>
+  window.addEventListener("load", function () {
+    var splash = document.getElementById("splash");
+    if (!splash) return;
+    setTimeout(function () {
+      splash.classList.add("out");
+      setTimeout(function () { splash.remove(); }, 900);
+    }, 3000);
+  });
+</script>
+<script src="/static/app.js?v=5"></script>
 </body>
 </html>

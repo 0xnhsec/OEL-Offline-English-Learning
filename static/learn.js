@@ -232,7 +232,7 @@ function renderBoard() {
       ${avatar}
       <div>
         <div class="board-name">${escapeHtml(row.name)}${row.featured ? ' <span class="crown">★ legend</span>' : ""}${mine ? " · kamu" : ""}</div>
-        <div class="board-handle">@${escapeHtml(row.username)} · ${row.sets} set · ${Math.round((row.accuracy || 0) * 100)}%${hasBio ? ' · <span class="bio-hint">klik → bio</span>' : ""}</div>
+        <div class="board-handle">@${escapeHtml(row.username)} · ${row.sets} set · ${Math.round((row.accuracy || 0) * 100)}%</div>
       </div>
       <span class="board-points">${row.points} pt</span>
       <div class="board-bar"><i style="width:${pct}%"></i></div>

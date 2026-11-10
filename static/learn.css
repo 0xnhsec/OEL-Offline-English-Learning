@@ -379,10 +379,6 @@ body.modal-open{overflow:hidden}
 .board-bar i{background:linear-gradient(90deg,#6f9d17,#c9f24d)}
 .board-row.me .board-bar i{background:linear-gradient(90deg,#9ede32,#e6ff86)}
 .board-row.legend .board-bar i{background:linear-gradient(90deg,#8ec71c,#e9ff7a)}
-.board-row.has-bio .bio-hint{
-  font-family:var(--mono);font-size:9px;color:#c9f24d;letter-spacing:.04em;
-}
-.board-row.has-bio:hover .bio-hint{color:#e9ff7a;text-decoration:underline}
 
 /* popover user: rapi + tombol jelas */
 .user-pop{
