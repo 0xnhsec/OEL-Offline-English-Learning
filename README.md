@@ -39,6 +39,29 @@ Butuh `python3`, `venv`, dan `ffmpeg` di `PATH`.
 
 Fokus aplikasi: **Text-to-Speech** (baca teks) dan **Speech-to-Text** (tirukan lewat mic, lalu bandingkan). Rekaman bisa diputar ulang langsung di tab Practice; audio pelan otomatis di-normalisasi sebelum dikirim ke whisper.
 
+## Kalau perubahan tidak muncul
+
+Kasus paling sering: **server lama masih memegang port 8765**, jadi `./run.sh` yang baru gagal bind (`address already in use`) dan browser tetap membuka proses lama.
+
+```bash
+./run.sh                 # sekarang otomatis mematikan instance lama di port itu dulu
+PORT=9000 ./run.sh       # kalau port benar-benar dipakai app lain
+RELOAD=1 ./run.sh        # auto-reload untuk perubahan server.py / eng/*.py
+```
+
+Cek cepat, server ini melayani folder & file yang mana:
+
+```bash
+curl -s http://127.0.0.1:8765/api/version
+# → {"root": ".../OEL-Offline-English-Learning", "files": {"index.html": {"mtime": ..., "sha1": ...}}}
+```
+
+Catatan:
+
+- `static/*.html|css|js` dibaca **langsung dari disk** setiap request dan dikirim dengan `Cache-Control: no-store`, jadi edit → reload browser, tanpa restart.
+- Perubahan `server.py` / `eng/*.py` butuh restart (`Ctrl+C` lalu `./run.sh`), atau pakai `RELOAD=1`.
+- `/`, `/learn`, `/static/*`, `/avatars/*` tidak pernah di-cache browser; kalau masih aneh, cek `sha1`/`mtime` di `/api/version` vs file di disk.
+
 ## Akun & leaderboard
 
 - **Akun default siap pakai:** username `user`, password `user` (dibuat otomatis saat pertama jalan).

@@ -16,6 +16,7 @@ Endpoints
   GET  /api/modules, /api/modules/{id}  bundled question bank
   GET  /api/leaderboard, POST /api/progress
   GET/POST /api/settings  local preferences (engines, chunking)
+  GET  /api/version    folder yang dilayani + hash file static (cek "sudah ke-update?")
 """
 
 from __future__ import annotations
@@ -157,6 +158,32 @@ async def index() -> FileResponse:
 @app.get("/learn")
 async def learn_page() -> FileResponse:
     return FileResponse(STATIC_DIR / "learn.html")
+
+
+@app.get("/api/version")
+async def version() -> dict[str, Any]:
+    """Cek cepat: file static mana yang sedang dilayani server ini."""
+    import hashlib
+
+    files: dict[str, Any] = {}
+    for name in ("index.html", "learn.html", "app.js", "learn.js", "styles.css", "learn.css"):
+        path = STATIC_DIR / name
+        if not path.is_file():
+            files[name] = "missing"
+            continue
+        stat = path.stat()
+        files[name] = {
+            "sha1": hashlib.sha1(path.read_bytes()).hexdigest()[:10],
+            "mtime": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(stat.st_mtime)),
+            "bytes": stat.st_size,
+        }
+    return {
+        "app": "OEL",
+        "root": str(ROOT),
+        "static": str(STATIC_DIR),
+        "started": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(STARTED_AT)),
+        "files": files,
+    }
 
 
 @app.get("/api/health")
