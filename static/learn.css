@@ -293,3 +293,69 @@
 }
 
 .learn-body{color-scheme:dark}
+
+/* ───────────────────────── foto profil + bio ───────────────────────── */
+.rail-logo{overflow:hidden;padding:0;text-decoration:none}
+.rail-logo img{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}
+
+.avatar{overflow:hidden;padding:0}
+.avatar.has-photo{background:#1d2228}
+.avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}
+
+.board-avatar{overflow:hidden}
+.board-avatar.has-photo{background:#1d2228}
+.board-avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}
+
+.pop-avatar-actions{display:flex;gap:6px;margin:10px 0 0}
+.pop-btn{
+  flex:1;font:inherit;font-size:11px;padding:6px 8px;border-radius:9px;cursor:pointer;
+  background:rgba(201,242,77,.14);color:#dff59a;border:1px solid rgba(201,242,77,.3);
+  transition:.15s;
+}
+.pop-btn:hover{background:rgba(201,242,77,.24);color:#fff}
+.pop-btn.ghost{background:transparent;border-color:rgba(255,255,255,.14);color:#9aa0a8}
+.pop-btn.ghost:hover{background:rgba(255,255,255,.06);color:#fff}
+.pop-msg{font-family:var(--mono);font-size:10px;color:#ff9f43;margin:8px 0 0;line-height:1.4}
+
+.board-row.has-bio{cursor:pointer}
+.board-row.has-bio:hover{background:rgba(255,255,255,.055);border-radius:12px}
+.board-row.legend{box-shadow:inset 0 0 0 1px rgba(201,242,77,.28);border-radius:12px}
+.crown{font-family:var(--mono);font-size:8.5px;letter-spacing:.1em;color:#c9f24d;text-transform:uppercase;vertical-align:1px}
+
+body.modal-open{overflow:hidden}
+.bio-modal{position:fixed;inset:0;z-index:60;display:grid;place-items:center;padding:20px}
+.bio-modal[hidden]{display:none}
+.bio-backdrop{position:absolute;inset:0;background:rgba(4,6,8,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.bio-card{
+  position:relative;width:min(92vw,400px);padding:26px;border-radius:22px;
+  background:linear-gradient(180deg,#191e24,#12161a);
+  border:1px solid rgba(201,242,77,.22);
+  box-shadow:0 40px 90px -30px #000;animation:bioIn .18s ease-out;
+}
+@keyframes bioIn{from{opacity:0;transform:translateY(10px) scale(.98)}to{opacity:1;transform:none}}
+.bio-head{display:flex;gap:16px;align-items:center}
+.bio-avatar{
+  width:76px;height:76px;border-radius:50%;flex:0 0 76px;display:grid;place-items:center;
+  overflow:hidden;background:linear-gradient(135deg,#c9f24d,#7fae1f);
+  color:#10130b;font-weight:800;font-size:22px;border:2px solid rgba(201,242,77,.45);
+}
+.bio-avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}
+.bio-id{min-width:0}
+.bio-kicker{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:#c9f24d;margin:0 0 4px}
+.bio-card h2{font-size:22px;line-height:1.15;margin:0 0 2px;color:#f2f4ef;letter-spacing:-.01em}
+.bio-list{margin:20px 0 0;display:grid;gap:0}
+.bio-row{
+  display:grid;grid-template-columns:88px 1fr;gap:12px;align-items:baseline;
+  padding:9px 0;border-top:1px solid rgba(255,255,255,.075);
+}
+.bio-row dt{
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:#7d848d;
+}
+.bio-row dd{margin:0;font-size:13px;color:#e6e9e2;line-height:1.45}
+.bio-note{margin:16px 0 0;font-family:var(--mono);font-size:10px;color:#6f767f;letter-spacing:.03em}
+.bio-x{
+  position:absolute;top:10px;right:12px;width:30px;height:30px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.05);color:#cfd5cd;
+  font-size:16px;line-height:1;cursor:pointer;transition:.15s;
+}
+.bio-x:hover{background:rgba(255,255,255,.12);color:#fff}

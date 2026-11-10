@@ -258,8 +258,8 @@ def test_browser() -> None:
         driver.get(f"{URL}/learn")
         login_ok = wait_js("return !document.getElementById('loginView').hidden;", 15)
         check("learn: login screen", bool(login_ok))
-        js("document.getElementById('authUser').value='User1';"
-           "document.getElementById('authPass').value='WeAreHackerone';"
+        js("document.getElementById('authUser').value='user';"
+           "document.getElementById('authPass').value='user';"
            "document.getElementById('authSubmit').click();")
         dash_ok = wait_js("return !document.getElementById('dashView').hidden;", 15)
         check("learn: dashboard after login", bool(dash_ok))
@@ -268,7 +268,19 @@ def test_browser() -> None:
         board = js("return document.querySelectorAll('#boardList .board-row').length;")
         check("learn: leaderboard rendered", (board or 0) >= 1, f"{board} rows")
         avatar = js("return document.getElementById('railAvatar').textContent;") or ""
-        check("learn: avatar initials", bool(avatar.strip()), avatar)
+        has_photo = js("return !!document.querySelector('#railAvatar img');")
+        check("learn: avatar initials or photo", bool(avatar.strip()) or bool(has_photo), avatar or "img")
+        legend = js("return document.querySelector('.board-row.legend .board-name').textContent;") or ""
+        check("learn: legend Noshiro rank 1", "Noshiro" in legend, legend)
+        js("document.querySelector('.board-row.legend').click();")
+        wait_js("return !document.getElementById('bioModal').hidden;", 10)
+        bio = js("return document.getElementById('bioList').innerText;") or ""
+        check("learn: Noshiro bio fields",
+              all(part in bio for part in ("Ayanagi Noshiro (noun)", "She", "Akita, Japan.")),
+              bio.replace("\n", " | ")[:70])
+        js("document.getElementById('bioClose').click();")
+        check("learn: bio closes",
+              js("return document.getElementById('bioModal').hidden;") is True)
         shot("8-learn-dashboard")
         driver.get(f"{URL}/?sample=1")
         wait_js("return document.querySelectorAll('#chunkList li').length > 3;", 20)

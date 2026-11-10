@@ -12,6 +12,7 @@ Endpoints
   POST /api/analyze    writing or transcript -> Fix / Why / Try feedback
   POST /api/study/parse  practice set + answer key -> questions
   POST /api/auth/login /register, GET /api/auth/me, POST /api/auth/logout
+  POST /api/auth/avatar  upload foto profil, DELETE = hapus foto
   GET  /api/modules, /api/modules/{id}  bundled question bank
   GET  /api/leaderboard, POST /api/progress
   GET/POST /api/settings  local preferences (engines, chunking)
@@ -388,6 +389,29 @@ async def auth_logout(request: Request) -> dict[str, Any]:
     return {"ok": True}
 
 
+@app.post("/api/auth/avatar")
+async def auth_avatar(request: Request, file: UploadFile = File(...)) -> dict[str, Any]:
+    blob = await file.read(accounts.MAX_AVATAR_BYTES + 1)
+    try:
+        user = accounts.set_avatar(_bearer(request), blob)
+    except PermissionError as exc:
+        raise HTTPException(status_code=401, detail=str(exc))
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    return {"user": user}
+
+
+@app.delete("/api/auth/avatar")
+async def auth_avatar_clear(request: Request) -> dict[str, Any]:
+    try:
+        user = accounts.clear_avatar(_bearer(request))
+    except PermissionError as exc:
+        raise HTTPException(status_code=401, detail=str(exc))
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    return {"user": user}
+
+
 @app.post("/api/progress")
 async def progress(request: Request) -> dict[str, Any]:
     body = await request.json()
@@ -428,4 +452,6 @@ async def post_settings(request: Request) -> dict[str, Any]:
     return _settings_view()
 
 
+accounts.AVATAR_DIR.mkdir(parents=True, exist_ok=True)
+app.mount("/avatars", StaticFiles(directory=str(accounts.AVATAR_DIR)), name="avatars")
 app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")

@@ -1,6 +1,12 @@
-# OEL — Offline English Learning 🗣️
+<p align="center">
+  <img src="OEL.png" alt="OEL — Offline English Learning" width="132">
+</p>
 
-**OEL** adalah web app lokal (localhost) untuk latihan **listening + speaking** dan **belajar grammar**, jalan sepenuhnya **offline tanpa API key**. Dengarkan teks, tirukan dengan suara, kerjakan soal, lalu dapatkan pembahasan — semua diproses di mesin sendiri.
+<h1 align="center">OEL — Offline English Learning</h1>
+
+<p align="center"><em>Belajar listening, speaking, dan grammar sepenuhnya offline di localhost.</em></p>
+
+**OEL** adalah web app lokal untuk latihan **listening + speaking** dan **belajar grammar**, jalan sepenuhnya **offline tanpa API key**. Dengarkan teks, tirukan dengan suara, kerjakan soal, lalu dapatkan pembahasan — semua diproses di mesin sendiri. Ikon resmi aplikasi: [`OEL.png`](OEL.png).
 
 Halaman utama menampilkan dua kartu: **Learn 101** (bank soal + pembahasan) dan **Speaking & Listening** (TTS + STT). Navigasi memakai kartu; setiap halaman fitur punya tombol **← Home**. Tersedia tema **dark** (default, aksen hijau) dan **light**.
 
@@ -11,7 +17,7 @@ Halaman utama menampilkan dua kartu: **Learn 101** (bank soal + pembahasan) dan 
 | **Home** | Dua kartu utama: Learn 101 (login → dashboard) dan Speaking & Listening |
 | **Listen** | Upload `.txt`/`.md`/`.srt` atau tempel teks → otomatis dipotong jadi shadowing chunks (1–2 kalimat, ±30 kata) **atau centang “baca utuh” untuk membaca seluruh teks tanpa dipotong** → dengarkan per chunk/utuh dengan highlight kata-per-kata, rate 0.5×–1.5×, **pitch 0.85×–1.15×**, engine piper/gtts |
 | **Practice** | Rekam suara mic → speech-to-text → bandingkan dengan chunk acuan (diff warna: persis/beda/terlewat/tambahan) → putar ulang rekamanmu + lihat level audio → minta koreksi lokal (Fix / Why / Try) → simpan ke error log |
-| **Learn 101** | Halaman khusus `/learn`: login/daftar akun lokal → dashboard berisi progres, modul soal (10 set, 279 soal), leaderboard, dan quick actions |
+| **Learn 101** | Halaman khusus `/learn`: login/daftar akun lokal → dashboard berisi progres, modul soal (10 set, 279 soal), leaderboard dengan foto profil, dan quick actions |
 | **Study** | Upload/tempel practice set **TXT atau JSON** + answer key → kerjakan soal satu per satu → cek jawaban + pembahasan (Why/Trap) → skor, **best score**, dan progres tersimpan. Tombol **Reset** mengosongkan progres set itu. Tersedia tombol “Muat contoh” (12 soal) |
 | **Settings** | Pilih engine TTS/STT, pitch & kecepatan baca, input mikrofon, jumlah kalimat/kata per chunk, dump status engine |
 
@@ -33,24 +39,50 @@ Butuh `python3`, `venv`, dan `ffmpeg` di `PATH`.
 
 Fokus aplikasi: **Text-to-Speech** (baca teks) dan **Speech-to-Text** (tirukan lewat mic, lalu bandingkan). Rekaman bisa diputar ulang langsung di tab Practice; audio pelan otomatis di-normalisasi sebelum dikirim ke whisper.
 
+## Akun & leaderboard
+
+- **Akun default siap pakai:** username `user`, password `user` (dibuat otomatis saat pertama jalan).
+- **Rank 1 permanen — `Noshiro`**: entri legenda yang ditanam by design di puncak leaderboard, bukan akun nyata (tidak bisa login) dan fotonya tetap [`static/assets/ayang.png`](static/assets/ayang.png).
+- **Klik baris Noshiro di leaderboard** → kartu bio muncul:
+
+  | Field | Isi |
+  |---|---|
+  | Name | `Ayanagi Noshiro (noun)` |
+  | Gender | `She` |
+  | Address | `Akita, Japan.` |
+
+- **Foto profil sendiri:** setiap user bisa upload gambar sendiri — hover avatar di rail kiri → **Ganti foto** (PNG/JPG/WEBP/GIF, maks 4 MB) atau **Hapus** untuk kembali ke inisial. Foto tampil di rail, topbar, dan leaderboard.
+- Foto disimpan di `.avatars/<username>.<ext>` dan disajikan dari `/avatars/...`; folder ini di-ignore git, jadi tidak ikut ter-commit.
+
 ## Arsitektur
 
 ```
-server.py            FastAPI: health, TTS/STT, study, auth, modules, leaderboard, settings
+server.py            FastAPI: health, TTS/STT, study, auth, avatar, modules, leaderboard, settings
 eng/tts.py           TTS: piper (offline) → gtts (online); teks panjang dipecah internal lalu digabung; rate/pitch via ffmpeg
 eng/asr.py           STT: ffmpeg → WAV 16 kHz mono → faster-whisper (base.en, int8, CPU)
-eng/accounts.py      akun lokal: PBKDF2 hash, sesi token, progres, leaderboard (.users.json)
+eng/accounts.py      akun lokal: PBKDF2 hash, sesi token, progres, leaderboard, legenda Noshiro, foto profil (.users.json + .avatars/)
 eng/study.py         parser practice set: TXT (numbered + answer key) dan JSON (questions/options/answer/explanation)
 eng/textutil.py      pemotongan chunk, alignment kata, ~26 aturan grammar (mesin koreksi utama)
 eng/coach.py         koreksi lokal: feedback dijawab engine aturan grammar (bentuk Fix / Why / Try)
 static/              HTML/CSS/JS vanilla — Home + 4 tab, tema dark/light, animasi, highlight playback, diff
-static/learn.*       halaman Learn 101: login, dashboard, modul, leaderboard
+static/learn.*       halaman Learn 101: login, dashboard, modul, leaderboard, bio, foto profil
+static/assets/       wallpaper hasil optimasi + ikon OEL.png + avatar legenda ayang.png
 oel-quiz/            bank soal bawaan (10 JSON: 9 modul + exam campuran, 279 soal)
-static/assets/       wallpaper hasil optimasi dari Assets/ (bg, learn, listen)
-static/samples/      contoh practice set JSON
-Assets/              gambar sumber (bg.jpg, learn.jpg, listen.jpg)
+Assets/              gambar sumber (bg.jpg, learn.jpg, listen.jpg, ayang.png)
+OEL.png              ikon aplikasi 1254×1254 (dipakai di README, favicon & rail logo)
 tests/               unit/API test (unittest) + e2e.py (Selenium/Firefox headless)
 ```
+
+## API singkat
+
+| Endpoint | Fungsi |
+|---|---|
+| `POST /api/auth/login` · `/register` · `/logout`, `GET /api/auth/me` | sesi lokal (Bearer token) |
+| `POST /api/auth/avatar` · `DELETE /api/auth/avatar` | upload / hapus foto profil user |
+| `GET /api/leaderboard` | peringkat + entri legenda `Noshiro` (bio & avatar ikut) |
+| `POST /api/progress` | simpan best score per set |
+| `GET /api/modules` · `/api/modules/{id}` | bank soal dari `oel-quiz/` |
+| `POST /api/tts` · `/api/transcribe` · `/api/compare` · `/api/analyze` | TTS, STT, alignment, koreksi lokal |
 
 ## Soal FFmpeg & speech-to-text
 
@@ -62,13 +94,13 @@ Jadi pipeline-nya: mic → ffmpeg (konversi) → whisper (transkrip) → alignme
 
 Klik kartu **Learn 101** di Home → halaman `/learn`:
 
-- **Login lokal** (username + password). Akun demo: `User1` / `WeAreHackerone` (nama tampilan: `0xnhsec was here`).
+- **Login lokal** (username + password). Akun default: `user` / `user`.
 - **Buat akun baru** langsung dari tab “Buat akun” — password di-hash PBKDF2-SHA256 (200k rounds + salt), data di `.users.json`.
 - **Dashboard** berisi: poin, akurasi, set dikerjakan, daftar 10 modul (klik → buka di Study), leaderboard, dan quick actions.
-- **Avatar user** di rail kiri: hover untuk melihat nama, poin, set, dan tombol keluar.
+- **Avatar user** di rail kiri: hover untuk melihat nama, poin, set, tombol **Ganti foto / Hapus**, dan tombol keluar.
 - Progres dikirim otomatis ke server saat jawaban dicek di Study (butuh login), dan server menyimpan **best score** per set.
 
-Akun & sesi tersimpan lokal; `.users.json` di-ignore git.
+Akun & sesi tersimpan lokal; `.users.json` dan `.avatars/` di-ignore git.
 
 ## Format soal (Learn 101)
 
@@ -124,6 +156,6 @@ Angka "kecocokan" berasal dari ASR, **bukan penilaian fonetik**. Selisih bisa ka
 ## Test
 
 ```bash
-.venv/bin/python -m unittest discover -s tests   # unit/API test
+.venv/bin/python -m unittest discover -s tests   # 71 unit/API test
 .venv/bin/python tests/e2e.py                    # end-to-end (butuh Firefox + geckodriver)
 ```

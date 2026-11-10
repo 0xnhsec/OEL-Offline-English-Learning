@@ -14,7 +14,8 @@
 </script>
 <link rel="stylesheet" href="/static/styles.css">
 <link rel="stylesheet" href="/static/learn.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50' y='68' text-anchor='middle' font-family='monospace' font-size='38' font-weight='700'>OEL</text></svg>">
+<link rel="icon" type="image/png" href="/static/assets/OEL.png">
+<link rel="apple-touch-icon" href="/static/assets/OEL.png">
 </head>
 <body class="learn-body">
 
@@ -39,16 +40,16 @@
         <input type="text" id="authName" maxlength="40" placeholder="Nama di leaderboard">
       </label>
       <label class="login-field">Username
-        <input type="text" id="authUser" maxlength="24" placeholder="User1" autocomplete="username" required>
+        <input type="text" id="authUser" maxlength="24" placeholder="user" autocomplete="username" required>
       </label>
       <label class="login-field">Password
-        <input type="password" id="authPass" minlength="6" placeholder="••••••••" autocomplete="current-password" required>
+        <input type="password" id="authPass" minlength="3" placeholder="••••" autocomplete="current-password" required>
       </label>
       <p class="login-err" id="authErr"></p>
       <button class="login-btn" id="authSubmit" type="submit">Masuk</button>
     </form>
 
-    <p class="login-hint">Akun demo: <code>User1</code> · <code>WeAreHackerone</code></p>
+    <p class="login-hint">Akun default: <code>user</code> · <code>user</code></p>
     <a class="login-back" href="/">← Kembali ke Home</a>
   </div>
 </div>
@@ -56,7 +57,7 @@
 <!-- ───────────────────────── dashboard ───────────────────────── -->
 <div class="learn-shell" id="dashView" hidden>
   <aside class="rail">
-    <div class="rail-logo">0x</div>
+    <a class="rail-logo" href="/" title="OEL"><img src="/static/assets/OEL.png" alt="OEL"></a>
     <button class="rail-btn active" title="Dashboard" data-panel="dashboard">▦</button>
     <button class="rail-btn" title="Modules" data-panel="modules">▤</button>
     <button class="rail-btn" title="Leaderboard" data-panel="leaderboard">★</button>
@@ -65,7 +66,7 @@
     <a class="rail-btn plus" title="Free practice" href="/?view=study">+</a>
 
     <div class="rail-user" id="railUser" tabindex="0">
-      <span class="avatar" id="railAvatar">U</span>
+      <span class="avatar" id="railAvatar" title="foto profil">U</span>
       <div class="user-pop">
         <b id="popName">—</b>
         <span class="user-handle" id="popHandle">@—</span>
@@ -73,6 +74,11 @@
           <span><b id="popPoints">0</b> poin</span>
           <span><b id="popSets">0</b> set</span>
         </div>
+        <div class="pop-avatar-actions">
+          <button class="pop-btn" id="avatarPickBtn">Ganti foto</button>
+          <button class="pop-btn ghost" id="avatarClearBtn">Hapus</button>
+        </div>
+        <p class="pop-msg" id="popMsg" hidden></p>
         <button class="pop-logout" id="logoutBtn">Keluar</button>
       </div>
     </div>
@@ -177,6 +183,26 @@
       </section>
     </div>
   </main>
+</div>
+
+<input type="file" id="avatarInput" accept="image/png,image/jpeg,image/webp,image/gif" hidden>
+
+<!-- ───────────────────────── bio (profil legenda) ───────────────────────── -->
+<div class="bio-modal" id="bioModal" hidden>
+  <div class="bio-backdrop" id="bioBackdrop"></div>
+  <div class="bio-card" role="dialog" aria-modal="true" aria-labelledby="bioName">
+    <button class="bio-x" id="bioClose" aria-label="tutup">×</button>
+    <div class="bio-head">
+      <span class="bio-avatar" id="bioAvatar">N</span>
+      <div class="bio-id">
+        <p class="bio-kicker" id="bioKicker">legend · rank 01</p>
+        <h2 id="bioName">Noshiro</h2>
+        <span class="user-handle" id="bioHandle">@noshiro</span>
+      </div>
+    </div>
+    <dl class="bio-list" id="bioList"></dl>
+    <p class="bio-note" id="bioNote">Profil legenda OEL — tetap, tidak bisa diubah.</p>
+  </div>
 </div>
 
 <script src="/static/learn.js"></script>

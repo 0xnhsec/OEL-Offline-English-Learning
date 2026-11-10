@@ -2,7 +2,8 @@
 
 Everything is stored in ``.users.json`` next to the app. Passwords are hashed
 with PBKDF2-SHA256 (200k rounds + per-user salt); tokens are random and kept
-server-side. This is a local single-user app, but the basics are done right.
+server-side. Each account may upload its own profile picture; files land in
+``.avatars/`` and are served from ``/avatars/<username>.<ext>``.
 """
 
 from __future__ import annotations
@@ -18,15 +19,44 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent
 USERS_PATH = ROOT / ".users.json"
+AVATAR_DIR = ROOT / ".avatars"
 
 _USERNAME = re.compile(r"^[A-Za-z0-9_.-]{3,24}$")
+_SAFE = re.compile(r"[^A-Za-z0-9_.-]")
 _lock = threading.Lock()
 
+# Default account shipped with OEL — username and password are both "user".
 DEFAULT_USER = {
-    "username": "User1",
-    "name": "0xnhsec was here",
-    "password": "WeAreHackerone",
+    "username": "user",
+    "name": "user",
+    "password": "user",
 }
+
+# Pinned legendary profile: always rank 1, by design. Not a real account —
+# it cannot be logged into and its picture is fixed to Assets/ayang.png.
+FEATURED: dict[str, Any] = {
+    "username": "noshiro",
+    "name": "Noshiro",
+    "points": 2790,
+    "sets": 10,
+    "accuracy": 1.0,
+    "avatar": "/static/assets/ayang.png",
+    "featured": True,
+    "lockedAvatar": True,
+    "bio": {
+        "Name": "Ayanagi Noshiro (noun)",
+        "Gender": "She",
+        "Address": "Akita, Japan.",
+    },
+}
+
+MAX_AVATAR_BYTES = 4 * 1024 * 1024
+_IMAGE_EXT = (
+    (b"\x89PNG\r\n\x1a\n", "png"),
+    (b"\xff\xd8\xff", "jpg"),
+    (b"GIF87a", "gif"),
+    (b"GIF89a", "gif"),
+)
 
 
 def _hash(password: str, salt: str) -> str:
@@ -49,8 +79,7 @@ def _read() -> dict[str, Any]:
         return _empty()
     data.setdefault("users", {})
     data.setdefault("sessions", {})
-    if not data["users"]:
-        _seed(data)
+    if _ensure_default(data):
         _write(data)
     return data
 
@@ -61,17 +90,33 @@ def _write(data: dict[str, Any]) -> None:
     tmp.replace(USERS_PATH)
 
 
-def _seed(data: dict[str, Any]) -> None:
-    username = DEFAULT_USER["username"].lower()
+def _make_user(username: str, name: str, password: str) -> dict[str, Any]:
     salt = secrets.token_hex(16)
-    data["users"][username] = {
-        "username": DEFAULT_USER["username"],
-        "name": DEFAULT_USER["name"],
+    return {
+        "username": username,
+        "name": name,
         "salt": salt,
-        "hash": _hash(DEFAULT_USER["password"], salt),
+        "hash": _hash(password, salt),
         "created": time.time(),
         "progress": {},
     }
+
+
+def _seed(data: dict[str, Any]) -> None:
+    data["users"][DEFAULT_USER["username"].lower()] = _make_user(
+        DEFAULT_USER["username"], DEFAULT_USER["name"], DEFAULT_USER["password"],
+    )
+
+
+def _ensure_default(data: dict[str, Any]) -> bool:
+    """Keep the default ``user``/``user`` account available on older databases."""
+    key = DEFAULT_USER["username"].lower()
+    if key in data["users"]:
+        return False
+    data["users"][key] = _make_user(
+        DEFAULT_USER["username"], DEFAULT_USER["name"], DEFAULT_USER["password"],
+    )
+    return True
 
 
 def _public(user: dict[str, Any]) -> dict[str, Any]:
@@ -85,6 +130,10 @@ def _public(user: dict[str, Any]) -> dict[str, Any]:
         "sets": len(progress),
         "accuracy": round(best_total / question_total, 3) if question_total else 0.0,
         "progress": progress,
+        "avatar": user.get("avatar") or "",
+        "bio": dict(user.get("bio") or {}),
+        "featured": bool(user.get("featured")),
+        "lockedAvatar": bool(user.get("lockedAvatar")),
     }
 
 
@@ -102,15 +151,7 @@ def register(username: str, name: str, password: str) -> dict[str, Any]:
         data = _read()
         if username.lower() in data["users"]:
             raise ValueError("username sudah dipakai")
-        salt = secrets.token_hex(16)
-        data["users"][username.lower()] = {
-            "username": username,
-            "name": name,
-            "salt": salt,
-            "hash": _hash(password, salt),
-            "created": time.time(),
-            "progress": {},
-        }
+        data["users"][username.lower()] = _make_user(username, name, password)
         token = _new_session(data, username.lower())
         _write(data)
         return {"token": token, "user": _public(data["users"][username.lower()])}
@@ -118,6 +159,8 @@ def register(username: str, name: str, password: str) -> dict[str, Any]:
 
 def login(username: str, password: str) -> dict[str, Any]:
     username = (username or "").strip().lower()
+    if username == FEATURED["username"]:
+        raise ValueError("profil legenda — tidak bisa login")
     with _lock:
         data = _read()
         user = data["users"].get(username)
@@ -177,11 +220,85 @@ def record_progress(token: str, set_key: str, correct: int, total: int) -> dict[
         return _public(user)
 
 
+def _image_ext(blob: bytes) -> str:
+    for signature, ext in _IMAGE_EXT:
+        if blob.startswith(signature):
+            return ext
+    if blob[:4] == b"RIFF" and blob[8:12] == b"WEBP":
+        return "webp"
+    return ""
+
+
+def _session_user(data: dict[str, Any], token: str | None) -> dict[str, Any]:
+    session = data["sessions"].get(token or "")
+    user = data["users"].get(session["username"]) if session else None
+    if not user:
+        raise PermissionError("session tidak valid")
+    return user
+
+
+def set_avatar(token: str, blob: bytes) -> dict[str, Any]:
+    """Store an uploaded profile picture for the logged-in user."""
+    if not blob:
+        raise ValueError("file kosong")
+    if len(blob) > MAX_AVATAR_BYTES:
+        raise ValueError("gambar maksimal 4 MB")
+    ext = _image_ext(blob)
+    if not ext:
+        raise ValueError("format gambar harus PNG, JPG, WEBP, atau GIF")
+    with _lock:
+        data = _read()
+        user = _session_user(data, token)
+        if user.get("lockedAvatar"):
+            raise ValueError("foto profil ini sudah ditetapkan")
+        AVATAR_DIR.mkdir(parents=True, exist_ok=True)
+        stem = _SAFE.sub("_", str(user["username"]).lower())
+        for old in AVATAR_DIR.glob(f"{stem}.*"):
+            try:
+                old.unlink()
+            except OSError:
+                pass
+        name = f"{stem}.{ext}"
+        (AVATAR_DIR / name).write_bytes(blob)
+        user["avatar"] = f"/avatars/{name}?v={int(time.time())}"
+        _write(data)
+        return _public(user)
+
+
+def clear_avatar(token: str) -> dict[str, Any]:
+    """Remove the uploaded picture and fall back to initials."""
+    with _lock:
+        data = _read()
+        user = _session_user(data, token)
+        if user.get("lockedAvatar"):
+            raise ValueError("foto profil ini sudah ditetapkan")
+        stem = _SAFE.sub("_", str(user["username"]).lower())
+        for old in AVATAR_DIR.glob(f"{stem}.*"):
+            try:
+                old.unlink()
+            except OSError:
+                pass
+        user["avatar"] = ""
+        _write(data)
+        return _public(user)
+
+
 def leaderboard(limit: int = 20) -> dict[str, Any]:
     with _lock:
         data = _read()
         rows = [_public(user) for user in data["users"].values()]
     rows.sort(key=lambda row: (-row["points"], -row["accuracy"], row["name"].lower()))
-    for index, row in enumerate(rows, start=1):
+    legend = _public(dict(FEATURED))
+    legend["username"] = FEATURED["username"]
+    legend["name"] = FEATURED["name"]
+    legend["points"] = FEATURED["points"]
+    legend["sets"] = FEATURED["sets"]
+    legend["accuracy"] = FEATURED["accuracy"]
+    legend["avatar"] = FEATURED["avatar"]
+    legend["bio"] = dict(FEATURED["bio"])
+    legend["featured"] = True
+    legend["lockedAvatar"] = True
+    entries = [legend] + rows
+    for index, row in enumerate(entries, start=1):
         row["rank"] = index
-    return {"entries": rows[:limit], "total": len(rows)}
+    return {"entries": entries[:max(1, limit)], "total": len(entries)}

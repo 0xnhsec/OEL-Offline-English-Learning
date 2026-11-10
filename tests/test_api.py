@@ -141,14 +141,14 @@ class TestAPI(unittest.TestCase):
 
     def test_auth_login_me_progress(self):
         res = self.client.post("/api/auth/login", json={
-            "username": "User1", "password": "WeAreHackerone",
+            "username": "user", "password": "user",
         })
         self.assertEqual(res.status_code, 200)
         token = res.json()["token"]
 
         me = self.client.get("/api/auth/me", headers={"Authorization": f"Bearer {token}"})
         self.assertEqual(me.status_code, 200)
-        self.assertEqual(me.json()["user"]["username"], "User1")
+        self.assertEqual(me.json()["user"]["username"], "user")
 
         progress = self.client.post("/api/progress", headers={"Authorization": f"Bearer {token}"},
                                     json={"set": "Module 6: Subject-Verb Agreement",
@@ -160,8 +160,37 @@ class TestAPI(unittest.TestCase):
         self.assertEqual(board.status_code, 200)
         self.assertGreaterEqual(board.json()["total"], 1)
 
+    def test_avatar_upload_endpoint(self):
+        token = self.client.post("/api/auth/login", json={
+            "username": "user", "password": "user",
+        }).json()["token"]
+        headers = {"Authorization": f"Bearer {token}"}
+        png = b"\x89PNG\r\n\x1a\n" + b"\x00" * 128
+        res = self.client.post("/api/auth/avatar", headers=headers,
+                               files={"file": ("me.png", png, "image/png")})
+        self.assertEqual(res.status_code, 200)
+        url = res.json()["user"]["avatar"]
+        self.assertTrue(url.startswith("/avatars/"))
+        served = self.client.get(url.split("?")[0])
+        self.assertEqual(served.status_code, 200)
+        self.assertEqual(served.content, png)
+        bad = self.client.post("/api/auth/avatar", headers=headers,
+                               files={"file": ("me.txt", b"nope", "text/plain")})
+        self.assertEqual(bad.status_code, 400)
+        self.assertEqual(self.client.delete("/api/auth/avatar", headers=headers).status_code, 200)
+
+    def test_avatar_requires_login(self):
+        res = self.client.post("/api/auth/avatar",
+                               files={"file": ("me.png", b"\x89PNG\r\n\x1a\n", "image/png")})
+        self.assertEqual(res.status_code, 401)
+
+    def test_leaderboard_legend_first(self):
+        board = self.client.get("/api/leaderboard").json()
+        self.assertEqual(board["entries"][0]["name"], "Noshiro")
+        self.assertTrue(board["entries"][0]["featured"])
+
     def test_auth_bad_login(self):
-        res = self.client.post("/api/auth/login", json={"username": "User1", "password": "nope"})
+        res = self.client.post("/api/auth/login", json={"username": "user", "password": "nope"})
         self.assertEqual(res.status_code, 401)
 
     def test_progress_requires_token(self):

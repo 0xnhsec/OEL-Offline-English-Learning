@@ -1,4 +1,4 @@
-/* Learn 101 — local login + dashboard */
+/* Learn 101 — local login, dashboard, leaderboard, bio + foto profil */
 
 const $ = (id) => document.getElementById(id);
 const TOKEN_KEY = "xl_token";
@@ -47,6 +47,8 @@ function setMode(mode) {
   document.querySelectorAll(".login-tab").forEach((tab) =>
     tab.classList.toggle("active", tab.dataset.mode === mode));
   $("nameField").hidden = mode !== "register";
+  $("authPass").minLength = mode === "register" ? 6 : 3;
+  $("authPass").placeholder = mode === "register" ? "min. 6 karakter" : "••••";
   $("loginTitle").textContent = mode === "register" ? "Buat akun lokal" : "Masuk ke bank soal";
   $("authSubmit").textContent = mode === "register" ? "Buat akun" : "Masuk";
   $("authErr").textContent = "";
@@ -99,11 +101,64 @@ async function loadDashboard() {
   renderBoard();
 }
 
+function paintAvatar(el, user) {
+  if (!el) return;
+  const url = user && user.avatar;
+  if (url) {
+    el.innerHTML = `<img src="${escapeHtml(url)}" alt="${escapeHtml((user && user.name) || "")}">`;
+    el.classList.add("has-photo");
+  } else {
+    el.textContent = initials(user && user.name);
+    el.classList.remove("has-photo");
+  }
+}
+
+function flash(text) {
+  const el = $("popMsg");
+  if (!el) return;
+  el.textContent = text || "";
+  el.hidden = !text;
+  if (text) setTimeout(() => { if (el.textContent === text) { el.hidden = true; el.textContent = ""; } }, 3200);
+}
+
+async function uploadAvatar(file) {
+  if (!file) return;
+  const form = new FormData();
+  form.append("file", file);
+  flash("mengunggah…");
+  try {
+    const res = await fetch("/api/auth/avatar", {
+      method: "POST", headers: authHeaders(), body: form,
+    });
+    const body = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(body.detail || `HTTP ${res.status}`);
+    state.user = body.user;
+    await loadDashboard();
+    flash("foto profil diperbarui");
+  } catch (error) {
+    flash(error.message);
+  }
+}
+
+async function clearAvatar() {
+  flash("menghapus…");
+  try {
+    const res = await fetch("/api/auth/avatar", { method: "DELETE", headers: authHeaders() });
+    const body = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(body.detail || `HTTP ${res.status}`);
+    state.user = body.user;
+    await loadDashboard();
+    flash("foto profil dihapus");
+  } catch (error) {
+    flash(error.message);
+  }
+}
+
 function renderUser() {
   const user = state.user;
   if (!user) return;
-  const letters = initials(user.name);
-  ["railAvatar", "topAvatar"].forEach((id) => { $(id).textContent = letters; });
+  paintAvatar($("railAvatar"), user);
+  paintAvatar($("topAvatar"), user);
   $("popName").textContent = user.name;
   $("popHandle").textContent = `@${user.username}`;
   $("popPoints").textContent = user.points || 0;
@@ -167,19 +222,65 @@ function renderBoard() {
   list.innerHTML = state.leaderboard.map((row) => {
     const mine = row.username === user.username;
     const pct = row.points > 0 ? Math.max(4, Math.round((row.points / max) * 100)) : 0;
-    return `<div class="board-row ${mine ? "me" : ""}">
+    const hasBio = !!(row.bio && Object.keys(row.bio).length);
+    const avatar = row.avatar
+      ? `<span class="board-avatar has-photo"><img src="${escapeHtml(row.avatar)}" alt=""></span>`
+      : `<span class="board-avatar">${escapeHtml(initials(row.name))}</span>`;
+    return `<div class="board-row${mine ? " me" : ""}${row.featured ? " legend" : ""}${hasBio ? " has-bio" : ""}"
+      data-username="${escapeHtml(row.username)}"${hasBio ? ' role="button" tabindex="0" title="klik untuk lihat bio"' : ""}>
       <span class="board-rank">${String(row.rank).padStart(2, "0")}</span>
-      <span class="board-avatar">${escapeHtml(initials(row.name))}</span>
+      ${avatar}
       <div>
-        <div class="board-name">${escapeHtml(row.name)}${mine ? " · kamu" : ""}</div>
+        <div class="board-name">${escapeHtml(row.name)}${row.featured ? ' <span class="crown">★ legend</span>' : ""}${mine ? " · kamu" : ""}</div>
         <div class="board-handle">@${escapeHtml(row.username)} · ${row.sets} set · ${Math.round((row.accuracy || 0) * 100)}%</div>
       </div>
       <span class="board-points">${row.points} pt</span>
       <div class="board-bar"><i style="width:${pct}%"></i></div>
     </div>`;
   }).join("");
+
+  list.querySelectorAll(".board-row.has-bio").forEach((row) => {
+    const open = () => {
+      const entry = state.leaderboard.find((item) => item.username === row.dataset.username);
+      if (entry) openBio(entry);
+    };
+    row.addEventListener("click", open);
+    row.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") { event.preventDefault(); open(); }
+    });
+  });
+
   $("boardEmpty").hidden = state.leaderboard.length > 0;
   $("boardSub").textContent = `${state.leaderboard.length} pemain`;
+}
+
+/* ───────────────────────── bio ───────────────────────── */
+function openBio(entry) {
+  if (!entry) return;
+  $("bioName").textContent = entry.name || entry.username;
+  $("bioHandle").textContent = `@${entry.username}`;
+  $("bioKicker").textContent = entry.featured
+    ? "legend · rank 01"
+    : `rank ${String(entry.rank || 1).padStart(2, "0")}`;
+  paintAvatar($("bioAvatar"), entry);
+  const bio = entry.bio || {};
+  const keys = Object.keys(bio);
+  $("bioList").innerHTML = keys.length
+    ? keys.map((key) => `<div class="bio-row"><dt>${escapeHtml(key)}</dt><dd>${escapeHtml(bio[key])}</dd></div>`).join("")
+    : `<div class="bio-row"><dt>Name</dt><dd>${escapeHtml(entry.name || entry.username)}</dd></div>
+       <div class="bio-row"><dt>Gender</dt><dd>—</dd></div>
+       <div class="bio-row"><dt>Address</dt><dd>—</dd></div>`;
+  $("bioNote").textContent = entry.featured
+    ? "Profil legenda OEL — tetap, tidak bisa diubah. Foto: ayang.png"
+    : "Bio pemain ini belum diisi.";
+  $("bioModal").hidden = false;
+  document.body.classList.add("modal-open");
+  $("bioClose").focus();
+}
+
+function closeBio() {
+  $("bioModal").hidden = true;
+  document.body.classList.remove("modal-open");
 }
 
 function escapeHtml(value) {
@@ -205,6 +306,24 @@ async function boot() {
   document.querySelectorAll(".login-tab").forEach((tab) =>
     tab.addEventListener("click", () => setMode(tab.dataset.mode)));
   $("logoutBtn").addEventListener("click", logout);
+  $("avatarPickBtn").addEventListener("click", (event) => {
+    event.stopPropagation();
+    $("avatarInput").click();
+  });
+  $("avatarInput").addEventListener("change", (event) => {
+    const file = event.target.files && event.target.files[0];
+    event.target.value = "";
+    uploadAvatar(file);
+  });
+  $("avatarClearBtn").addEventListener("click", (event) => {
+    event.stopPropagation();
+    clearAvatar();
+  });
+  $("bioClose").addEventListener("click", closeBio);
+  $("bioBackdrop").addEventListener("click", closeBio);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !$("bioModal").hidden) closeBio();
+  });
   $("moduleSearch").addEventListener("input", renderModules);
   $("freePracticeBtn").addEventListener("click", () => { location.href = "/?view=study"; });
   $("uploadBtn").addEventListener("click", () => { location.href = "/?view=study"; });
