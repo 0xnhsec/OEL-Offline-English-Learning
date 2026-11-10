@@ -270,9 +270,9 @@ function openBio(entry) {
     : `<div class="bio-row"><dt>Name</dt><dd>${escapeHtml(entry.name || entry.username)}</dd></div>
        <div class="bio-row"><dt>Gender</dt><dd>—</dd></div>
        <div class="bio-row"><dt>Address</dt><dd>—</dd></div>`;
-  $("bioNote").textContent = entry.featured
-    ? "Profil legenda OEL — tetap, tidak bisa diubah. Foto: ayang.png"
-    : "Bio pemain ini belum diisi.";
+  // Untuk entri legenda, teks catatan diambil dari #bioNote di learn.html —
+  // jadi bebas diedit di HTML dan tidak ditimpa JS.
+  if (!entry.featured) $("bioNote").textContent = "Bio pemain ini belum diisi.";
   $("bioModal").hidden = false;
   document.body.classList.add("modal-open");
   $("bioClose").focus();

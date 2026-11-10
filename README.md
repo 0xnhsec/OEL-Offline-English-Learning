@@ -75,6 +75,7 @@ Catatan:
   | Address | `Akita, Japan.` |
 
 - **Foto profil sendiri:** setiap user bisa upload gambar sendiri — hover avatar di rail kiri → **Ganti foto** (PNG/JPG/WEBP/GIF, maks 4 MB) atau **Hapus** untuk kembali ke inisial. Foto tampil di rail, topbar, dan leaderboard.
+- Teks catatan di kartu bio diambil dari `#bioNote` di [`static/learn.html`](static/learn.html) — bebas diedit, JS tidak menimpanya.
 - Foto disimpan di `.avatars/<username>.<ext>` dan disajikan dari `/avatars/...`; folder ini di-ignore git, jadi tidak ikut ter-commit.
 
 ## Arsitektur
