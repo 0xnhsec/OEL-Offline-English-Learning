@@ -221,7 +221,7 @@ function renderBoard() {
   const max = Math.max(1, ...state.leaderboard.map((row) => row.points || 0));
   list.innerHTML = state.leaderboard.map((row) => {
     const mine = row.username === user.username;
-    const pct = row.points > 0 ? Math.max(4, Math.round((row.points / max) * 100)) : 0;
+    const pct = Math.max(3, Math.round(((row.points || 0) / max) * 100));
     const hasBio = !!(row.bio && Object.keys(row.bio).length);
     const avatar = row.avatar
       ? `<span class="board-avatar has-photo"><img src="${escapeHtml(row.avatar)}" alt=""></span>`
@@ -232,7 +232,7 @@ function renderBoard() {
       ${avatar}
       <div>
         <div class="board-name">${escapeHtml(row.name)}${row.featured ? ' <span class="crown">★ legend</span>' : ""}${mine ? " · kamu" : ""}</div>
-        <div class="board-handle">@${escapeHtml(row.username)} · ${row.sets} set · ${Math.round((row.accuracy || 0) * 100)}%</div>
+        <div class="board-handle">@${escapeHtml(row.username)} · ${row.sets} set · ${Math.round((row.accuracy || 0) * 100)}%${hasBio ? ' · <span class="bio-hint">klik → bio</span>' : ""}</div>
       </div>
       <span class="board-points">${row.points} pt</span>
       <div class="board-bar"><i style="width:${pct}%"></i></div>
@@ -289,6 +289,46 @@ function escapeHtml(value) {
   }[ch]));
 }
 
+/* popover user: position fixed supaya tidak terpotong .learn-shell{overflow:hidden} */
+function placeUserPop() {
+  const rail = $("railUser");
+  const pop = document.querySelector(".user-pop");
+  if (!rail || !pop) return;
+  const rect = rail.getBoundingClientRect();
+  const width = pop.offsetWidth || 258;
+  const height = pop.offsetHeight || 240;
+  let left = rect.right - 2;
+  if (left + width > window.innerWidth - 10) left = Math.max(10, window.innerWidth - width - 10);
+  let top = rect.bottom - height + 8;
+  top = Math.max(10, Math.min(top, window.innerHeight - height - 10));
+  pop.style.left = `${Math.round(left)}px`;
+  pop.style.top = `${Math.round(top)}px`;
+  pop.style.bottom = "auto";
+}
+
+function initUserPop() {
+  const rail = $("railUser");
+  const pop = document.querySelector(".user-pop");
+  if (!rail || !pop) return;
+  if (pop.parentElement !== document.body) document.body.appendChild(pop);
+
+  const open = () => { placeUserPop(); pop.classList.add("open"); };
+  const close = () => pop.classList.remove("open");
+  let timer = 0;
+
+  rail.addEventListener("mouseenter", () => { clearTimeout(timer); open(); });
+  rail.addEventListener("mouseleave", () => {
+    timer = setTimeout(() => { if (!pop.matches(":hover")) close(); }, 180);
+  });
+  pop.addEventListener("mouseenter", () => clearTimeout(timer));
+  pop.addEventListener("mouseleave", () => { if (!rail.matches(":hover")) close(); });
+  rail.addEventListener("focusin", open);
+  rail.addEventListener("focusout", (event) => {
+    if (!rail.contains(event.relatedTarget) && !pop.matches(":hover")) close();
+  });
+  placeUserPop();
+}
+
 /* ───────────────────────── panels ───────────────────────── */
 function setPanel(name) {
   document.querySelectorAll(".lnav, .rail-btn[data-panel]").forEach((button) =>
@@ -319,6 +359,9 @@ async function boot() {
     event.stopPropagation();
     clearAvatar();
   });
+  initUserPop();
+  document.body.appendChild($("bioModal"));   // bebas dari clipping .learn-shell
+  window.addEventListener("resize", placeUserPop);
   $("bioClose").addEventListener("click", closeBio);
   $("bioBackdrop").addEventListener("click", closeBio);
   document.addEventListener("keydown", (event) => {

@@ -76,7 +76,7 @@
   background:#0d0f12;border:1px solid rgba(255,255,255,.08);
   border-radius:28px;overflow:hidden;
   box-shadow:0 40px 100px -40px rgba(0,0,0,.9);
-  animation:fadeUp .4s ease both;
+  animation:fadeUp .4s ease;
 }
 .rail{
   width:84px;flex:0 0 84px;background:#0a0c0f;border-right:1px solid rgba(255,255,255,.06);
@@ -359,3 +359,70 @@ body.modal-open{overflow:hidden}
   font-size:16px;line-height:1;cursor:pointer;transition:.15s;
 }
 .bio-x:hover{background:rgba(255,255,255,.12);color:#fff}
+
+/* ───────── v3: bar PTS hijau, logo terkunci, popover rapi ───────── */
+.rail-logo{
+  width:46px;height:46px;min-width:46px;max-width:46px;flex:0 0 46px;
+  overflow:hidden;padding:0;border-radius:50%;
+}
+.rail-logo img{
+  width:46px;height:46px;min-width:46px;max-width:46px;max-height:46px;
+  object-fit:cover;display:block;border-radius:50%;
+}
+
+.avatar,.board-avatar,.bio-avatar{overflow:hidden}
+.avatar img,.board-avatar img,.bio-avatar img{
+  width:100%;height:100%;object-fit:cover;display:block;border-radius:50%;
+}
+
+/* bar PTS: hijau untuk semua baris */
+.board-bar i{background:linear-gradient(90deg,#6f9d17,#c9f24d)}
+.board-row.me .board-bar i{background:linear-gradient(90deg,#9ede32,#e6ff86)}
+.board-row.legend .board-bar i{background:linear-gradient(90deg,#8ec71c,#e9ff7a)}
+.board-row.has-bio .bio-hint{
+  font-family:var(--mono);font-size:9px;color:#c9f24d;letter-spacing:.04em;
+}
+.board-row.has-bio:hover .bio-hint{color:#e9ff7a;text-decoration:underline}
+
+/* popover user: rapi + tombol jelas */
+.user-pop{
+  left:52px;width:258px;padding:16px;border-radius:18px;
+  background:linear-gradient(180deg,#1b2026,#14181d);
+  border:1px solid rgba(201,242,77,.2);
+  box-shadow:0 30px 60px -24px rgba(0,0,0,.95);
+}
+.user-pop b{font-size:15px;line-height:1.2}
+.user-pop .user-handle{display:block;margin-top:2px}
+.user-stats{display:flex;gap:6px;margin:12px 0 0}
+.user-stats span{
+  display:inline-flex;align-items:center;gap:5px;padding:5px 9px;border-radius:999px;
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);
+  font-size:10.5px;color:#9aa0a8;
+}
+.user-stats b{display:inline;font-size:11.5px;color:#c9f24d}
+.pop-avatar-actions{display:flex;gap:6px;margin:12px 0 0}
+.pop-btn{
+  flex:1;display:inline-flex;align-items:center;justify-content:center;gap:4px;
+  font:inherit;font-size:11px;font-weight:600;padding:7px 8px;border-radius:10px;cursor:pointer;
+  background:rgba(201,242,77,.16);color:#dff59a;border:1px solid rgba(201,242,77,.34);
+  transition:.15s;
+}
+.pop-btn:hover{background:rgba(201,242,77,.28);color:#12140a;border-color:#c9f24d}
+.pop-btn.ghost{background:transparent;border-color:rgba(255,255,255,.16);color:#a6adb6;font-weight:500}
+.pop-btn.ghost:hover{background:rgba(255,255,255,.08);color:#fff}
+.pop-msg{margin:8px 0 0}
+.pop-logout{
+  width:100%;margin-top:6px;padding:8px;border-radius:10px;
+  border:1px solid rgba(255,107,107,.28);background:transparent;color:#ff9b9b;
+  font:inherit;font-size:11.5px;cursor:pointer;transition:.15s;
+}
+.pop-logout:hover{background:rgba(255,107,107,.12);color:#ffc0c0}
+
+/* popover keluar dari konteks overflow rail/shell */
+.user-pop{
+  position:fixed;left:0;top:0;bottom:auto;z-index:80;
+  transition:opacity .18s ease, transform .18s ease;
+}
+
+/* popover user dipindah ke <body> oleh JS -> bebas dari overflow/clipping */
+.user-pop.open{opacity:1;pointer-events:auto;transform:none}

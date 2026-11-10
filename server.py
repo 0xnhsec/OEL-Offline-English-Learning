@@ -90,6 +90,18 @@ async def lifespan(_: FastAPI):
 app = FastAPI(title="OEL — Offline English Learning", version="1.0", lifespan=lifespan)
 
 
+@app.middleware("http")
+async def no_cache_static(request: Request, call_next):
+    """Local app: selalu sajikan HTML/CSS/JS terbaru, jangan sampai kena cache lama."""
+    response = await call_next(request)
+    path = request.url.path
+    if path in ("/", "/learn") or path.startswith("/static/") or path.startswith("/avatars/"):
+        response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+        response.headers["Pragma"] = "no-cache"
+        response.headers["Expires"] = "0"
+    return response
+
+
 # --------------------------------------------------------------------------- #
 # helpers
 # --------------------------------------------------------------------------- #
